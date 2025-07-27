@@ -1,4 +1,4 @@
-<h1 align="center">Henrique's Dotfiles — KDE, Fish, Neovim & Style</h1>
+<h1 align="center">Dotfiles — KDE, Fish, Neovim & Style</h1>
 
 <p align="center">
   <img src="https://sainnhe.gallerycdn.vsassets.io/extensions/sainnhe/gruvbox-material/6.5.2/1670921713172/Microsoft.VisualStudio.Services.Icons.Default" alt="Gruvbox Dotfiles Preview" width="150px">
