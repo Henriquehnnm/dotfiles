@@ -75,4 +75,8 @@ alias local="pwd"
 
 # ---[Nvim]---
 alias vim="~/.nvim-app/bin/nvim"
+
+# ---[Lazygit]---
+alias lg="lazygit"
+
 set -gx PATH ~/.npm-global/bin $PATH
