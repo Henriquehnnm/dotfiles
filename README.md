@@ -1,5 +1,3 @@
-📁 README.md atualizado — KDE Plasma + Gruvbox + Fish + Neovim + Superfile™
-
 <h1 align="center">Henrique's Dotfiles — KDE, Fish, Neovim & Style</h1>
 
 <p align="center">
