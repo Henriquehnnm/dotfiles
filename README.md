@@ -1,10 +1,6 @@
 <h1 align="center">Henrique's Dotfiles — KDE, Fish, Neovim & Style</h1>
 
 <p align="center">
-  <img src="assets/preview.png" alt="Gruvbox Dotfiles Preview" width="80%">
-</p>
-
-<p align="center">
   💻 Setup pessoal para Linux com foco em produtividade, beleza e consistência.<br>
   🎨 Totalmente Gruvbox Material com KDE Plasma, Fish Shell e Neovim!
 </p>
