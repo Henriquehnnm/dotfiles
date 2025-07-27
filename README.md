@@ -4,19 +4,16 @@
   <img src="https://sainnhe.gallerycdn.vsassets.io/extensions/sainnhe/gruvbox-material/6.5.2/1670921713172/Microsoft.VisualStudio.Services.Icons.Default" alt="Gruvbox Dotfiles Preview" width="100px">
 </p>
 
-
 <p align="center">
-  💻 Setup pessoal para Linux com foco em produtividade, beleza e consistência.<br>
-  🎨 Totalmente Gruvbox Material com KDE Plasma, Fish Shell e Neovim!
+  💻 Personal Linux setup focused on productivity, beauty and consistency.<br>
+  🎨 Fully Gruvbox Material themed with KDE Plasma, Fish Shell and Neovim!
 </p>
 
 ---
 
-## 📦 Estrutura de Pastas
+## 📦 Folder Structure
 
-
-```
-bash
+```bash
 dotfiles/
 ├── color-schemes-plasma/
 │   └── GruvboxMaterial.colors
@@ -56,7 +53,7 @@ dotfiles/
 
 ---
 
-📷 Screenshots
+## 📷 Screenshots
 
 ![desktop](./screenshots/desktop.png)
 
@@ -68,21 +65,19 @@ dotfiles/
 
 ---
 
-✨ Destaques
+## ✨ Highlights
 
-🎨 Tema unificado: Tudo em Gruvbox Material: Plasma, terminal, shell, Neovim, GitKraken...
+🎨 **Unified theme**: Everything in Gruvbox Material: Plasma, terminal, shell, Neovim, GitKraken...
 
-🐟 Fish shell: Com funções customizadas, variáveis e autocompletion
+🐟 **Fish shell**: With custom functions, variables and autocompletion
 
-📝 Neovim: Config moderna com LazyVim, plugins, formatador e estilização com stylua
+📝 **Neovim**: Modern config with LazyVim, plugins, formatter and styling with stylua
 
-🔧 Superfile: Um File Manager TUI tbm nas cores do Gruvbox Material
-
-
+🔧 **Superfile**: A TUI File Manager also in Gruvbox Material colors
 
 ---
 
-📚 Créditos
+## 📚 Credits
 
 [Gruvbox Material](https://github.com/sainnhe/gruvbox-material)
 
@@ -92,6 +87,6 @@ dotfiles/
 
 ---
 
-📝 Licença
+## 📝 License
 
-Distribuido sobre a Licença GPLv3
+Distributed under the GPLv3 License
