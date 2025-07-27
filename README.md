@@ -71,7 +71,7 @@ dotfiles/
 
 📝 Neovim: Config moderna com LazyVim, plugins, formatador e estilização com stylua
 
-🔧 Superfile: Um app interno customizado com tema integrado
+🔧 Superfile: Um File Manager TUI tbm nas cores do Gruvbox Material
 
 
 
