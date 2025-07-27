@@ -11,9 +11,9 @@
 
 <div align="center">
 
-  <img alt="KDE" src="https://img.shields.io/badge/OS-KDE_Plasma-blue?style=for-the-badge&logo=kde&logoColor=white&labelColor=282828">
-  <img alt="Shell" src="https://img.shields.io/badge/Shell-Fish-4dc9b0?style=for-the-badge&logo=fishshell&logoColor=white&labelColor=282828">
-  <img alt="Editor" src="https://img.shields.io/badge/Editor-Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white&labelColor=282828">
+  <img alt="KDE" src="https://img.shields.io/badge/OS-KDE_Plasma-blue?style=for-the-badge&logo=kde&logoColor=ddc7a1&labelColor=282828">
+  <img alt="Shell" src="https://img.shields.io/badge/Shell-Fish-4dc9b0?style=for-the-badge&logo=fishshell&logoColor=ddc7a1&labelColor=282828">
+  <img alt="Editor" src="https://img.shields.io/badge/Editor-Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=ddc7a1&labelColor=282828">
 
 </div>
 
