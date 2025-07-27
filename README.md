@@ -9,10 +9,13 @@
   🎨 Fully Gruvbox Material themed with KDE Plasma, Fish Shell and Neovim!
 </p>
 
+<div align="center">
+
 ![License](https://img.shields.io/github/license/Henriquehnnm/dotfiles)
 ![OS](https://img.shields.io/badge/KDE-Plasma-blue?logo=kde)
 ![Gruvbox](https://img.shields.io/badge/Theme-Gruvbox_Material-faa307?logo=color)
 
+</div>
 ---
 
 ## 📦 Folder Structure
