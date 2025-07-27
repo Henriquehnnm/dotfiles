@@ -15,9 +15,9 @@
 
 ## 📦 Estrutura de Pastas
 
-```
-```
-```bash
+
+<code>
+bash
 dotfiles/
 ├── color-schemes-plasma/
 │   └── GruvboxMaterial.colors
@@ -53,8 +53,7 @@ dotfiles/
 ├── LICENSE
 ├── README.md
 └── colors.sh                          # Script de preview de cores
-```
-```
+</code>
 
 ---
 
