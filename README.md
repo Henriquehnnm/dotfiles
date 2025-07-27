@@ -9,6 +9,10 @@
   🎨 Fully Gruvbox Material themed with KDE Plasma, Fish Shell and Neovim!
 </p>
 
+![License](https://img.shields.io/github/license/Henriquehnnm/dotfiles)
+![OS](https://img.shields.io/badge/KDE-Plasma-blue?logo=kde)
+![Gruvbox](https://img.shields.io/badge/Theme-Gruvbox_Material-faa307?logo=color)
+
 ---
 
 ## 📦 Folder Structure
@@ -74,14 +78,6 @@ dotfiles/
 📝 **Neovim**: Modern config with LazyVim, plugins, formatter and styling with stylua
 
 🔧 **Superfile**: A TUI File Manager also in Gruvbox Material colors
-
----
-
-## Badges
-
-![License](https://img.shields.io/github/license/Henriquehnnm/dotfiles)
-![OS](https://img.shields.io/badge/KDE-Plasma-blue?logo=kde)
-![Gruvbox](https://img.shields.io/badge/Theme-Gruvbox_Material-faa307?logo=color)
 
 ---
 
