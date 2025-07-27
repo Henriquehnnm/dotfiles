@@ -16,6 +16,7 @@
 ![Gruvbox](https://img.shields.io/badge/Theme-Gruvbox_Material-faa307?logo=color)
 
 </div>
+
 ---
 
 ## 📦 Folder Structure
