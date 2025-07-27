@@ -16,7 +16,7 @@
 ## 📦 Estrutura de Pastas
 
 
-<code>
+```
 bash
 dotfiles/
 ├── color-schemes-plasma/
@@ -52,8 +52,8 @@ dotfiles/
 │
 ├── LICENSE
 ├── README.md
-└── colors.sh                          # Script de preview de cores
-</code>
+└── colors.sh
+```
 
 ---
 
