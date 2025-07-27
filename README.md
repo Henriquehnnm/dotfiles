@@ -77,6 +77,14 @@ dotfiles/
 
 ---
 
+## Badges
+
+![License](https://img.shields.io/github/license/Henriquehnnm/dotfiles)
+![OS](https://img.shields.io/badge/KDE-Plasma-blue?logo=kde)
+![Gruvbox](https://img.shields.io/badge/Theme-Gruvbox_Material-faa307?logo=color)
+
+---
+
 ## 📚 Credits
 
 [Gruvbox Material](https://github.com/sainnhe/gruvbox-material)
