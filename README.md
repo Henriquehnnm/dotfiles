@@ -59,13 +59,13 @@ dotfiles/
 
 📷 Screenshots
 
-[!desktop](./screenshots/desktop.png)
+![desktop](./screenshots/desktop.png)
 
-[!spf](./screenshots/spf.png)
+![spf](./screenshots/spf.png)
 
-[!nvim](./screenshots/nvim.png)
+![nvim](./screenshots/nvim.png)
 	
-[!terminal](./screenshots/terminal.png)
+![terminal](./screenshots/terminal.png)
 
 ---
 
