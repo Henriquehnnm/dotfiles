@@ -99,3 +99,5 @@ dotfiles/
 ## 📝 License
 
 Distributed under the GPLv3 License
+
+> I recently switched to Lazygit, I will keep the gitkraken configs for convenience and the theme
