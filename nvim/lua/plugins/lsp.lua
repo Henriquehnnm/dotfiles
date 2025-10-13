@@ -1,32 +1,31 @@
--- Este arquivo configura o autocompletar para Python usando o LSP (Language Server Protocol).
--- LazyVim já tem `nvim-cmp` e `mason` configurados, então só precisamos dizer
--- qual servidor de linguagem usar para Python.
+-- Este arquivo configura o autocompletar para várias linguagens usando o LSP (Language Server Protocol).
+-- LazyVim já vem com `nvim-cmp` e `mason` configurados, então só precisamos
+-- indicar quais servidores de linguagem queremos ativar.
 
 return {
-  -- Configura os servidores de linguagem para várias linguagens.
-  -- LazyVim usa `mason-lspconfig` para instalar e configurar automaticamente
-  -- os servidores de linguagem definidos aqui.
   {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
-        -- Adiciona o `pyright` para Python
+        -- Python
         pyright = {},
 
-        -- Servidores para JavaScript e TypeScript
+        -- JavaScript e TypeScript
         tsserver = {},
 
-        -- Servidor para PHP
-        -- Certifique-se de ter o `php` e o `composer` instalados no seu sistema
+        -- Astro
+        astro = {},
+
+        -- PHP
         intelephense = {},
 
-        -- Servidor para Shell Script
+        -- Shell Script
         bashls = {},
 
-        -- Servidor para HTML
+        -- HTML
         html = {},
 
-        -- Servidor para CSS
+        -- CSS
         cssls = {},
       },
     },
