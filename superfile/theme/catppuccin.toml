@@ -11,7 +11,7 @@ code_syntax_highlight = "catppuccin-mocha"
 
 # ========= Border =========
 file_panel_border = "#6c7086"
-sidebar_border = "#181825"
+sidebar_border = "#6c7086"
 footer_border = "#6c7086"
 
 # ========= Border Active =========
