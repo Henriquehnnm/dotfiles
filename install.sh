@@ -52,20 +52,62 @@ install_packages() {
 
   # --- Debian/Ubuntu (apt) ---
   sudo apt update && sudo apt install -y \
-    bat cava dunst fish lazygit lsd neovim qutebrowser starship gum waybar wlogout \
-    nmap qrencode jq curl unzip mpv python3 fonts-firacode
+    bat cava dunst fish lazygit lsd qutebrowser starship gum waybar wlogout \
+    nmap qrencode jq curl unzip mpv python3 fonts-firacode git gh build-essential
 
   # --- Arch Linux (pacman) ---
   # sudo pacman -S --noconfirm --needed \
   #     bat cava fish lazygit lsd neovim qutebrowser starship waybar wlogout \
-  #     nmap qrencode jq curl unzip mpv python ttf-nerd-fonts-symbols
+  #     nmap qrencode jq curl unzip mpv python ttf-nerd-fonts-symbols git gh base-devel
 
   # --- Fedora (dnf) ---
   # sudo dnf install -y \
   #     bat cava fish lazygit lsd neovim qutebrowser starship \
-  #     nmap qrencode jq curl unzip mpv python3 fira-code-fonts
+  #     nmap qrencode jq curl unzip mpv python3 fira-code-fonts git gh
+  # sudo dnf groupinstall -y "Development Tools"
+
+  # Instalação do Superfile via script
+  echo -e "${YELLOW}[*] Instalando Superfile...${NC}"
+  bash -c "$(curl -sLo- https://superfile.dev/install.sh)"
 
   echo -e "${GREEN}[+] Pacotes instalados com sucesso.${NC}"
+  echo ""
+}
+
+# ------------------------------------------------------
+# Instalação do Neovim (versão mais recente)
+# ------------------------------------------------------
+install_neovim() {
+  echo -e "${YELLOW}[*] Instalando a versão mais recente do Neovim...${NC}"
+  local NVIM_URL="https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz"
+  local DOWNLOAD_DIR
+  DOWNLOAD_DIR=$(mktemp -d)
+  local INSTALL_DIR="/opt/nvim-linux-x86_64"
+
+  echo "    -> Baixando Neovim de $NVIM_URL"
+  if ! curl --fail -L "$NVIM_URL" -o "$DOWNLOAD_DIR/nvim-linux-x86_64.tar.gz"; then
+    echo -e "\033[0;31m[!] Falha no download do Neovim. Abortando instalação do Neovim.${NC}"
+    rm -rf "$DOWNLOAD_DIR"
+    return 1
+  fi
+
+  echo "    -> Extraindo para $DOWNLOAD_DIR"
+  tar -xzf "$DOWNLOAD_DIR/nvim-linux-x86_64.tar.gz" -C "$DOWNLOAD_DIR"
+
+  echo "    -> Removendo instalação antiga (se existir) e movendo para $INSTALL_DIR"
+  if [ -d "$INSTALL_DIR" ]; then
+    sudo rm -rf "$INSTALL_DIR"
+    echo "    -> Instalação antiga removida."
+  fi
+  sudo mv "$DOWNLOAD_DIR/nvim-linux-x86_64" "$INSTALL_DIR"
+
+  echo "    -> Criando links simbólicos em $LOCAL_BIN_DIR"
+  mkdir -p "$LOCAL_BIN_DIR"
+  ln -sf "$INSTALL_DIR/bin/nvim" "$LOCAL_BIN_DIR/nvim"
+  ln -sf "$INSTALL_DIR/bin/nvim" "$LOCAL_BIN_DIR/vim"
+
+  rm -rf "$DOWNLOAD_DIR"
+  echo -e "${GREEN}[+] Neovim instalado com sucesso em $INSTALL_DIR.${NC}"
   echo ""
 }
 
@@ -164,6 +206,7 @@ install_scripts() {
 # ------------------------------------------------------
 main() {
   install_packages
+  install_neovim
   install_fonts
   copy_configs
   install_scripts
