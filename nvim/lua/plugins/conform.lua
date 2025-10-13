@@ -13,5 +13,6 @@ return {
 			json = { "prettier" },
 			astro = { "prettier" },
 		},
+		format_on_save = true,
 	},
 }
