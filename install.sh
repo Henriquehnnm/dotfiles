@@ -205,6 +205,16 @@ install_scripts() {
 # Função Principal
 # ------------------------------------------------------
 main() {
+  echo -e "\n\033[1m\033[33m⚠️ AVISO: Este script irá remover e substituir suas configurações anteriores.\033[0m"
+  echo -e "\033[1mÉ altamente recomendável que você faça um backup de seus arquivos de configuração antes de continuar.\033[0m\n"
+  read -p "Deseja continuar? (y/n) " -n 1 -r
+  echo
+  if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+    echo -e "\nInstalação abortada pelo usuário."
+    exit 0
+  fi
+  echo -e "\nIniciando instalação...\n"
+
   install_packages
   install_neovim
   install_fonts
