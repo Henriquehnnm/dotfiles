@@ -47,6 +47,8 @@ This repository gathers my personal collection of configuration files ("dotfiles
 - [KDE Plasma](https://kde.org/plasma-desktop/)
 - [Fish Shell](https://fishshell.com/)
 - [Neovim](https://neovim.io/) **with [AstroVim](https://astrovim.com/)**
+- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
+- [Rust](https://www.rust-lang.org/)
 - [Starship](https://starship.rs/)
 - [Bat](https://github.com/sharkdp/bat)
 - [Cava](https://github.com/karlstav/cava)
@@ -70,7 +72,7 @@ This repository gathers my personal collection of configuration files ("dotfiles
 
 ### Automatic Installation (Recommended)
 > **Warning**
-> The script will automatically replace any conflicting configuration files. Please back up your data before proceeding.
+> The `install.sh` script automatically detects your package manager (`apt`, `pacman`, `dnf`) and will replace any conflicting configuration files. Please back up your data before proceeding.
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/Henriquehnnm/dotfiles.git && cd dotfiles

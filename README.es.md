@@ -47,6 +47,8 @@ Este repositorio reúne mi colección personal de archivos de configuración ("d
 - [KDE Plasma](https://kde.org/plasma-desktop/)
 - [Fish Shell](https://fishshell.com/)
 - [Neovim](https://neovim.io/) **con [AstroVim](https://astrovim.com/)**
+- [Node.js](https://nodejs.org/) y [npm](https://www.npmjs.com/)
+- [Rust](https://www.rust-lang.org/)
 - [Starship](https://starship.rs/)
 - [Bat](https://github.com/sharkdp/bat)
 - [Cava](https://github.com/karlstav/cava)
@@ -70,7 +72,7 @@ Este repositorio reúne mi colección personal de archivos de configuración ("d
 
 ### Instalación Automática (Recomendado)
 > **Advertencia**
-> El script reemplazará automáticamente cualquier archivo de configuración conflictivo. Por favor, haz una copia de seguridad de tus datos antes de proceder.
+> El script `install.sh` detecta automáticamente tu gestor de paquetes (`apt`, `pacman`, `dnf`) y reemplazará cualquier archivo de configuración conflictivo. Por favor, haz una copia de seguridad de tus datos antes de proceder.
 1. **Clona el repositorio:**
    ```sh
    git clone https://github.com/Henriquehnnm/dotfiles.git && cd dotfiles

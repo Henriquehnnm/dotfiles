@@ -44,34 +44,61 @@ ${NC}
 # Instalação de Pacotes
 # ------------------------------------------------------
 install_packages() {
-  echo -e "${YELLOW}[*] Instalando pacotes necessários...${NC}"
+    echo -e "${YELLOW}[*] Detectando gerenciador de pacotes...${NC}"
+    local PKG_MANAGER=""
+    if command -v apt &> /dev/null; then
+        PKG_MANAGER="apt"
+        echo -e "${GREEN}[+] Gerenciador de pacotes detectado: apt${NC}"
+    elif command -v dnf &> /dev/null; then
+        PKG_MANAGER="dnf"
+        echo -e "${GREEN}[+] Gerenciador de pacotes detectado: dnf${NC}"
+    elif command -v pacman &> /dev/null; then
+        PKG_MANAGER="pacman"
+        echo -e "${GREEN}[+] Gerenciador de pacotes detectado: pacman${NC}"
+    else
+        echo -e "${RED}[!] Gerenciador de pacotes não suportado (apt, dnf, pacman).${NC}"
+        exit 1
+    fi
 
-  # ---!!! IMPORTANTE !!!---
-  # O script assume que você está usando Debian/Ubuntu (com apt).
-  # Se você usa outra distribuição, comente/descomente e ajuste a linha correspondente.
+    echo -e "${YELLOW}[*] Instalando pacotes necessários...${NC}"
+    case "$PKG_MANAGER" in
+        "apt")
+            sudo apt update && sudo apt install -y \
+                bat cava dunst fish lazygit lsd qutebrowser starship gum waybar wlogout \
+                nmap qrencode jq curl unzip mpv python3 fonts-firacode git gh build-essential \
+                nodejs npm
+            ;;
+        "dnf")
+            sudo dnf install -y \
+                bat cava dunst fish lazygit lsd neovim qutebrowser starship \
+                nmap qrencode jq curl unzip mpv python3 fira-code-fonts git gh \
+                nodejs npm
+            sudo dnf groupinstall -y "Development Tools"
+            ;;
+        "pacman")
+            sudo pacman -S --noconfirm --needed \
+                bat cava dunst fish lazygit lsd neovim qutebrowser starship waybar wlogout \
+                nmap qrencode jq curl unzip mpv python ttf-nerd-fonts-symbols git gh base-devel \
+                nodejs npm
+            ;;
+    esac
 
-  # --- Debian/Ubuntu (apt) ---
-  sudo apt update && sudo apt install -y \
-    bat cava dunst fish lazygit lsd qutebrowser starship gum waybar wlogout \
-    nmap qrencode jq curl unzip mpv python3 fonts-firacode git gh build-essential
+    # Instalação do Rust
+    echo -e "${YELLOW}[*] Instalando Rust...${NC}"
+    if ! command -v rustc &> /dev/null; then
+        curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+        source "$HOME/.cargo/env"
+        echo -e "${GREEN}[+] Rust instalado com sucesso.${NC}"
+    else
+        echo -e "${GREEN}[+] Rust já está instalado.${NC}"
+    fi
 
-  # --- Arch Linux (pacman) ---
-  # sudo pacman -S --noconfirm --needed \
-  #     bat cava fish lazygit lsd neovim qutebrowser starship waybar wlogout \
-  #     nmap qrencode jq curl unzip mpv python ttf-nerd-fonts-symbols git gh base-devel
+    # Instalação do Superfile via script
+    echo -e "${YELLOW}[*] Instalando Superfile...${NC}"
+    bash -c "$(curl -sLo- https://superfile.dev/install.sh)"
 
-  # --- Fedora (dnf) ---
-  # sudo dnf install -y \
-  #     bat cava fish lazygit lsd neovim qutebrowser starship \
-  #     nmap qrencode jq curl unzip mpv python3 fira-code-fonts git gh
-  # sudo dnf groupinstall -y "Development Tools"
-
-  # Instalação do Superfile via script
-  echo -e "${YELLOW}[*] Instalando Superfile...${NC}"
-  bash -c "$(curl -sLo- https://superfile.dev/install.sh)"
-
-  echo -e "${GREEN}[+] Pacotes instalados com sucesso.${NC}"
-  echo ""
+    echo -e "${GREEN}[+] Pacotes instalados com sucesso.${NC}"
+    echo ""
 }
 
 # ------------------------------------------------------
