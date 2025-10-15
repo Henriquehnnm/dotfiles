@@ -1,0 +1,11 @@
+[ExtractDialog]
+2 screens: Height=510
+2 screens: Width=1066
+DirHistory[$e]=$HOME/.kthemes/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled

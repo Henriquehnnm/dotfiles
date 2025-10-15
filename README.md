@@ -59,7 +59,6 @@ This repository gathers my personal collection of configuration files ("dotfiles
 - [Lazygit](https://github.com/jesseduffield/lazygit)
 - [Konsole](https://konsole.kde.org/)
 - KDE Plasma Color Schemes
-- [Krohnkite](https://github.com/esjeon/krohnkite) (tiling for KDE)
 - [Catppuccin theme](https://catppuccin.com/) (applied to all supported apps)
 - Custom fonts (see the [`fonts`](./fonts) folder)
 

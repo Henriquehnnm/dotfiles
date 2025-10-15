@@ -1,0 +1,83 @@
+{
+    "applicationVersion": {
+        "data": {
+            "value": "6.3.6"
+        },
+        "description": "A versão do aplicativo.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "compiler": {
+        "data": {
+            "type": "GCC",
+            "version": "14.2"
+        },
+        "description": "O compilador usado para compilar este aplicativo.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "opengl": {
+        "data": {
+            "glslVersion": "1.20",
+            "renderer": "HD Graphics",
+            "type": "GL",
+            "vendor": "Intel",
+            "vendorVersion": "Mesa 25.0.7-2",
+            "version": "2.1"
+        },
+        "description": "Informações sobre o tipo, versão e fabricante da pilha OpenGL.",
+        "telemetryMode": "DetailedSystemInformation"
+    },
+    "panelCount": {
+        "data": {
+            "panelCount": 0
+        },
+        "description": "Conta os painéis",
+        "telemetryMode": "DetailedSystemInformation"
+    },
+    "platform": {
+        "data": {
+            "os": "linux",
+            "version": "debian-13"
+        },
+        "description": "Tipo e versão do sistema operacional.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "qpa": {
+        "data": {
+            "name": "wayland"
+        },
+        "description": "O plugin de abstração da plataforma Qt",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "qtVersion": {
+        "data": {
+            "value": "6.8.2"
+        },
+        "description": "A versão do Qt usada neste aplicativo.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "screens": {
+        "data": [
+            {
+                "devicePixelRatio": 1,
+                "dpi": 112,
+                "height": 768,
+                "width": 1366
+            },
+            {
+                "devicePixelRatio": 1,
+                "dpi": 92,
+                "height": 900,
+                "width": 1600
+            }
+        ],
+        "description": "Tamanho e resolução de todas as telas conectadas.",
+        "telemetryMode": "DetailedSystemInformation"
+    },
+    "usageTime": {
+        "data": {
+            "value": 541307
+        },
+        "description": "O quantidade total de tempo que o aplicativo foi usado.",
+        "telemetryMode": "BasicUsageStatistics"
+    }
+}

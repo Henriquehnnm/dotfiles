@@ -1,0 +1,26 @@
+[Added Associations]
+application/x-extension-htm=Zen.desktop;userapp-Firefox Developer Edition-YCRLC3.desktop;
+application/x-extension-html=Zen.desktop;userapp-Firefox Developer Edition-YCRLC3.desktop;
+application/x-extension-shtml=Zen.desktop;userapp-Firefox Developer Edition-YCRLC3.desktop;
+application/x-extension-xht=Zen.desktop;userapp-Firefox Developer Edition-YCRLC3.desktop;
+application/x-extension-xhtml=Zen.desktop;userapp-Firefox Developer Edition-YCRLC3.desktop;
+application/xhtml+xml=Zen.desktop;userapp-Firefox Developer Edition-YCRLC3.desktop;
+text/html=userapp-Firefox Developer Edition-YCRLC3.desktop;org.qutebrowser.qutebrowser.desktop;chromium.desktop;org.gnome.Epiphany.desktop;kfmclient_html.desktop;org.kde.kate.desktop;org.kde.kwrite.desktop;libreoffice-writer.desktop;vim.desktop;okularApplication_txt.desktop;
+x-scheme-handler/chrome=userapp-Firefox Developer Edition-YCRLC3.desktop;Zen.desktop;
+x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop;userapp-Firefox Developer Edition-YCRLC3.desktop;Zen.desktop;firefox-esr.desktop;
+x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop;userapp-Firefox Developer Edition-YCRLC3.desktop;Zen.desktop;firefox-esr.desktop;
+
+[Default Applications]
+application/x-extension-htm=userapp-Firefox Developer Edition-YCRLC3.desktop
+application/x-extension-html=userapp-Firefox Developer Edition-YCRLC3.desktop
+application/x-extension-shtml=userapp-Firefox Developer Edition-YCRLC3.desktop
+application/x-extension-xht=userapp-Firefox Developer Edition-YCRLC3.desktop
+application/x-extension-xhtml=userapp-Firefox Developer Edition-YCRLC3.desktop
+application/xhtml+xml=userapp-Firefox Developer Edition-YCRLC3.desktop
+text/html=userapp-Firefox Developer Edition-YCRLC3.desktop;
+x-scheme-handler/chrome=userapp-Firefox Developer Edition-YCRLC3.desktop
+x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop;
+x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop;
+
+[Removed Associations]
+text/html=firefox-esr.desktop;

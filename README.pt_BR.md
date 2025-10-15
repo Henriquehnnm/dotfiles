@@ -59,7 +59,6 @@ Este repositório reúne minha coleção pessoal de arquivos de configuração (
 - [Lazygit](https://github.com/jesseduffield/lazygit)
 - [Konsole](https://konsole.kde.org/)
 - Esquemas de Cores do KDE Plasma
-- [Krohnkite](https://github.com/esjeon/krohnkite) (tiling para KDE)
 - [Tema Catppuccin](https://catppuccin.com/) (aplicado em todos aplicativos compatíveis)
 - Fontes personalizadas (veja a pasta [`fonts`](./fonts))
 

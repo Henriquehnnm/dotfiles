@@ -1,0 +1,6 @@
+[History]
+CompletionItems=unused
+
+[Location Bar]
+ComboContents[$e]=https://www.kde.org/,https://google.com
+ComboIconCache[$e]=https://www.kde.org/,text-html,https://google.com,text-html

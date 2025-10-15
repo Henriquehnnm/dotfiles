@@ -152,10 +152,17 @@ copy_configs() {
   cp -f "$DOTFILES_DIR/konsole/catppuccin-mocha.colorscheme" "$KONSOLE_PROFILE_DIR/catppuccin-mocha.colorscheme"
   echo -e "    -> Copiado ${BLUE}Konsole (perfil e tema)${NC}"
 
-  # Esquemas de cores do Plasma
-  mkdir -p "$PLASMA_COLOR_DIR"
-  cp -f "$DOTFILES_DIR/color-schemes/"* "$PLASMA_COLOR_DIR/"
-  echo -e "    -> Copiados ${BLUE}Esquemas de Cores do Plasma${NC}"
+  # Configurações do KDE Plasma
+  echo -e "    -> Copiando configurações do KDE Plasma...${NC}"
+  if [ -d "$DOTFILES_DIR/kde/config" ]; then
+    cp -rf "$DOTFILES_DIR/kde/config/"* "$CONFIG_DIR/"
+    echo -e "        -> Configurações de ${BLUE}KDE (config)${NC} copiadas."
+  fi
+  if [ -d "$DOTFILES_DIR/kde/local/share" ]; then
+    cp -rf "$DOTFILES_DIR/kde/local/share/"* "$HOME/.local/share/"
+    echo -e "        -> Configurações de ${BLUE}KDE (local/share)${NC} copiadas."
+  fi
+
   echo -e "${GREEN}[+] Configurações copiadas com sucesso.${NC}"
   echo ""
 }
@@ -227,10 +234,6 @@ main() {
   echo ""
   echo -e "   Por favor, reinicie seu terminal ou mude para o shell 'fish'"
   echo -e "   para que todas as alterações tenham efeito."
-  echo ""
-  echo -e "   ${YELLOW}💡Dica:${NC} Para uma experiência de janelas lado a lado (tiling) no KDE,"
-  echo -e "   considere instalar o script ${BLUE}Krohnkite${NC}. Não é obrigatório, mas é recomendado."
-  echo -e "   Visite: ${BLUE}https://github.com/esjeon/krohnkite${NC}"
   echo ""
 }
 
