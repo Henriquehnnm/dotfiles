@@ -1,121 +1,119 @@
 /*
- * =================================================================
- * Catppuccin for Waybar
- * =================================================================
- */
 
-/* --- Global --- */
+██╗    ██╗ █████╗ ██╗   ██╗██████╗  █████╗ ██████╗ 
+██║    ██║██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+██║ █╗ ██║███████║ ╚████╔╝ ██████╔╝███████║██████╔╝
+██║███╗██║██╔══██║  ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+╚███╔███╔╝██║  ██║   ██║   ██████╔╝██║  ██║██║  ██║
+ ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+
+Waybar Config File by Arfan Zubi
+
+*/
+
+@import url("./theme.css");
+
 * {
-  /* `-gtk-font-name` is crucial for icons */
-  font-family: FontAwesome, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  border: none;
-  border-radius: 10px;
-  min-height: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 0;
 }
 
-/* --- A Janela Principal da Waybar --- */
 window#waybar {
-  background: transparent; /* Fundo transparente para um visual flutuante */
-  color: #cdd6f4; /* Cor do texto padrão (Text) */
-  transition-property: background-color;
-  transition-duration: 0.5s;
+    color: @text;
+    background: @mantle;
 }
 
-/* --- Dica de Ferramenta (Tooltip) --- */
-tooltip {
-  background: #1e1e2e; /* Surface */
-  border-radius: 10px;
-  border: 2px solid #f5c2e7; /* Pink */
-}
-
-/* --- Estilo Geral dos Módulos --- */
 #workspaces,
+#workspaces button,
+#workspaces button.active,
+#workspaces button:hover {
+    border-radius: 1.5rem;
+}
+
+#workspaces {
+    margin: 5px 0 5px 1rem;
+    background-color: #343f44;
+}
+
+#workspaces button {
+    padding: 0.5rem;
+    color: @text;
+}
+
+#workspaces button.active {
+    color: @mauve;
+}
+
+#workspaces button:hover {
+    color: @lavender;
+    background: @surface0;
+    border-color: @surface0;
+}
+
+#workspaces button.urgent {
+    color: @red;
+}
+
 #clock,
 #pulseaudio,
 #backlight,
-#keyboard-state,
+#battery,
+#language,
+#custom-lock,
 #custom-wifi,
-#custom-power,
-#custom-kde-desktop,
-#custom-debian-logo {
-  background-color: #1e1e2e; /* Surface */
-  padding: 4px 14px;
-  margin: 4px 5px;
-  border-radius: 10px;
-  border: 1px solid #313244; /* Overlay */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+#custom-power {
+    margin: 5px 0;
+    padding: 0.5rem 1rem;
+    background-color: #343f44;
 }
 
-/* --- Efeito Hover --- */
-#workspaces button:hover,
-#pulseaudio:hover,
-#backlight:hover,
-#keyboard-state:hover,
-#custom-wifi:hover,
-#clock:hover #custom-debian-logo {
-  background-color: #313244; /* Highlight */
-  border: 1px solid #f5c2e7; /* Pink */
+#window {
+    margin: 5px 0;
+    padding: 0.5rem 1rem;
+    color: @blue;
 }
 
-/*
- * =================================================================
- * Cores dos Ícones (Paleta Catppuccin)
- * =================================================================
- */
-
-/* --- KDE Workspaces --- */
-#custom-kde-desktop {
-  background-color: #1e1e2e; /* Surface */
-  padding: 2px 12px;
-  margin: 4px 5px;
-  border-radius: 10px;
-  border: 1px solid #313244; /* Overlay */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  color: #cdd6f4; /* Cor padrão dos números */
-}
-
-/* Desktop ativo */
-#custom-kde-desktop span {
-  color: #89b4fa; /* Blue */
-  font-weight: bold;
-}
-#pulseaudio {
-  color: #b5e8e0; /* Teal */
-}
-
-#backlight {
-  color: #f9e2af; /* Yellow */
-}
-
-#keyboard-state {
-  color: #f5c2e7; /* Pink */
-}
-
-#custom-wifi {
-  color: #f2cdcd; /* Mauve */
+/* make window module transparent when no windows present */
+window#waybar.empty #window {
+    background-color: transparent;
 }
 
 #clock {
-  color: #cdd6f4; /* Text */
+    color: @mauve;
+    border-radius: 1.5rem;
+}
+
+#battery,
+#battery.charging {
+    color: @green;
+}
+
+#battery.warning:not(.charging) {
+    color: @red;
+}
+
+#pulseaudio {
+    margin-left: 1rem;
+    color: @maroon;
+    border-radius: 1.5rem 0 0 1.5rem;
+}
+
+#backlight {
+    color: @yellow;
+}
+
+#language {
+    color: @lavender;
+}
+
+#custom-wifi {
+    color: @blue;
 }
 
 #custom-power {
-  color: #f38ba8; /* Red */
-  margin-right: 10px;
-  border-radius: 10px;
-}
-
-/* --- Estados Específicos --- */
-#pulseaudio.muted {
-  color: #585b70; /* Muted */
-}
-
-#keyboard-state.locked {
-  color: #f38ba8; /* Red */
-}
-
-#custom-debian-logo {
-  color: #f38ba8;
+    margin-right: 1rem;
+    color: @red;
+    border-radius: 0 1.5rem 1.5rem 0;
 }

@@ -1,0 +1,27 @@
+@define-color rosewater  #D3C6AA;   /* fg / foreground */  
+@define-color flamingo   #E67E80;   /* red */  
+@define-color pink       #D699B6;   /* purple/magenta */  
+@define-color mauve      #D699B6;   /* same as purple/magenta */  
+@define-color red        #E67E80;   /* red */  
+@define-color maroon     #B86466;   /* darker red tone */  
+@define-color peach      #E69875;   /* orange tone */  
+@define-color yellow     #DBBC7F;   /* yellow */  
+@define-color green      #A7C080;   /* green */  
+@define-color teal       #83C092;   /* aqua/teal */  
+@define-color sky        #7FBBB3;   /* blue-ish */  
+@define-color sapphire   #7FBBB3;   /* same as sky/blue-ish */  
+@define-color blue       #7FBBB3;   /* blue-ish */  
+@define-color lavender   #DEADC4;   /* lighter magenta/magenta pastel */  
+@define-color text       #D3C6AA;   /* foreground */  
+@define-color subtext1   #7A8478;   /* grey0 */  
+@define-color subtext0   #859289;   /* grey1 */  
+@define-color overlay2   #9DA9A0;   /* grey2 */  
+@define-color overlay1   #2E383C;   /* bg1 */  
+@define-color overlay0   #272E33;   /* bg0 */  
+@define-color surface2   #414B50;   /* bg3 */  
+@define-color surface1   #323C41;   /* bg1-ish / alternate */  
+@define-color surface0   #2B3339;   /* bg0 / darkest */  
+@define-color base       #1E2326;   /* background dim / custom dark */  
+@define-color mantle     #272E33;   /* bg0 (alternate) */  
+@define-color crust      #1E2326;   /* background dim */
+

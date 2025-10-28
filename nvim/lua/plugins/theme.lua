@@ -1,14 +1,11 @@
 return {
-  "catppuccin/nvim",
-  name = "catppuccin",
+  "neanias/everforest",
+  name = "everforest",
   lazy = false,
   priority = 1000,
   config = function()
-    -- Ativa o tema Catppuccin Mocha
-    vim.cmd("colorscheme catppuccin-mocha")
-
-    -- Define o fundo geral do editor
-    vim.cmd("highlight Normal guibg=#181825")
+    -- Ativa o tema Everforest
+    vim.cmd("colorscheme everforest")
 
     -- Habilita o destaque da linha do cursor
     vim.opt.cursorline = true
@@ -17,3 +14,4 @@ return {
     vim.cmd("highlight CursorLine guibg=NONE")
   end,
 }
+

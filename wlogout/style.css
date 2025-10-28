@@ -1,18 +1,18 @@
-@define-color base #1e1e2e;
-@define-color surface #1a1826;
-@define-color overlay #26233a;
-@define-color muted #6c7086;
-@define-color subtle #908caa;
-@define-color text #cdd6f4;
-@define-color love #f38ba8;
-@define-color gold #f9e2af;
-@define-color rose #f5c2e7;
-@define-color pine #89b4fa;
-@define-color foam #94e2d5;
-@define-color iris #cba6f7;
-@define-color highlightLow #1f1d2e;
-@define-color highlightMed #454158;
-@define-color highlightHigh #585b70;
+@define-color base #2b3339;
+@define-color surface #323c41;
+@define-color overlay #3a454a;
+@define-color muted #859289;
+@define-color subtle #9da9a0;
+@define-color text #d3c6aa;
+@define-color love #e67e80;
+@define-color gold #dbbc7f;
+@define-color rose #d699b6;
+@define-color pine #83c092;
+@define-color foam #7fbbb3;
+@define-color iris #a7c080;
+@define-color highlightLow #374247;
+@define-color highlightMed #475258;
+@define-color highlightHigh #4f585e;
 
 * {
   font-family: "BlexMono Nerd Font", FontAwesome, sans-serif;
@@ -22,7 +22,7 @@
 }
 
 window {
-  background-color: rgba(30, 30, 46, 0.9);
+  background-color: rgba(43, 51, 57, 0.9);
   font-size: 0px;
   color: @text;
 }

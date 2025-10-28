@@ -1,0 +1,53 @@
+/*
+
+██╗    ██╗ ██████╗ ███████╗██╗
+██║    ██║██╔═══██╗██╔════╝██║
+██║ █╗ ██║██║   ██║█████╗  ██║
+██║███╗██║██║   ██║██╔══╝  ██║
+╚███╔███╔╝╚██████╔╝██║     ██║
+ ╚══╝╚══╝  ╚═════╝ ╚═╝     ╚═╝
+
+Wofi Config File by Arfan Zubi
+
+*/
+
+window {
+    padding: 50px;
+    background-color: #2C3338;  /* Everforest Dark background */
+    font-family: 'JetBrainsMono Nerd Font', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#input {
+    margin: 20px 15px;
+    padding: 10px 20px;
+    color: #B5D5A6;  /* Everforest Light Green for text */
+    background-color: #4B5358;  /* Everforest Secondary Dark background */
+    border: none;
+}
+
+#input:focus {
+    box-shadow: none;
+}
+
+#inner-box {
+    margin: 0 15px;
+}
+
+#img {
+    margin: 10px;
+}
+
+#entry:selected {
+    background-color: #618E61;  /* Everforest Selection Green */
+}
+
+#text {
+    color: #B5D5A6;  /* Everforest Light Green for text */
+}
+
+#text:selected {
+    color: #2C3338;  /* Everforest Dark background */
+}
+
