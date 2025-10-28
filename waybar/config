@@ -21,6 +21,8 @@
         "pulseaudio",
         "custom/wifi",
         "backlight",
+        "cpu",
+        "memory",
         "battery",
         "hyprland/language",
         "custom/lock",
@@ -102,11 +104,21 @@
         "on-click": "kitty -e nmtui"
     },
 
+    "cpu": {
+    "format": " {usage}%",
+    "tooltip": false
+    },
+
+    "memory": {
+    "format": " {}%"
+    },
+
     "custom/lock": {
         "tooltip": false,
         "on-click": "hyprlock &",
         "format": ""
     },
+
     "custom/power": {
         "tooltip": false,
         "on-click": "wlogout &",
