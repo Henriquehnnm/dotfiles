@@ -1,5 +1,5 @@
 return {
-  "neanias/everforest",
+  "sainnhe/everforest",
   name = "everforest",
   lazy = false,
   priority = 1000,
@@ -14,4 +14,3 @@ return {
     vim.cmd("highlight CursorLine guibg=NONE")
   end,
 }
-
