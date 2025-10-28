@@ -38,7 +38,7 @@ The recommended way to manage these dotfiles is to symlink them to the appropria
     mv ~/.config/hypr ~/.config/hypr.bak
     ```
 
-2.  **Create the symbolic link:**
+2.  **Create the symbolic link (or copy the files):**
     ```sh
     # Make sure to use the absolute path to this repository
     ln -s /home/broly/Documentos/Projetos/dotfiles/hypr ~/.config/hypr
