@@ -24,7 +24,6 @@
         "cpu",
         "memory",
         "battery",
-        "hyprland/language",
         "custom/lock",
         "custom/power"
     ],
@@ -93,10 +92,6 @@
             ""
         ]
     },
-    "hyprland/language": {
-        "format": "  {short}"
-    },
-
     
     "custom/wifi": {
         "format": " ",
