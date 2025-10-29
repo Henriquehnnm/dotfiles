@@ -10,21 +10,22 @@ This repository contains my personal configuration files (dotfiles) for a Linux 
 
 This setup uses a combination of modern and powerful tools to create a cohesive Wayland experience.
 
-| Category             | Tool                                             |
-| -------------------- | ------------------------------------------------ |
-| **Operating System** | [Arch Linux](https://archlinux.org/)             |
-| **Window Manager**   | [Hyprland](https://hyprland.org/)                |
-| **Bar**              | [Waybar](https://github.com/Alexays/Waybar)      |
-| **Terminal**         | [Kitty](https://sw.kovidgoyal.net/kitty/)        |
-| **Shell**            | [Fish](https://fishshell.com/)                   |
-| **Editor**           | [Neovim](https://neovim.io/) (AstroNvim based)   |
-| **Launcher**         | [Wofi](https://hg.sr.ht/~scoopta/wofi)           |
-| **File Manager**     | [superfile](https://superfile.dev/)              |
-| **Notifications**    | [Dunst](https://dunst-project.org/)              |
-| **Session Lock**     | [hyprlock](https://hyprland.org/)                |
-| **Idle**             | [hypridle](https://hyprland.org/)                |
-| **Logout Menu**      | [wlogout](https://github.com/ArtsyMacaw/wlogout) |
-| **Wallpapers**       | My wallpaper edited in gimp :)                   |
+| Category             | Tool                                                                     |
+| -------------------- | ------------------------------------------------------------------------ |
+| **Operating System** | [Arch Linux](https://archlinux.org/)                                     |
+| **Window Manager**   | [Hyprland](https://hyprland.org/)                                        |
+| **Bar**              | [Waybar](https://github.com/Alexays/Waybar)                              |
+| **Terminal**         | [Kitty](https://sw.kovidgoyal.net/kitty/)                                |
+| **Shell**            | [Fish](https://fishshell.com/)                                           |
+| **Editor**           | [Neovim](https://neovim.io/) (AstroNvim based)                           |
+| **Launcher**         | [Wofi](https://hg.sr.ht/~scoopta/wofi)                                   |
+| **File Manager**     | [superfile](https://superfile.dev/)                                      |
+| **Notifications**    | [Dunst](https://dunst-project.org/)                                      |
+| **Session Lock**     | [hyprlock](https://hyprland.org/)                                        |
+| **Idle**             | [hypridle](https://hyprland.org/)                                        |
+| **Logout Menu**      | [wlogout](https://github.com/ArtsyMacaw/wlogout)                         |
+| **SDDM Theme**       | [sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme) |
+| **Wallpapers**       | My wallpaper edited in gimp :)                                           |
 
 ## Installation
 
