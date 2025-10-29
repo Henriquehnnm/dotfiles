@@ -80,9 +80,13 @@ alias lzg="lazygit"
 # ---[Git]---
 git config --global alias.graph "log --graph --oneline --all --decorate"
 
+# ---[Lo-fi]---
+alias lofi="python3 ~/.lofi.py"
+
 # ---[NPM]---
 set -Ux fish_user_paths ~/.npm-global/bin $fish_user_paths
-alias vite="npm create vite@latest"
+alias new-vite="npm create vite@latest"
+alias new-astro="npm create astro@latest"
 
 # ---[Bat]---
 alias cat="bat"
