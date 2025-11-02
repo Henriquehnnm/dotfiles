@@ -52,3 +52,4 @@ The code is licensed under the [GPL-3.0 license](./LICENSE).
 ## Thanks to
 
 - [Henrique](https://github.com/Henriquehnnm)
+- [Fernando](https://github.com/tuxslack)
