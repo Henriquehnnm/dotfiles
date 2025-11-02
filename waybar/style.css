@@ -34,7 +34,7 @@ window#waybar {
 
 #workspaces {
   margin: 5px 0 5px 1rem;
-  background-color: #343f44;
+  background-color: @surface2;
 }
 
 #workspaces button {
@@ -67,7 +67,7 @@ window#waybar {
 #custom-power {
   margin: 5px 0;
   padding: 0.5rem 1rem;
-  background-color: #343f44;
+  background-color: @surface2;
 }
 
 #window {

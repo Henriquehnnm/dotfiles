@@ -9,14 +9,14 @@
     text_icon_padding = 8
     frame_width = 2
     corner_radius = 10
-    # Cores Everforest Medium Dark
-    frame_color = "#a7c080"
+    # Rosé Pine
+    frame_color = "#31748f"
     separator_color = frame
     # Transparência leve e sombra suave
     transparency = 8
     blur = true
     shadow = yes
-    shadow_color = "#1e2326"
+    shadow_color = "#191724"
     shadow_offset = 3x3
     # Ícones
     icon_theme = Papirus
@@ -26,21 +26,22 @@
     idle_threshold = 120
     follow = keyboard
     markup = full
-    format = "<b>%s</b>\n<span size='small'>%b</span>"
+    format = "<b>%s</b>
+<span size='small'>%b</span>"
     # Ordenação e empilhamento
     stack_duplicates = true
     sticky_history = true
     history_length = 20
 
 [urgency_low]
-    background = "#2d353b"
-    foreground = "#d3c6aa"
+    background = "#1f1d2e"
+    foreground = "#e0def4"
 
 [urgency_normal]
-    background = "#2d353b"
-    foreground = "#d3c6aa"
+    background = "#1f1d2e"
+    foreground = "#e0def4"
 
 [urgency_critical]
-    background = "#2d353b"
-    foreground = "#d3c6aa"
-    frame_color = "#e67e80"
+    background = "#1f1d2e"
+    foreground = "#e0def4"
+    frame_color = "#eb6f92"

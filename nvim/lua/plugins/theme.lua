@@ -1,11 +1,11 @@
 return {
-  "sainnhe/everforest",
-  name = "everforest",
+  "rose-pine/neovim",
+  name = "rose-pine",
   lazy = false,
   priority = 1000,
   config = function()
     -- Ativa o tema Everforest
-    vim.cmd("colorscheme everforest")
+    vim.cmd("colorscheme rose-pine")
 
     -- Habilita o destaque da linha do cursor
     vim.opt.cursorline = true

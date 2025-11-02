@@ -1,54 +1,54 @@
-# My Dotfiles
+<p align="center">
+    <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
+    <h2 align="center">Dotfiles</h2>
+</p>
 
-This repository contains my personal configuration files (dotfiles) for a Linux environment. The setup is centered around the Hyprland compositor, aiming for a visually appealing and efficient workflow.
+<p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
 
-## Screenshots
+<p align="center">
+    <a href="https://github.com/rose-pine/rose-pine-theme">
+        <img src="https://img.shields.io/badge/community-rosé%20pine-26233a?labelColor=191724&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUwIiBoZWlnaHQ9IjIzNyIgdmlld0JveD0iMCAwIDI1MCAyMjciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xNjEuMjI3IDE2MS4yNTFDMTMyLjE1NCAxNjkuMDQxIDExNC45MDEgMTk4LjkyNCAxMjIuNjkxIDIyNy45OTdDMTIzLjkyNSAyMzIuNjAzIDEyOC42NTkgMjM1LjMzNiAxMzMuMjY0IDIzNC4xMDJMMTg1LjkwNyAyMTkuOTk2QzIxOS41ODUgMjEwLjk3MiAyMzkuNTcgMTc2LjM1NCAyMzAuNTQ2IDE0Mi42NzdMMTYxLjIyNyAxNjEuMjUxWiIgZmlsbD0iIzI0NjI3QiIvPgo8cGF0aCBkPSJNODguMTgzNiAxNTkuOTg4QzExNy4yNTcgMTY3Ljc3OCAxMzQuNTEgMTk3LjY2MiAxMjYuNzIgMjI2LjczNUMxMjUuNDg2IDIzMS4zNCAxMjAuNzUyIDIzNC4wNzMgMTE2LjE0NyAyMzIuODM5TDYzLjUwNDEgMjE4LjczM0MyOS44MjY0IDIwOS43MSA5Ljg0MDk0IDE3NS4wOTIgMTguODY0OSAxNDEuNDE0TDg4LjE4MzYgMTU5Ljk4OFoiIGZpbGw9IiMyNDYyN0IiLz4KPHBhdGggZD0iTTE4Ni44NjcgMTcyLjk4QzE1Mi4wMDIgMTcyLjk4IDEyMy43MzcgMjAxLjI0NSAxMjMuNzM3IDIzNi4xMTFIMTg2Ljg3QzIyMS43MzYgMjM2LjExMSAyNTAgMjA3Ljg0NiAyNTAgMTcyLjk4TDE4Ni44NjcgMTcyLjk4WiIgZmlsbD0iIzMxNzQ4RiIvPgo8cGF0aCBkPSJNNjMuMTMyNyAxNzIuOThDOTcuOTk4NCAxNzIuOTggMTI2LjI2MyAyMDEuMjQ1IDEyNi4yNjMgMjM2LjExMUg2My4xM0MyOC4yNjQyIDIzNi4xMTEgLTEuNTI0MDNlLTA2IDIwNy44NDYgMCAxNzIuOThMNjMuMTMyNyAxNzIuOThaIiBmaWxsPSIjMzE3NDhGIi8+CjxwYXRoIGQ9Ik0xNzEuNzE3IDc1LjEyNjNDMTcxLjcxNyAxMDEuMjc2IDE1MC41MTggMTIyLjQ3NSAxMjQuMzY5IDEyMi40NzVDOTguMjE4OCAxMjIuNDc1IDc3LjAyMDIgMTAxLjI3NiA3Ny4wMjAyIDc1LjEyNjNDNzcuMDIwMiA0OC45NzY0IDk4LjIxODggMjcuNzc3OCAxMjQuMzY5IDI3Ljc3NzhDMTUwLjUxOCAyNy4zNzc4IDE3MS43MTcgNDguOTc2NCAxNzEuNzE3IDc1LjEyNjNaIiBmaWxsPSIjRUJCQ0JBIi8+CjxwYXRoIGQ9Ik0xNDQuMjE3IDg2LjIzNzlDMTYxLjY0OSA1Ni4wNDMyIDE1MS4zMDMgMTcuNDMyOSAxMjEuMTA4IDBMMTA2LjA2IDI2LjA2NDRDODguNjI3IDU2LjI1OSA5OC45NzM2IDk0Ljg2OTQgMTI5LjE2OCAxMTIuMzAyTDE0NC4yMTcgODYuMjM3OVoiIGZpbGw9IiNFQkJDQkEiLz4KPHBhdGggZD0iTTEyNS4yOTkgNjAuOTc4OUMxMTYuMjc1IDI3LjMwMTIgODEuNjU3NSAxLjMxNTY3IDQ3Ljk3OTcgMTYuMzM5Nkw2NC4zMTk3IDc3LjMyMTFDNzMuMzQzNiAxMTAuOTk5IDEwNy45NjEgMTMwLjk4NCAxNDEuNjM5IDEyMS45NkwxMjUuMjk5IDYwLjk3ODlaIiBmaWxsPSIjRUJCQ0JBIi8+CjxwYXRoIGQ9Ik0xMjQuOTI2IDYwLjY3ODlDMTMzLjk1IDI3LjMwMTIgMTY4LjU2NyA3LjMxNTY3IDIwMi4yNDUgMTYuMzM5NkwxODUuOTA1IDc3LjMyMTFDMTc2Ljg4MSAxMTAuOTk5IDE0Mi4yNjMgMTMwLjk4NCAxMDguNTg2IDEyMS45NkwxMjQuOTI2IDYwLjY3ODlaIiBmaWxsPSIjRUJCQ0JBIi8+Cjwvc3ZnPgo=&style=for-the-badge" />
+    </a>
+</p>
 
-![My Desktop](./screenshots/desktop.png)
+## Gallery
 
-## Core Components
+![Desktop](./screenshots/desktop.png)
 
-This setup uses a combination of modern and powerful tools to create a cohesive Wayland experience.
+## About
 
-| Category             | Tool                                                                     |
-| -------------------- | ------------------------------------------------------------------------ |
-| **Operating System** | [Arch Linux](https://archlinux.org/)                                     |
-| **Window Manager**   | [Hyprland](https://hyprland.org/)                                        |
-| **Bar**              | [Waybar](https://github.com/Alexays/Waybar)                              |
-| **Terminal**         | [Kitty](https://sw.kovidgoyal.net/kitty/)                                |
-| **Shell**            | [Fish](https://fishshell.com/)                                           |
-| **Editor**           | [Neovim](https://neovim.io/) (AstroNvim based)                           |
-| **Launcher**         | [Wofi](https://hg.sr.ht/~scoopta/wofi)                                   |
-| **File Manager**     | [superfile](https://superfile.dev/)                                      |
-| **Notifications**    | [Dunst](https://dunst-project.org/)                                      |
-| **Session Lock**     | [hyprlock](https://hyprland.org/)                                        |
-| **Idle**             | [hypridle](https://hyprland.org/)                                        |
-| **Logout Menu**      | [wlogout](https://github.com/ArtsyMacaw/wlogout)                         |
-| **SDDM Theme**       | [sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme) |
-| **Wallpapers**       | My wallpaper edited in gimp :)                                           |
+These are my personal dotfiles, a collection of configuration files for my Linux environment. I'm using Arch Linux with Hyprland as my window manager. The color scheme is Rosé Pine.
 
 ## Installation
 
-**Disclaimer:** These are my personal dotfiles. Use them at your own risk. Always back up your existing configuration files before proceeding.
-
-The recommended way to manage these dotfiles is to symlink them to the appropriate locations in your home directory (e.g., `~/.config`).
-
-**Example: Linking the `hypr` configuration**
-
-1.  **Back up your existing configuration (if any):**
-
+1.  Clone the repository:
     ```sh
-    mv ~/.config/hypr ~/.config/hypr.bak
+    git clone https://github.com/your-username/dotfiles.git
+    cd dotfiles
     ```
-
-2.  **Create the symbolic link (or copy the files):**
+2.  Run the installation script:
     ```sh
-    # Make sure to use the absolute path to this repository
-    ln -s /home/broly/Documentos/Projetos/dotfiles/hypr ~/.config/hypr
+    ./install.sh
     ```
+    The script will install all the necessary packages and copy the configuration files to the correct locations.
 
-Repeat this process for all the desired configurations (`kitty`, `waybar`, `nvim`, `fish`, etc.).
+## Usage
+
+The following applications are configured:
+
+- **Window Manager:** Hyprland
+- **Terminal:** Kitty
+- **Editor:** Neovim
+- **Shell:** Fish
+- **Bar:** Waybar
+- **Launcher:** Wofi
+- **Notification:** Dunst
+- **File Manager:** Superfile
 
 ## License
 
-This project is licensed under the terms of the `LICENSE` file.
+The code is licensed under the [GPL-3.0 license](./LICENSE).
+
+## Thanks to
+
+- [Henrique](https://github.com/Henriquehnnm)
