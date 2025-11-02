@@ -46,6 +46,7 @@ The following applications are configured:
 - **File Manager:** Superfile
 - **File Listing:** lsd
 - **Git Client:** Lazygit
+- **Pager:** Bat
 
 ## License
 
