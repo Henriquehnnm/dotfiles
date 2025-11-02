@@ -44,6 +44,8 @@ The following applications are configured:
 - **Launcher:** Wofi
 - **Notification:** Dunst
 - **File Manager:** Superfile
+- **File Listing:** lsd
+- **Git Client:** Lazygit
 
 ## License
 
