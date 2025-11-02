@@ -47,6 +47,7 @@ The following applications are configured:
 - **File Listing:** lsd
 - **Git Client:** Lazygit
 - **Pager:** Bat
+- **Music Player:** Termusic
 
 ## License
 
