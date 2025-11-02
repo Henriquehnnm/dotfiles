@@ -13,7 +13,7 @@
 
 ## Gallery
 
-![Desktop](./screenshots/desktop.png)
+![Desktop](./screenshots/desktop.png?1)
 
 ## About
 
