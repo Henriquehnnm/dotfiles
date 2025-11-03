@@ -27,7 +27,7 @@ def start_timer(duration, timer_type):
     translated_timer_type = timer_type_map.get(timer_type, timer_type.capitalize())
     end_time = datetime.now() + timedelta(minutes=duration)
     save_state({"status": "running", "end_time": end_time.isoformat(), "duration": duration, "type": timer_type})
-    print(f"Timer de Trabalho iniciado por 25 minutos.")
+    print(f"{translated_timer_type} iniciado por {duration} minutos.")
 
 def stop_timer():
     save_state({"status": "stopped", "end_time": None, "duration": 25, "type": "work"})
@@ -42,11 +42,12 @@ def get_status():
             timer_type = state.get("type", "work")
             if timer_type == "work":
                 print("Trabalho: 00:00")
-                subprocess.run(["notify-send", "Pomodoro", "Seu tempo de trabalho acabou!"], check=False)
-            else:
+                subprocess.run(["notify-send", "Pomodoro", "Seu tempo de trabalho acabou! Iniciando pausa de 5 minutos."], check=False)
+                start_timer(5, "short_break")
+            elif timer_type == "short_break" or timer_type == "long_break":
                 print("Descanso: 00:00")
-                subprocess.run(["notify-send", "Pomodoro", "Seu tempo de descanso acabou!"], check=False)
-            stop_timer()
+                subprocess.run(["notify-send", "Pomodoro", "Seu tempo de descanso acabou! Iniciando trabalho de 25 minutos."], check=False)
+                start_timer(25, "work")
         else:
             minutes, seconds = divmod(int(remaining.total_seconds()), 60)
             timer_type = state.get("type", "work")
@@ -89,12 +90,7 @@ def main():
         if state["status"] == "running":
             print("Timer já está rodando.")
         else:
-            if "short_break" in args and args.short_break != 5:
-                start_timer(args.short_break, "short_break")
-            elif "long_break" in args and args.long_break != 15:
-                start_timer(args.long_break, "long_break")
-            else:
-                start_timer(args.work, "work")
+            start_timer(args.work, "work")
     elif args.command == "stop":
         stop_timer()
     elif args.command == "status":
