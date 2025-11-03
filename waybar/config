@@ -23,6 +23,7 @@
         "backlight",
         "cpu",
         "memory",
+        "custom/pomodoro",
         "battery",
         "custom/lock",
         "custom/power"
@@ -118,5 +119,12 @@
         "tooltip": false,
         "on-click": "wlogout &",
         "format": "⏻"
+    },
+    "custom/pomodoro": {
+        "format": " {}",
+        "interval": 1,
+        "exec": "python3 ~/.config/waybar/scripts/pomodoro.py",
+        "on-click": "python3 ~/.config/waybar/scripts/pomodoro.py start",
+        "on-click-right": "python3 ~/.config/waybar/scripts/pomodoro.py stop"
     }
 }
