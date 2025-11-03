@@ -14,6 +14,8 @@
 ## Gallery
 
 ![Desktop](./screenshots/desktop.png?1)
+![Tilling](./screenshots/tilling.png?1)
+![HydroTop](./screenshots/ht.png?1)
 
 ## About
 
@@ -39,6 +41,7 @@ The following applications are configured:
 - **Git Client:** Lazygit
 - **Pager:** Bat
 - **Music Player:** Termusic
+- **Audio viewer:** Cava
 
 ## License
 
