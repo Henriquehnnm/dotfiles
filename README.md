@@ -21,8 +21,7 @@ These are my personal dotfiles, a collection of configuration files for my Linux
 
 ## Installation
 
-To use these dotfiles, you can clone the repository and manually link or copy the configuration files to their respective locations.
-
+To use these dotfiles, you can clone the repository and link or copy the configuration files to their respective locations.
 
 ## Usage
 
