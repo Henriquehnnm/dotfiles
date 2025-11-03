@@ -70,7 +70,7 @@ end
 
 # ---[Utilidades]---
 alias cl="clear"
-alias update="sudo apt update && sudo apt upgrade"
+alias update="sudo pacman -Syu"
 alias ips="ip -c -br a"
 alias local="pwd"
 
