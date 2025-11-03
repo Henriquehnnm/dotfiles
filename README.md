@@ -21,16 +21,8 @@ These are my personal dotfiles, a collection of configuration files for my Linux
 
 ## Installation
 
-1.  Clone the repository:
-    ```sh
-    git clone https://github.com/your-username/dotfiles.git
-    cd dotfiles
-    ```
-2.  Run the installation script:
-    ```sh
-    ./install.sh
-    ```
-    The script will install all the necessary packages and copy the configuration files to the correct locations.
+To use these dotfiles, you can clone the repository and manually link or copy the configuration files to their respective locations.
+
 
 ## Usage
 
