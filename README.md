@@ -42,6 +42,7 @@ The following applications are configured:
 - **Pager:** Bat
 - **Music Player:** Termusic
 - **Audio viewer:** Cava
+- **System Monitor:** Btop and HydroTop
 
 ## License
 
