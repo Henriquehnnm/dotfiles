@@ -14,8 +14,8 @@
 ## Gallery
 
 ![Desktop](./screenshots/desktop.png?1)
-![Tilling](./screenshots/tilling.png?1)
-![HydroTop](./screenshots/ht.png?1)
+![Neovim](./screenshots/nvim.png?1)
+![Wofi](./screenshots/wofi.png?1)
 
 ## About
 

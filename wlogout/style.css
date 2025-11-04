@@ -41,7 +41,7 @@ button {
 button:focus,
 button:hover {
   background-color: @highlightMed;
-  border-color: @iris;
+  border-color: @love;
   background-size: 35%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }

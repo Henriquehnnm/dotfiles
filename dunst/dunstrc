@@ -10,7 +10,7 @@
     frame_width = 2
     corner_radius = 10
     # Rosé Pine
-    frame_color = "#31748f"
+    frame_color = "#eb6f92"
     separator_color = frame
     # Transparência leve e sombra suave
     transparency = 8

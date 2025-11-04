@@ -12,42 +12,41 @@ Wofi Config File by Arfan Zubi
 */
 
 window {
-    padding: 50px;
-    background-color: #191724;  /* Rosé Pine Base */
-    font-family: 'JetBrainsMono Nerd Font', sans-serif;
-    font-weight: bold;
-    font-size: 15px;
+  padding: 50px;
+  background-color: #191724; /* Rosé Pine Base */
+  font-family: "JetBrainsMono Nerd Font", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 #input {
-    margin: 20px 15px;
-    padding: 10px 20px;
-    color: #ebbcba;  /* Rosé Pine Rose */
-    background-color: #232136;  /* Rosé Pine Moon Base */
-    border: none;
+  margin: 20px 15px;
+  padding: 10px 20px;
+  color: #ebbcba; /* Rosé Pine Rose */
+  background-color: #232136; /* Rosé Pine Moon Base */
+  border: none;
 }
 
 #input:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 #inner-box {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 #img {
-    margin: 10px;
+  margin: 10px;
 }
 
 #entry:selected {
-    background-color: #31748f;  /* Rosé Pine Pine */
+  background-color: #eb6f92; /* Rosé Pine Pine */
 }
 
 #text {
-    color: #ebbcba;  /* Rosé Pine Rose */
+  color: #ebbcba; /* Rosé Pine Rose */
 }
 
 #text:selected {
-    color: #191724;  /* Rosé Pine Base */
+  color: #191724; /* Rosé Pine Base */
 }
-
