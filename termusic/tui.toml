@@ -2,7 +2,7 @@ version = "2"
 com = "same"
 
 [behavior]
-quit_server_on_exit = true
+quit_server_on_exit = false
 confirm_quit = true
 
 [coverart]
