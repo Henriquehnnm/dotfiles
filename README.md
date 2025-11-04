@@ -13,7 +13,7 @@
 
 ## Gallery
 
-![Desktop](./screenshots/desktop.png?1)
+![Desktop](./screenshots/start.png?1)
 ![Neovim](./screenshots/nvim.png?1)
 ![Wofi](./screenshots/wofi.png?1)
 
