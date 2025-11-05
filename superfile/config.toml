@@ -4,10 +4,10 @@
 theme = 'rose-pine'
 # 
 # The editor files will be opened with. (Leave blank to use the EDITOR environment variable).
-editor = "nvim"
+editor = "~/.local/zed.app/bin/zed"
 # 
 # The editor directories will be opened with. (Leave blank to use the default editors).
-dir_editor = "nvim"
+dir_editor = "~/.local/zed.app/bin/zed"
 #
 # Auto check for update
 auto_check_update = true
