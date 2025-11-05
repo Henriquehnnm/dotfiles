@@ -12,8 +12,7 @@
       "space p": "workspace::ToggleZoom",
       "space f": "buffer_search::Deploy",
       "space s": "workspace::Save",
-      "space w": "workspace::NewFile",
-      "space e": "workspace::ToggleLeftDock"
+      "space w": "workspace::NewFile"
     }
   },
   {
