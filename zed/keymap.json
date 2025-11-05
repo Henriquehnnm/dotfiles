@@ -1,0 +1,25 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Editor && vim_mode == normal && !menu",
+    "bindings": {
+      "space p": "workspace::ToggleZoom",
+      "space f": "buffer_search::Deploy",
+      "space s": "workspace::Save",
+      "space w": "workspace::NewFile",
+      "space e": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "space p": "workspace::ToggleZoom"
+    }
+  }
+]

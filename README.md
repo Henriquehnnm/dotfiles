@@ -31,7 +31,7 @@ The following applications are configured:
 
 - **Window Manager:** Hyprland
 - **Terminal:** Kitty
-- **Editor:** Neovim
+- **Editor:** Zed (main), Neovim (secondary)
 - **Shell:** Fish
 - **Bar:** Waybar
 - **Launcher:** Wofi
