@@ -30,10 +30,10 @@ end
 # ---[Hydro]---
 alias hydrofetch="~/.hydrofetch.sh"
 alias hydrotop="python3 ~/.hydrotop.py"
-alias hydrotodo="python3 ~/.hydrotodo.py"
+alias hydrotodo="~/.hydrotodo"
 alias hf="~/.hydrofetch.sh"
 alias ht="python3 ~/.hydrotop.py"
-alias htd="python3 ~/.hydrotodo.py"
+alias htd="~/.hydrotodo"
 
 # ---[Clima]---
 alias clima="curl wttr.in"
