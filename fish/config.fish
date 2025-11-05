@@ -80,8 +80,8 @@ alias lzg="lazygit"
 # ---[Git]---
 git config --global alias.graph "log --graph --oneline --all --decorate"
 
-# ---[Lo-fi]---
-alias lofi="python3 ~/.lofi.py"
+# ---[Zed]---
+alias zed="~/.local/zed.app/bin/zed"
 
 # ---[NPM]---
 set -Ux fish_user_paths ~/.npm-global/bin $fish_user_paths
