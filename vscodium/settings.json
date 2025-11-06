@@ -51,14 +51,14 @@
   "editor.selectionHighlight": false,
   "editor.bracketPairColorization.enabled": true,
   "workbench.colorCustomizations": {
-    "editorBracketMatch.border": "#0000",
-    "editoroverviewruler.errorforeground": "#0000",
-    "editoroverviewruler.warningforeground": "#0000",
-    "editorOverviewRuler.infoForeground": "#0000",
-    "editorOverviewRuler.modifiedForeground": "#0000",
-    "editorOverviewRuler.addedForeground": "#0000",
-    "editorOverviewRuler.deletedForeground": "#0000",
-    "editorOverviewRuler.findMatchForeground": "#0000",
-    "editorOverviewRuler.bracketMatchForeground": "#0000"
+  "editorBracketMatch.border": "#0000",
+  "editoroverviewruler.errorforeground": "#0000",
+  "editoroverviewruler.warningforeground": "#0000",
+  "editorOverviewRuler.infoForeground": "#0000",
+  "editorOverviewRuler.modifiedForeground": "#0000",
+  "editorOverviewRuler.addedForeground": "#0000",
+  "editorOverviewRuler.deletedForeground": "#0000",
+  "editorOverviewRuler.findMatchForeground": "#0000",
+  "editorOverviewRuler.bracketMatchForeground": "#0000"
   }
 }
