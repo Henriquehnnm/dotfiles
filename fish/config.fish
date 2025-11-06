@@ -77,6 +77,10 @@ alias local="pwd"
 # ---[Lazygit]---
 alias lzg="lazygit"
 
+# ---[VSCodium]---
+alias vscodium="vscodium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland"
+alias vsc="vscodium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland"
+
 # ---[Git]---
 git config --global alias.graph "log --graph --oneline --all --decorate"
 
