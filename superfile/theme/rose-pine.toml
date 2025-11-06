@@ -15,10 +15,10 @@ sidebar_border = "#191724"
 footer_border = "#403d52"
 
 # ========= Border Active =========
-file_panel_border_active = "#6e6e86"
+file_panel_border_active = "#6e6a86"
 sidebar_border_active = "#c4a7e7"
 footer_border_active = "#f6c177"
-modal_border_active = "#868686"
+modal_border_active = "#908caa"
 
 # ========= Background (bg) =========
 full_screen_bg = "#191724"
@@ -36,12 +36,12 @@ modal_fg = "#e0def4"
 
 # ========= Special Color =========
 cursor = "#9ccfd8"
-correct = "#8ec07c"
-error = "#ff6969"
-hint = "#31784f"
-cancel = "#838383"
+correct = "#31748f"
+error = "#eb6f92"
+hint = "#31748f"
+cancel = "#6e6a86"
 # Gradient color can only have two color!
-gradient_color = ["#31784f", "#eb6f92"]
+gradient_color = ["#31748f", "#eb6f92"]
 
 # ========= File Panel Special Items =========
 file_panel_top_directory_icon = "#9ccfd8"
@@ -53,7 +53,7 @@ file_panel_item_selected_bg = "#191724"
 sidebar_title = "#6e6e86"
 sidebar_item_selected_fg = "#f6c177"
 sidebar_item_selected_bg = "#191724"
-sidebar_divider = "#868686"
+sidebar_divider = "#908caa"
 
 # ========= Modal Special Items =========
 modal_cancel_fg = "#e0def4"
