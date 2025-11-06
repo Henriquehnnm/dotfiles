@@ -14,7 +14,7 @@
 ## Gallery
 
 ![Desktop](./screenshots/setup.png?1)
-![Zed](./screenshots/zed.png?1)
+![Vsc](./screenshots/vscodium.png?1)
 ![Wofi](./screenshots/wofi.png?1)
 
 ## About
@@ -31,7 +31,7 @@ The following applications are configured:
 
 - **Window Manager:** Hyprland
 - **Terminal:** Kitty
-- **Editor:** Zed (main), Neovim (secondary)
+- **Editor:** VSCodium (main), Neovim (secondary)
 - **Shell:** Fish
 - **Bar:** Waybar
 - **Launcher:** Wofi

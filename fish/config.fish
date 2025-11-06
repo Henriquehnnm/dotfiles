@@ -80,9 +80,6 @@ alias lzg="lazygit"
 # ---[Git]---
 git config --global alias.graph "log --graph --oneline --all --decorate"
 
-# ---[Zed]---
-alias zed="~/.local/zed.app/bin/zed"
-
 # ---[NPM]---
 set -Ux fish_user_paths ~/.npm-global/bin $fish_user_paths
 alias new-vite="npm create vite@latest"
