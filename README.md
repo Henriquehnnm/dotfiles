@@ -43,6 +43,7 @@ The following applications are configured:
 - **Music Player:** Termusic
 - **Audio viewer:** Cava
 - **System Monitor:** Btop and HydroTop
+- **AI Assistant:** Gemini CLI
 
 ## License
 
