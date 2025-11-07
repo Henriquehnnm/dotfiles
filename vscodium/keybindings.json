@@ -9,16 +9,8 @@
     "command": "-workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "ctrl+space",
-    "command": "workbench.action.quickOpen"
-  },
-  {
-    "key": "ctrl+space",
-    "command": "-workbench.action.quickOpen"
-  },
-  {
     "key": "ctrl+t",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "editorTextFocus"
-  }
+  },
 ]
