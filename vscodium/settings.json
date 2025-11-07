@@ -60,5 +60,8 @@
     "editorOverviewRuler.findMatchForeground": "#0000",
     "editorOverviewRuler.bracketMatchForeground": "#0000"
   },
-  "workbench.iconTheme": "charmed-soft"
+  "workbench.iconTheme": "charmed-soft",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  }
 }
