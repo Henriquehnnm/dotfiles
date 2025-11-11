@@ -20,6 +20,7 @@ if status is-interactive # Commands to run in interactive sessions can go here
     # Aliases
     alias pamcan pacman
     alias ls 'eza --icons -1'
+    alias lt 'eza --tree --icons'
     alias clear "printf '\033[2J\033[3J\033[1;1H'"
     alias q 'qs -c ii'
     # ---[Criacao de diretorios]---
@@ -91,5 +92,5 @@ alias new-astro="npm create astro@latest"
 # ---[Bat]---
 alias cat="bat"
 
-    
+
 end
