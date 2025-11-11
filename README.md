@@ -5,7 +5,7 @@ These are dotifles based on [end-4/dots-hyprland](https://github.com/end-4/dots-
 
 ### Installation
 
-- To install on Arch Hyprland, first install the base with the command `bash <(curl -s https://ii.clsty.link/get)`
+- To install on Arch, first install the base with the command `bash <(curl -s https://ii.clsty.link/get)`
 - And apply the settings manually to each respective file.
 
 ### Screenshots
