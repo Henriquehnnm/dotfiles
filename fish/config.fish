@@ -1,26 +1,28 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
+function fish_prompt -d "Write out the prompt"
+    # This shows up as USER@HOST /home/user/ >, with the directory colored
+    # $USER and $hostname are set by fish, so you can just use them
+    # instead of using `whoami` and `hostname`
+    printf '%s@%s %s%s%s > ' $USER $hostname \
+        (set_color $fish_color_cwd) (prompt_pwd) (set_color normal)
 end
 
-set -U fish_greeting ""
+if status is-interactive # Commands to run in interactive sessions can go here
 
-# ---[StarShip]---
-starship init fish | source
+    # No greeting
+    set fish_greeting
 
-# ---[Zoxide]---
-zoxide init fish | source
+    # Use starship
+    starship init fish | source
+    if test -f ~/.local/state/quickshell/user/generated/terminal/sequences.txt
+        cat ~/.local/state/quickshell/user/generated/terminal/sequences.txt
+    end
 
-# ---[Listagem]---
-alias ls="lsd -1"
-alias lt="lsd --tree"
-
-# ---[Navegacao]---
-alias cd="z"
-alias ..="z .."
-alias ..2="cd ../.."
-alias ..3="cd ../../.."
-
-# ---[Criacao de diretorios]---
+    # Aliases
+    alias pamcan pacman
+    alias ls 'eza --icons -1'
+    alias clear "printf '\033[2J\033[3J\033[1;1H'"
+    alias q 'qs -c ii'
+    # ---[Criacao de diretorios]---
 alias mkdir="mkdir -pv"
 
 function mkcd
@@ -69,7 +71,7 @@ function extract
 end
 
 # ---[Utilidades]---
-alias cl="clear"
+alias cl="printf '\033[2J\033[3J\033[1;1H'"
 alias update="sudo pacman -Syu"
 alias ips="ip -c -br a"
 alias local="pwd"
@@ -81,9 +83,6 @@ alias lzg="lazygit"
 alias vscodium="vscodium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland"
 alias vsc="vscodium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland"
 
-# ---[Git]---
-git config --global alias.graph "log --graph --oneline --all --decorate"
-
 # ---[NPM]---
 set -Ux fish_user_paths ~/.npm-global/bin $fish_user_paths
 alias new-vite="npm create vite@latest"
@@ -91,3 +90,6 @@ alias new-astro="npm create astro@latest"
 
 # ---[Bat]---
 alias cat="bat"
+
+    
+end

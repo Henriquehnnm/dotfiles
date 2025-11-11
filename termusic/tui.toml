@@ -7,7 +7,7 @@ confirm_quit = true
 
 [coverart]
 align = "bottom right"
-size_scale = 20
+size_scale = 0
 hidden = false
 
 [style.library]
@@ -15,15 +15,15 @@ foreground_color = "Foreground"
 background_color = "Reset"
 border_color = "Blue"
 highlight_color = "LightYellow"
-highlight_symbol = ""
+highlight_symbol = "🦄"
 
 [style.playlist]
 foreground_color = "Foreground"
 background_color = "Reset"
 border_color = "Blue"
 highlight_color = "LightYellow"
-highlight_symbol = ""
-current_track_symbol = ""
+highlight_symbol = "🚀"
+current_track_symbol = "►"
 use_loop_mode_symbol = true
 
 [style.lyric]
@@ -48,37 +48,36 @@ border_color = "Blue"
 highlight_color = "LightYellow"
 
 [theme]
-file_name = "Rose-Pine"
-name = "Rosé Pine"
-author = "Gemini"
+name = "empty name"
+author = "empty author"
 
 [theme.primary]
-background = "#191724"
-foreground = "#e0def4"
+background = "#101421"
+foreground = "#fffbf6"
 
 [theme.cursor]
-text = "#191724"
-cursor = "#e0def4"
+text = "#1e1e1e"
+cursor = "#ffffff"
 
 [theme.normal]
-black = "#1f1d2e"
-red = "#eb6f92"
-green = "#9ccfd8"
-yellow = "#f6c177"
-blue = "#31748f"
-magenta = "#c4a7e7"
-cyan = "#9ccfd8"
-white = "#e0def4"
+black = "#2e2e2e"
+red = "#eb4129"
+green = "#abe047"
+yellow = "#f6c744"
+blue = "#47a0f3"
+magenta = "#7b5cb0"
+cyan = "#64dbed"
+white = "#e5e9f0"
 
 [theme.bright]
-black = "#6e6a86"
-red = "#eb6f92"
-green = "#9ccfd8"
-yellow = "#f6c177"
-blue = "#31748f"
-magenta = "#c4a7e7"
-cyan = "#9ccfd8"
-white = "#e0def4"
+black = "#565656"
+red = "#ec5357"
+green = "#c0e17d"
+yellow = "#f9da6a"
+blue = "#49a4f8"
+magenta = "#a47de9"
+cyan = "#99faf2"
+white = "#ffffff"
 
 [keys]
 escape = "escape"
@@ -103,8 +102,8 @@ goto_bottom = "shift+G"
 toggle_pause = "space"
 next_track = "n"
 previous_track = "shift+N"
-volume_up = "="
-volume_down = "_"
+volume_up = "+"
+volume_down = "-"
 seek_forward = "f"
 seek_backward = "b"
 speed_up = "control+f"
