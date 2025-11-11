@@ -15,7 +15,7 @@ foreground_color = "Foreground"
 background_color = "Reset"
 border_color = "Blue"
 highlight_color = "LightYellow"
-highlight_symbol = "🦄"
+highlight_symbol = "🚀"
 
 [style.playlist]
 foreground_color = "Foreground"
