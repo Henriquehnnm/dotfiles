@@ -60,14 +60,14 @@
     "hideWhenFullscreen": true,
     "parallax": {
       "autoVertical": false,
-      "enableSidebar": true,
+      "enableSidebar": false,
       "enableWorkspace": true,
       "vertical": false,
       "widgetsFactor": 1.2,
-      "workspaceZoom": 1.07
+      "workspaceZoom": 1.12
     },
     "thumbnailPath": "",
-    "wallpaperPath": "/home/broly/Imagens/Wallpapers/google_pixel_sky.jpg",
+    "wallpaperPath": "/home/broly/Imagens/Wallpapers/Anime/day.png",
     "widgets": {
       "clock": {
         "cookie": {
@@ -455,7 +455,7 @@
   },
   "sounds": {
     "battery": false,
-    "pomodoro": false,
+    "pomodoro": true,
     "theme": "freedesktop"
   },
   "time": {
@@ -479,7 +479,7 @@
   },
   "workSafety": {
     "enable": {
-      "clipboard": false,
+      "clipboard": true,
       "wallpaper": true
     },
     "triggerCondition": {
