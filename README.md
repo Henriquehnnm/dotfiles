@@ -17,7 +17,7 @@ These are dotifles based on [end-4/dots-hyprland](https://github.com/end-4/dots-
 <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/717a79ab-979b-4da0-9f50-c0dcb8877335" />
 
 #### Terminal
-<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/319bfa83-5a69-4d61-ba92-8283603da1f2" />
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/e2516871-8eb4-4446-8370-38925af6bdb6" />
 
 ### License
 [GLPv3 LICENSE](LICENSE)
