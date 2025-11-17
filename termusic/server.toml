@@ -1,22 +1,22 @@
 version = "2"
 
 [com]
-protocol = "http"
+protocol = "uds"
 socket_path = "/tmp/termusic.socket"
 port = 50101
 address = "::1"
 
 [player]
 music_dirs = ["/home/broly/Músicas"]
-loop_mode = "random"
-volume = 70
+loop_mode = "playlist"
+volume = 30
 speed = 10
 gapless = true
 use_mediacontrols = true
 set_discord_status = true
 random_track_quantity = 20
 random_album_min_quantity = 5
-backend = "mpv"
+backend = "rusty"
 
 [player.remember_position]
 music = "no"

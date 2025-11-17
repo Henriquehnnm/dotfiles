@@ -1,18 +1,27 @@
-@define-color base #191724;
-@define-color surface #1f1d2e;
-@define-color overlay #26233a;
-@define-color muted #6e6a86;
-@define-color subtle #908caa;
-@define-color text #e0def4;
-@define-color love #eb6f92;
-@define-color gold #f6c177;
-@define-color rose #ebbcba;
-@define-color pine #31748f;
-@define-color foam #9ccfd8;
-@define-color iris #c4a7e7;
-@define-color highlightLow #21202e;
-@define-color highlightMed #403d52;
-@define-color highlightHigh #524f67;
+/* ==================================================== */
+/* PALETA RETROKAI (Mapeada para Nomenclatura Estilizada)*/
+/* ==================================================== */
+
+/* --- FUNDOS (BG) --- */
+@define-color base            #242226; /* RK_BG_MAIN (Fundo Principal) */
+@define-color surface         #1A181C; /* RK_BG_DEEP (Fundo Mais Escuro) */
+@define-color overlay         #2D2B30; /* RK_BG_LIGHT (Fundo Intermediário) */
+@define-color highlightLow    #242226; /* RK_BG_MAIN (Mesmo que 'base') */
+@define-color highlightMed    #39373D; /* RK_BG_SURFACE (Destaque Intermediário) */
+@define-color highlightHigh   #4B4950; /* RK_BG_SELECT (Destaque Alto/Seleção) */
+
+/* --- FOREGROUND (FG) --- */
+@define-color text            #F8F5F2; /* RK_FG_MAIN (Texto Principal) */
+@define-color muted           #7C7882; /* RK_FG_DIM (Texto Secundário/Apagado) */
+@define-color subtle          #B0ACB5; /* RK_FG_FADE (Destaque Suave/Cinza Fade) */
+
+/* --- ACENTOS (Tokens) --- */
+@define-color love            #FF6699; /* RK_RED (Erros/Love) */
+@define-color gold            #FF9966; /* RK_ORANGE (Destaque Quente/Gold) */
+@define-color rose            #FFD566; /* RK_YELLOW (Avisos/Rose) */
+@define-color pine            #A9DC76; /* RK_GREEN (Sucesso/Pine) */
+@define-color foam            #66FFCC; /* RK_CYAN (Ciano/Azul) */
+@define-color iris            #B388FF; /* RK_PURPLE (Roxo) */
 
 * {
   font-family: "BlexMono Nerd Font", FontAwesome, sans-serif;
@@ -22,7 +31,7 @@
 }
 
 window {
-  background-color: rgba(38, 35, 58, 0.9);
+  background-color: rgba(36, 34, 38, 0.9);
   font-size: 0px;
   color: @text;
 }
@@ -41,7 +50,7 @@ button {
 button:focus,
 button:hover {
   background-color: @highlightMed;
-  border-color: @love;
+  border-color: @pine;
   background-size: 35%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -52,25 +61,25 @@ button span {
 }
 
 #lock {
-  background-image: image(url("icons/lock.png"));
+background-image: image(url("icons/lock.png"));
 }
 
 #logout {
-  background-image: image(url("icons/logout.png"));
+background-image: image(url("icons/logout.png"));
 }
 
 #suspend {
-  background-image: image(url("icons/suspend.png"));
+background-image: image(url("icons/suspend.png"));
 }
 
 #hibernate {
-  background-image: image(url("icons/hibernate.png"));
+background-image: image(url("icons/hibernate.png"));
 }
 
 #shutdown {
-  background-image: image(url("icons/shutdown.png"));
+background-image: image(url("icons/shutdown.png"));
 }
 
 #reboot {
-  background-image: image(url("icons/reboot.png"));
+background-image: image(url("icons/reboot.png"));
 }

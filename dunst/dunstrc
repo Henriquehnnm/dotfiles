@@ -1,47 +1,51 @@
 [global]
-    font = JetBrainsMono Nerd Font 10
-    width = 320
-    height = 160
-    origin = top-right
-    offset = 20x20
-    padding = 15
-    horizontal_padding = 16
-    text_icon_padding = 8
-    frame_width = 2
-    corner_radius = 10
-    # Rosé Pine
-    frame_color = "#eb6f92"
-    separator_color = frame
-    # Transparência leve e sombra suave
-    transparency = 8
-    blur = true
-    shadow = yes
-    shadow_color = "#191724"
-    shadow_offset = 3x3
-    # Ícones
-    icon_theme = Papirus
-    enable_recursive_icon_lookup = true
-    show_indicators = no
-    # Tempo
-    idle_threshold = 120
-    follow = keyboard
-    markup = full
-    format = "<b>%s</b>
+font = JetBrainsMono Nerd Font 10
+width = 320
+height = 160
+origin = top-right
+offset = 20x20
+padding = 15
+horizontal_padding = 16
+text_icon_padding = 8
+frame_width = 2
+corner_radius = 5
+/* RK_CYAN: Cor de acento vibrante para a borda normal/separador */
+frame_color = "#66FFCC"
+separator_color = frame
+transparency = 8
+blur = true
+shadow = yes
+/* RK_BG_DEEP: O fundo mais escuro para uma sombra profunda */
+shadow_color = "#1A181C"
+shadow_offset = 3x3
+icon_theme = Papirus
+enable_recursive_icon_lookup = true
+show_indicators = no
+idle_threshold = 120
+follow = keyboard
+markup = full
+format = "<b>%s</b>
 <span size='small'>%b</span>"
-    # Ordenação e empilhamento
-    stack_duplicates = true
-    sticky_history = true
-    history_length = 20
+stack_duplicates = true
+sticky_history = true
+history_length = 20
 
 [urgency_low]
-    background = "#1f1d2e"
-    foreground = "#e0def4"
+/* RK_BG_MAIN: Fundo Principal do Dunst */
+background = "#242226"
+/* RK_FG_MAIN: Texto Principal */
+foreground = "#F8F5F2"
 
 [urgency_normal]
-    background = "#1f1d2e"
-    foreground = "#e0def4"
+/* RK_BG_MAIN */
+background = "#242226"
+/* RK_FG_MAIN */
+foreground = "#F8F5F2"
 
 [urgency_critical]
-    background = "#1f1d2e"
-    foreground = "#e0def4"
-    frame_color = "#eb6f92"
+/* RK_BG_MAIN */
+background = "#242226"
+/* RK_FG_MAIN */
+foreground = "#F8F5F2"
+/* RK_RED: Borda de Erro/Crítico (Máximo Alerta) */
+frame_color = "#FF6699"

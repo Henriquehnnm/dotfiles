@@ -1,18 +1,17 @@
 //
-// ██╗    ██╗ █████╗ ██╗   ██╗██████╗  █████╗ ██████╗ 
+// ██╗    ██╗ █████╗ ██╗   ██╗██████╗  █████╗ ██████╗
 // ██║    ██║██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
 // ██║ █╗ ██║███████║ ╚████╔╝ ██████╔╝███████║██████╔╝
 // ██║███╗██║██╔══██║  ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
 // ╚███╔███╔╝██║  ██║   ██║   ██████╔╝██║  ██║██║  ██║
 //  ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
 //
-// Waybar Config File by Arfan Zubi
+// Waybar Config File by Henrique
 {
     "layer": "top",
     "position": "top",
     "modules-left": [
-        "hyprland/workspaces",
-        "hyprland/window"
+        "hyprland/workspaces"
     ],
     "modules-center": [
         "clock"
@@ -34,10 +33,6 @@
         "on-scroll-down": "hyprctl dispatch workspace e+1",
         "format": "{icon}",
         "all-outputs": true
-    },
-    "hyprland/window": {
-        "separate-outputs": true,
-        "max-length": 150
     },
     "clock": {
         "timezone": "America/Sao_Paulo",
@@ -93,7 +88,7 @@
             ""
         ]
     },
-    
+
     "custom/wifi": {
         "format": " ",
         "tooltip": false,
@@ -118,7 +113,7 @@
     "custom/power": {
         "tooltip": false,
         "on-click": "wlogout &",
-        "format": "⏻"
+        "format": ""
     },
     "custom/pomodoro": {
         "format": " {}",

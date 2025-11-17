@@ -1,59 +1,58 @@
 /*
 
-██╗    ██╗ █████╗ ██╗   ██╗██████╗  █████╗ ██████╗ 
+██╗    ██╗ █████╗ ██╗   ██╗██████╗  █████╗ ██████╗
 ██║    ██║██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
 ██║ █╗ ██║███████║ ╚████╔╝ ██████╔╝███████║██████╔╝
 ██║███╗██║██╔══██║  ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
 ╚███╔███╔╝██║  ██║   ██║   ██████╔╝██║  ██║██║  ██║
  ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
 
-Waybar Config File by Arfan Zubi
+Waybar Config File by Henrique
 
 */
 
 @import url("./theme.css");
 
 * {
-  font-family: "JetBrainsMono Nerd Font";
-  font-weight: bold;
-  font-size: 15px;
-  min-height: 0;
+    font-family: "Monaspace Radon Var";
+    font-weight: bold;
+    font-size: 15px;
+    min-height: 0;
 }
 
 window#waybar {
-  color: @text;
-  background: @mantle;
+    color: @text;
+    background-color: transparent;
 }
 
 #workspaces,
 #workspaces button,
 #workspaces button.active,
 #workspaces button:hover {
-  border-radius: 1.5rem;
+    border-radius: 5px;
 }
 
 #workspaces {
-  margin: 5px 0 5px 1rem;
-  background-color: @surface2;
+    margin: 5px 0 5px 1rem;
+    background-color: @surface0;
 }
 
 #workspaces button {
-  padding: 0.5rem;
-  color: @text;
+    padding: 0.5rem;
+    color: @text;
 }
 
 #workspaces button.active {
-  color: @mauve;
+    color: @blue;
 }
 
 #workspaces button:hover {
-  color: @lavender;
-  background: @surface0;
-  border-color: @surface0;
+    color: @lavender;
+    border-color: @surface0;
 }
 
 #workspaces button.urgent {
-  color: @red;
+    color: @red;
 }
 
 #clock,
@@ -66,64 +65,53 @@ window#waybar {
 #memory,
 #custom-pomodoro,
 #custom-power {
-  margin: 5px 0;
-  padding: 0.5rem 1rem;
-  background-color: @surface2;
-}
-
-#window {
-  margin: 5px 0;
-  padding: 0.5rem 1rem;
-  color: @blue;
-}
-
-/* make window module transparent when no windows present */
-window#waybar.empty #window {
-  background-color: transparent;
+    margin: 5px 0;
+    padding: 0.5rem 1rem;
+    background-color: @surface0;
 }
 
 #clock {
-  color: @mauve;
-  border-radius: 1.5rem;
+    color: @mauve;
+    border-radius: 5px;
 }
 
 #battery,
 #battery.charging {
-  color: @green;
+    color: @green;
 }
 
 #battery.warning:not(.charging) {
-  color: @red;
+    color: @red;
 }
 
 #pulseaudio {
-  margin-left: 1rem;
-  color: @maroon;
-  border-radius: 1.5rem 0 0 1.5rem;
+    margin-left: 1rem;
+    color: @maroon;
+    border-radius: 5px 0px 0px 5px;
 }
 
 #backlight {
-  color: @yellow;
+    color: @yellow;
 }
 
 #custom-wifi {
-  color: @blue;
+    color: @blue;
 }
 
 #cpu {
-  color: @green;
+    color: @green;
 }
 
 #memory {
-  color: @lavender;
+    color: @lavender;
 }
 
 #custom-pomodoro {
-  color: @peach;
+    color: @maroon;
 }
 
 #custom-power {
-  margin-right: 1rem;
-  color: @red;
-  border-radius: 0 1.5rem 1.5rem 0;
+    margin-right: 1rem;
+    color: @maroon;
+    border-radius: 0px 5px 5px 0px;
 }

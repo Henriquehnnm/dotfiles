@@ -1,0 +1,46 @@
+# Colors (Retrokai)
+colors:
+  # Default colors
+  primary:
+    # RK_BG_MAIN: Fundo Principal (Editor/Terminal)
+    background: '#242226'
+    # RK_FG_MAIN: Texto Principal
+    foreground: '#F8F5F2'
+
+  # Normal colors (ANSI 0-7)
+  normal:
+    # Black (RK_BG_DEEP)
+    black:   '#1A181C'
+    # Red (RK_RED)
+    red:     '#FF6699'
+    # Green (RK_GREEN)
+    green:   '#A9DC76'
+    # Yellow (RK_ORANGE - Substituição Monokai)
+    yellow:  '#FF9966'
+    # Blue (RK_BLUE)
+    blue:    '#78DCE8'
+    # Magenta (RK_PURPLE)
+    magenta: '#B388FF'
+    # Cyan (RK_CYAN)
+    cyan:    '#66FFCC'
+    # White (RK_FG_MAIN)
+    white:   '#F8F5F2'
+
+  # Bright colors (ANSI 8-15)
+  bright:
+    # Bright Black (RK_FG_DIM)
+    black:   '#7C7882'
+    # Bright Red (RK_RED)
+    red:     '#FF6699'
+    # Bright Green (RK_GREEN)
+    green:   '#A9DC76'
+    # Bright Yellow (RK_YELLOW - Amarelo puro)
+    yellow:  '#FFD566'
+    # Bright Blue (RK_BLUE)
+    blue:    '#78DCE8'
+    # Bright Magenta (RK_PURPLE)
+    magenta: '#B388FF'
+    # Bright Cyan (RK_CYAN)
+    cyan:    '#66FFCC'
+    # Bright White (RK_FG_MAIN)
+    white:   '#F8F5F2'
