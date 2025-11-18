@@ -7,7 +7,7 @@
 @define-color surface         #1A181C; /* RK_BLACK / BG_DEEP (Fundo Mais Escuro) */
 @define-color overlay         #2D2B30; /* RK_BG_LIGHT (Fundo Intermediário) */
 @define-color highlightLow    #242226; /* RK_BG_MAIN (Mesmo que 'base') */
-@define-color highlightMed    #39373D; /* RK_BG_SURFACE (Destaque Intermediário) */
+@define-color highlightMed    #4B4950; /* RK_BG_SURFACE (Destaque Intermediário) */
 @define-color highlightHigh   #4B4950; /* RK_BG_SELECT (Destaque Alto/Seleção) */
 
 /* --- FOREGROUND (FG) --- */

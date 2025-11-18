@@ -47,41 +47,10 @@ background_color = "Reset"
 border_color = "Blue"
 highlight_color = "LightYellow"
 
-[theme]
-file_name = "Retrokai"
-name = "empty name"
-author = "empty author"
-
-[theme.primary]
-background = "#242226"
-foreground = "#f8f5f2"
-
-[theme.cursor]
-text = "#ffffff"
-cursor = "#ffffff"
-
-[theme.normal]
-black = "#1a181c"
-red = "#ff6699"
-green = "#a9dc76"
-yellow = "#ff9966"
-blue = "#78dce8"
-magenta = "#b388ff"
-cyan = "#66ffcc"
-white = "#f8f5f2"
-
-[theme.bright]
-black = "#7c7882"
-red = "#ff6699"
-green = "#a9dc76"
-yellow = "#ffd566"
-blue = "#78dce8"
-magenta = "#b388ff"
-cyan = "#66ffcc"
-white = "#f8f5f2"
-
 [keys]
+
 escape = "escape"
+
 quit = "q"
 
 [keys.view]

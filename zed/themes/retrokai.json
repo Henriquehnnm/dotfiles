@@ -66,10 +66,10 @@
         "tab.active_background": "#242226",
 
         "element.background": "#2D2B30",
-        "element.hover": "#39373D",
-        "element.active": "#39373D",
+        "element.hover": "#4B4950",
+        "element.active": "#4B4950",
         "element.selected": "#4B4950",
-        "element.disabled": "#39373D",
+        "element.disabled": "#4B4950",
         /* RK_FG_MAIN com Opacidade */
         "drop_target.background": "#F8F5F280",
 
@@ -88,7 +88,7 @@
         "error.border": "#F92672",
         "info": "#66D9EF" /* RK_BLUE */,
 
-        "scrollbar.thumb.background": "#39373D4D",
+        "scrollbar.thumb.background": "#4B49504D",
         "scrollbar.thumb.hover_background": "#2D2B304D",
         "scrollbar.thumb.border": "#2D2B304D",
         "scrollbar.track.background": "#00000000",

@@ -24,10 +24,10 @@
 @define-color subtext0    #7C7882; /* RK_FG_DIM */
 
 /* Cores de Fundo (BG) - TONS ORIGINAIS */
-@define-color overlay2    #39373D; /* Tom de Superfície */
+@define-color overlay2    #4B4950; /* Tom de Superfície */
 @define-color overlay1    #2D2B30; /* RK_BG_LIGHT */
 @define-color overlay0    #2D2B30; /* RK_BG_LIGHT */
-@define-color surface2    #39373D; /* Tom de Superfície */
+@define-color surface2    #4B4950; /* Tom de Superfície */
 @define-color surface1    #2D2B30; /* RK_BG_LIGHT */
 @define-color surface0    #2D2B30; /* RK_BG_LIGHT */
 @define-color base        #242226; /* RK_BG_MAIN (Fundo Principal) */
