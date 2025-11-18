@@ -1,46 +1,46 @@
-# Colors (Retrokai)
+# Colors (Retrokai) - Tema Finalizado
 colors:
   # Default colors
   primary:
-    # RK_BG_MAIN: Fundo Principal (Editor/Terminal)
-    background: '#242226'
-    # RK_FG_MAIN: Texto Principal
-    foreground: '#F8F5F2'
+    # RK_BG_MAIN: Fundo Principal (Original)
+    background: "#242226"
+    # RK_FG_MAIN: Texto Principal (Original)
+    foreground: "#F8F5F2"
 
   # Normal colors (ANSI 0-7)
   normal:
-    # Black (RK_BG_DEEP)
-    black:   '#1A181C'
-    # Red (RK_RED)
-    red:     '#FF6699'
-    # Green (RK_GREEN)
-    green:   '#A9DC76'
-    # Yellow (RK_ORANGE - Substituição Monokai)
-    yellow:  '#FF9966'
-    # Blue (RK_BLUE)
-    blue:    '#78DCE8'
-    # Magenta (RK_PURPLE)
-    magenta: '#B388FF'
-    # Cyan (RK_CYAN)
-    cyan:    '#66FFCC'
+    # Black (RK_BLACK)
+    black: "#1A181C"
+    # Red (RK_RED - Monokai Magenta)
+    red: "#F92672"
+    # Green (RK_GREEN - Monokai Green)
+    green: "#A6E22E"
+    # Yellow (RK_ORANGE - Monokai Orange para tokens)
+    yellow: "#FD971F"
+    # Blue (RK_BLUE - Ciano/Azul claro)
+    blue: "#66D9EF"
+    # Magenta (RK_PURPLE - Violeta Intenso)
+    magenta: "#AE81FF"
+    # Cyan (RK_CYAN - Aqua-Green Final)
+    cyan: "#4CE4B0"
     # White (RK_FG_MAIN)
-    white:   '#F8F5F2'
+    white: "#F8F5F2"
 
   # Bright colors (ANSI 8-15)
   bright:
-    # Bright Black (RK_FG_DIM)
-    black:   '#7C7882'
-    # Bright Red (RK_RED)
-    red:     '#FF6699'
-    # Bright Green (RK_GREEN)
-    green:   '#A9DC76'
-    # Bright Yellow (RK_YELLOW - Amarelo puro)
-    yellow:  '#FFD566'
-    # Bright Blue (RK_BLUE)
-    blue:    '#78DCE8'
-    # Bright Magenta (RK_PURPLE)
-    magenta: '#B388FF'
-    # Bright Cyan (RK_CYAN)
-    cyan:    '#66FFCC'
+    # Bright Black (RK_FG_DIM - Comentários)
+    black: "#7C7882"
+    # Bright Red (RK_RED - Monokai Magenta)
+    red: "#F92672"
+    # Bright Green (RK_GREEN - Monokai Green)
+    green: "#A6E22E"
+    # Bright Yellow (RK_YELLOW - Amarelo puro para strings)
+    yellow: "#E6DB74"
+    # Bright Blue (RK_BLUE - Ciano/Azul claro)
+    blue: "#66D9EF"
+    # Bright Magenta (RK_PURPLE - Violeta Intenso)
+    magenta: "#AE81FF"
+    # Bright Cyan (RK_CYAN - Aqua-Green Final)
+    cyan: "#4CE4B0"
     # Bright White (RK_FG_MAIN)
-    white:   '#F8F5F2'
+    white: "#F8F5F2"

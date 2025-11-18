@@ -26,8 +26,8 @@
         "editor.invisible": "#7C7882",
         "editor.wrap_guide": "#7C788244",
         "editor.active_wrap_guide": "#7C788288",
-        /* RK_CYAN com Opacidade */
-        "editor.document_highlight.read_background": "#66FFCC1A",
+        /* RK_CYAN (Aqua-Green) com Opacidade */
+        "editor.document_highlight.read_background": "#4CE4B01A",
         /* RK_FG_DIM com Opacidade */
         "editor.document_highlight.write_background": "#7C788266",
         "editor.subheader.background": "#2D2B30",
@@ -49,13 +49,13 @@
         "text.muted": "#7C7882",
         "text.placeholder": "#7C7882",
         "text.disabled": "#7C7882",
-        "text.accent": "#66FFCC",
+        "text.accent": "#4CE4B0",
 
         "surface.background": "#2D2B30",
         "elevated_surface.background": "#2D2B30",
         "panel.background": "#242226",
         /* RK_PURPLE com Opacidade */
-        "panel.focused_border": "#B388FF44",
+        "panel.focused_border": "#AE81FF44",
         "background": "#242226",
         "status_bar.background": "#242226",
         "title_bar.background": "#242226",
@@ -66,7 +66,7 @@
         "tab.active_background": "#242226",
 
         "element.background": "#2D2B30",
-        "element.hover": "#39373D" /* Tom intermediário, mantendo 3 BGs */,
+        "element.hover": "#39373D",
         "element.active": "#39373D",
         "element.selected": "#4B4950",
         "element.disabled": "#39373D",
@@ -74,19 +74,19 @@
         "drop_target.background": "#F8F5F280",
 
         "predictive": "#7C7882",
-        "modified": "#FF9966" /* RK_ORANGE */,
+        "modified": "#FD971F" /* RK_ORANGE */,
         "ignored": "#7C7882",
-        "deleted": "#FF6699" /* RK_RED */,
-        "created": "#A9DC76" /* RK_GREEN */,
-        "warning": "#FFD566" /* RK_YELLOW */,
+        "deleted": "#F92672" /* RK_RED (Magenta) */,
+        "created": "#A6E22E" /* RK_GREEN */,
+        "warning": "#E6DB74" /* RK_YELLOW */,
         "warning.background": "#2D2B30",
-        "warning.border": "#FFD566",
-        "hint": "#B388FF" /* RK_PURPLE */,
+        "warning.border": "#E6DB74",
+        "hint": "#AE81FF" /* RK_PURPLE */,
         "hint.background": "#2D2B30",
-        "error": "#FF6699" /* RK_RED */,
+        "error": "#F92672" /* RK_RED (Magenta) */,
         "error.background": "#2D2B30",
-        "error.border": "#FF6699",
-        "info": "#78DCE8" /* RK_BLUE */,
+        "error.border": "#F92672",
+        "info": "#66D9EF" /* RK_BLUE */,
 
         "scrollbar.thumb.background": "#39373D4D",
         "scrollbar.thumb.hover_background": "#2D2B304D",
@@ -103,45 +103,45 @@
         "terminal.ansi.bright_black": "#7C7882",
         "terminal.ansi.dim_black": "#B0ACB5",
 
-        "terminal.ansi.red": "#FF6699",
-        "terminal.ansi.bright_red": "#FF6699",
-        "terminal.ansi.dim_red": "#FF6699",
+        "terminal.ansi.red": "#F92672",
+        "terminal.ansi.bright_red": "#F92672",
+        "terminal.ansi.dim_red": "#F92672",
 
-        "terminal.ansi.green": "#A9DC76",
-        "terminal.ansi.bright_green": "#A9DC76",
-        "terminal.ansi.dim_green": "#A9DC76",
+        "terminal.ansi.green": "#A6E22E",
+        "terminal.ansi.bright_green": "#A6E22E",
+        "terminal.ansi.dim_green": "#A6E22E",
 
-        "terminal.ansi.yellow": "#FF9966",
-        "terminal.ansi.bright_yellow": "#FFD566",
-        "terminal.ansi.dim_yellow": "#FF9966",
+        "terminal.ansi.yellow": "#FD971F",
+        "terminal.ansi.bright_yellow": "#E6DB74",
+        "terminal.ansi.dim_yellow": "#FD971F",
 
-        "terminal.ansi.blue": "#78DCE8",
-        "terminal.ansi.bright_blue": "#78DCE8",
-        "terminal.ansi.dim_blue": "#78DCE8",
+        "terminal.ansi.blue": "#66D9EF",
+        "terminal.ansi.bright_blue": "#66D9EF",
+        "terminal.ansi.dim_blue": "#66D9EF",
 
-        "terminal.ansi.magenta": "#B388FF",
-        "terminal.ansi.bright_magenta": "#B388FF",
-        "terminal.ansi.dim_magenta": "#B388FF",
+        "terminal.ansi.magenta": "#AE81FF",
+        "terminal.ansi.bright_magenta": "#AE81FF",
+        "terminal.ansi.dim_magenta": "#AE81FF",
 
-        "terminal.ansi.cyan": "#66FFCC",
-        "terminal.ansi.bright_cyan": "#66FFCC",
-        "terminal.ansi.dim_cyan": "#66FFCC",
+        "terminal.ansi.cyan": "#4CE4B0",
+        "terminal.ansi.bright_cyan": "#4CE4B0",
+        "terminal.ansi.dim_cyan": "#4CE4B0",
 
         "terminal.ansi.white": "#F8F5F2",
         "terminal.ansi.bright_white": "#F8F5F2",
         "terminal.ansi.dim_white": "#F8F5F2",
 
-        "link_text.hover": "#66FFCC",
+        "link_text.hover": "#4CE4B0",
 
-        "conflict": "#FFD566",
+        "conflict": "#E6DB74",
         "conflict.background": "#2D2B30",
-        "conflict.border": "#FFD566",
+        "conflict.border": "#E6DB74",
 
         "created.background": "#2D2B30",
-        "created.border": "#A9DC76",
+        "created.border": "#A6E22E",
 
         "deleted.background": "#2D2B30",
-        "deleted.border": "#FF6699",
+        "deleted.border": "#F92672",
 
         "hidden.background": "#242226",
         "hidden.border": "#2D2B30",
@@ -150,34 +150,34 @@
         "ignored.border": "#2D2B30",
 
         "info.background": "#2D2B30",
-        "info.border": "#78DCE8",
+        "info.border": "#66D9EF",
 
         "modified.background": "#2D2B30",
-        "modified.border": "#FF9966",
+        "modified.border": "#FD971F",
 
         "predictive.background": "#2D2B30",
-        "predictive.border": "#78DCE8",
+        "predictive.border": "#66D9EF",
 
         "renamed.background": "#2D2B30",
-        "renamed.border": "#78DCE8",
+        "renamed.border": "#66D9EF",
 
-        "success": "#A9DC76",
+        "success": "#A6E22E",
         "success.background": "#2D2B30",
-        "success.border": "#A9DC76",
+        "success.border": "#A6E22E",
 
         "unreachable": "#7C7882",
         "unreachable.background": "#242226",
         "unreachable.border": "#2D2B30",
 
-        "version_control.added": "#A9DC76",
-        "version_control.deleted": "#FF6699",
-        "version_control.modified": "#FF9966",
-        "version_control.conflict": "#FFD566",
-        "version_control.renamed": "#B388FF",
+        "version_control.added": "#A6E22E",
+        "version_control.deleted": "#F92672",
+        "version_control.modified": "#FD971F",
+        "version_control.conflict": "#E6DB74",
+        "version_control.renamed": "#AE81FF",
         "version_control.ignored": "#7C7882",
 
-        "version_control.conflict_marker.ours": "#FF996633",
-        "version_control.conflict_marker.theirs": "#66FFCC33",
+        "version_control.conflict_marker.ours": "#FD971F33",
+        "version_control.conflict_marker.theirs": "#4CE4B033",
 
         "players": [
           {
@@ -186,24 +186,24 @@
             "selection": "#F8F5F222"
           },
           {
-            "cursor": "#66FFCC",
-            "background": "#66FFCC",
-            "selection": "#66FFCC44"
+            "cursor": "#4CE4B0",
+            "background": "#4CE4B0",
+            "selection": "#4CE4B044"
           },
           {
-            "cursor": "#B388FF",
-            "background": "#B388FF",
-            "selection": "#B388FF44"
+            "cursor": "#AE81FF",
+            "background": "#AE81FF",
+            "selection": "#AE81FF44"
           },
           {
-            "cursor": "#78DCE8",
-            "background": "#78DCE8",
-            "selection": "#78DCE844"
+            "cursor": "#66D9EF",
+            "background": "#66D9EF",
+            "selection": "#66D9EF44"
           },
           {
-            "cursor": "#FF6699",
-            "background": "#FF6699",
-            "selection": "#FF669944"
+            "cursor": "#F92672",
+            "background": "#F92672",
+            "selection": "#F9267244"
           }
         ],
 
@@ -213,9 +213,9 @@
           "attribute": {
             "color": "#B0ACB5"
           },
-          /* Booleano: Laranja/Roxo */
+          /* Booleano: Roxo */
           "boolean": {
-            "color": "#B388FF"
+            "color": "#AE81FF"
           },
           /* Comentários: FG_DIM */
           "comment": {
@@ -227,51 +227,51 @@
           },
           /* Constantes: Roxo */
           "constant": {
-            "color": "#B388FF"
+            "color": "#AE81FF"
           },
-          /* Construtores/Classes: RED */
+          /* Construtores/Classes: RED (Magenta) */
           "constructor": {
-            "color": "#FF6699"
+            "color": "#F92672"
           },
           "embedded": {
             "color": "#F8F5F2"
           },
           /* Ênfase: Roxo */
           "emphasis": {
-            "color": "#B388FF",
+            "color": "#AE81FF",
             "font_style": "italic"
           },
-          /* Ênfase Forte: CYAN */
+          /* Ênfase Forte: CYAN (Aqua-Green) */
           "emphasis.strong": {
-            "color": "#66FFCC",
+            "color": "#4CE4B0",
             "font_weight": 700
           },
           "enum": {
-            "color": "#66FFCC"
+            "color": "#4CE4B0"
           },
           /* Funções/Métodos: GREEN */
           "function": {
-            "color": "#A9DC76"
+            "color": "#A6E22E"
           },
           "hint": {
-            "color": "#B388FF"
+            "color": "#AE81FF"
           },
           /* Palavras-Chave (if, class, return): BLUE */
           "keyword": {
-            "color": "#78DCE8"
+            "color": "#66D9EF"
           },
           "label": {
             "color": "#F8F5F2"
           },
           "link_text": {
-            "color": "#B388FF"
+            "color": "#AE81FF"
           },
           "link_uri": {
-            "color": "#78DCE8"
+            "color": "#66D9EF"
           },
           /* Números: Roxo */
           "number": {
-            "color": "#B388FF"
+            "color": "#AE81FF"
           },
           /* Operadores: FG_FADE */
           "operator": {
@@ -282,10 +282,10 @@
           },
           /* Pré-processador: YELLOW */
           "preproc": {
-            "color": "#FFD566"
+            "color": "#E6DB74"
           },
           "primary": {
-            "color": "#B388FF"
+            "color": "#AE81FF"
           },
           /* Propriedades (Keys em JSON, etc.): FG_MAIN */
           "property": {
@@ -306,51 +306,51 @@
             "font_weight": 700
           },
           "ion.special": {
-            "color": "#78DCE8"
+            "color": "#66D9EF"
           },
           /* Strings: YELLOW */
           "string": {
-            "color": "#FFD566"
+            "color": "#E6DB74"
           },
           "string.escape": {
-            "color": "#FFD566"
+            "color": "#E6DB74"
           },
           "string.regex": {
-            "color": "#FFD566"
+            "color": "#E6DB74"
           },
           "string.special": {
-            "color": "#78DCE8"
+            "color": "#66D9EF"
           },
           "string.special.symbol": {
-            "color": "#78DCE8"
+            "color": "#66D9EF"
           },
           /* Tags HTML: PURPLE */
           "tag": {
-            "color": "#B388FF"
+            "color": "#AE81FF"
           },
           "text.literal": {
-            "color": "#FFD566"
+            "color": "#E6DB74"
           },
-          /* Títulos: RED */
+          /* Títulos: RED (Magenta) */
           "title": {
-            "color": "#FF6699",
+            "color": "#F92672",
             "font_weight": 700
           },
-          /* Tipos (Classes, Tipos primitivos): CYAN */
+          /* Tipos (Classes, Tipos primitivos): CYAN (Aqua-Green) */
           "type": {
-            "color": "#66FFCC"
+            "color": "#4CE4B0"
           },
           /* Variáveis: FG_MAIN */
           "variable": {
             "color": "#F8F5F2"
           },
-          /* Variáveis Especiais (self, this, super): CYAN */
+          /* Variáveis Especiais (self, this, super): CYAN (Aqua-Green) */
           "variable.special": {
-            "color": "#66FFCC"
+            "color": "#4CE4B0"
           },
           /* Variantes (Enums, etc.): ORANGE */
           "variant": {
-            "color": "#FF9966"
+            "color": "#FD971F"
           }
         }
       }

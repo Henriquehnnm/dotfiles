@@ -9,13 +9,13 @@ horizontal_padding = 16
 text_icon_padding = 8
 frame_width = 2
 corner_radius = 5
-/* RK_CYAN: Cor de acento vibrante para a borda normal/separador */
-frame_color = "#66FFCC"
+/* RK_CYAN: Cor de acento vibrante (Aqua-Green) para a borda normal/separador */
+frame_color = "#4CE4B0"
 separator_color = frame
 transparency = 8
 blur = true
 shadow = yes
-/* RK_BG_DEEP: O fundo mais escuro para uma sombra profunda */
+/* RK_BLACK: O fundo mais escuro para uma sombra profunda */
 shadow_color = "#1A181C"
 shadow_offset = 3x3
 icon_theme = Papirus
@@ -24,8 +24,7 @@ show_indicators = no
 idle_threshold = 120
 follow = keyboard
 markup = full
-format = "<b>%s</b>
-<span size='small'>%b</span>"
+format = "<b>%s</b>\n<span size='small'>%b</span>"
 stack_duplicates = true
 sticky_history = true
 history_length = 20
@@ -47,5 +46,5 @@ foreground = "#F8F5F2"
 background = "#242226"
 /* RK_FG_MAIN */
 foreground = "#F8F5F2"
-/* RK_RED: Borda de Erro/Crítico (Máximo Alerta) */
-frame_color = "#FF6699"
+/* RK_RED: Borda de Erro/Crítico (Magenta Monokai) */
+frame_color = "#F92672"

@@ -11,11 +11,11 @@ footer_border = "#7C7882"
 sidebar_border = "#7C7882"
 
 # ========= Border Active =========
-# Destaque com RK_CYAN, RK_GREEN e RK_RED
-file_panel_border_active = "#66FFCC" # RK_CYAN
-footer_border_active = "#A9DC76" # RK_GREEN
-modal_border_active = "#66FFCC" # RK_CYAN
-sidebar_border_active = "#FF6699" # RK_RED
+# Destaque com RK_CYAN (Aqua-Green), RK_GREEN e RK_RED (Magenta)
+file_panel_border_active = "#4CE4B0" # RK_CYAN (Aqua-Green)
+footer_border_active = "#A6E22E" # RK_GREEN
+modal_border_active = "#4CE4B0" # RK_CYAN (Aqua-Green)
+sidebar_border_active = "#F92672" # RK_RED (Magenta)
 
 # ========= Background (bg) =========
 # Use RK_BG_MAIN para a maioria dos fundos
@@ -34,50 +34,50 @@ modal_fg = "#F8F5F2"
 sidebar_fg = "#F8F5F2"
 
 # ========= Special Color =========
-# Cancelamento/aviso (RK_ORANGE/YELLOW)
-cancel = "#FF9966"
+# Cancelamento/aviso (RK_ORANGE)
+cancel = "#FD971F"
 # Cor de correção/sucesso (RK_GREEN)
-correct = "#A9DC76"
-# Cursor (RK_CYAN)
-cursor = "#66FFCC"
-# Erro (RK_RED)
-error = "#FF6699"
+correct = "#A6E22E"
+# Cursor (RK_CYAN - Aqua-Green)
+cursor = "#4CE4B0"
+# Erro (RK_RED - Magenta)
+error = "#F92672"
 # Hint/Sugestão (RK_BLUE)
-hint = "#78DCE8"
+hint = "#66D9EF"
 # Gradient color can only have two color! (RK_BLUE e RK_PURPLE)
-gradient_color = ["#78DCE8", "#B388FF"]
+gradient_color = ["#66D9EF", "#AE81FF"]
 
 # ========= File Panel Special Items =========
-# Fundo selecionado (RK_BG_LIGHT ou RK_BG_SELECT)
+# Fundo selecionado (RK_BG_LIGHT)
 file_panel_item_selected_bg = "#2D2B30"
-# Cor do texto selecionado (RK_CYAN)
-file_panel_item_selected_fg = "#66FFCC"
+# Cor do texto selecionado (RK_CYAN - Aqua-Green)
+file_panel_item_selected_fg = "#4CE4B0"
 # Ícone de diretório (RK_ORANGE)
-file_panel_top_directory_icon = "#FF9966"
+file_panel_top_directory_icon = "#FD971F"
 # Caminho (RK_ORANGE)
-file_panel_top_path = "#FF9966"
+file_panel_top_path = "#FD971F"
 
 # ========= Sidebar Special Items =========
 # Divisor (RK_FG_DIM)
 sidebar_divider = "#7C7882"
 # Fundo selecionado na sidebar (manter o mesmo BG)
 sidebar_item_selected_bg = "#242226"
-# Texto selecionado na sidebar (RK_CYAN)
-sidebar_item_selected_fg = "#66FFCC"
-# Título da sidebar (RK_CYAN)
-sidebar_title = "#66FFCC"
+# Texto selecionado na sidebar (RK_CYAN - Aqua-Green)
+sidebar_item_selected_fg = "#4CE4B0"
+# Título da sidebar (RK_CYAN - Aqua-Green)
+sidebar_title = "#4CE4B0"
 
 # ========= Modal Special Items =========
 # Botão de Cancelar (Fundo: RK_RED, Texto: RK_FG_MAIN)
-modal_cancel_bg = "#FF6699"
+modal_cancel_bg = "#F92672"
 modal_cancel_fg = "#F8F5F2"
 
 # Botão de Confirmar (Fundo: RK_CYAN, Texto: RK_FG_MAIN)
-modal_confirm_bg = "#66FFCC"
+modal_confirm_bg = "#4CE4B0"
 modal_confirm_fg = "#F8F5F2"
 
 # ========= Help Menu =========
-# Hotkey (RK_CYAN)
-help_menu_hotkey = "#66FFCC"
+# Hotkey (RK_CYAN - Aqua-Green)
+help_menu_hotkey = "#4CE4B0"
 # Título (RK_PURPLE)
-help_menu_title = "#B388FF"
+help_menu_title = "#AE81FF"

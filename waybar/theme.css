@@ -2,35 +2,34 @@
 /* PALETA RETROKAI (Mapeada para Waybar/GTK/etc.)       */
 /* ==================================================== */
 
-/* Cores de Acento (Tokens) */
-@define-color rosewater   #FF9966; /* ORANGE (RK_ORANGE) */
-@define-color flamingo    #FF9966; /* ORANGE (RK_ORANGE) */
-@define-color pink        #B388FF; /* PURPLE (RK_PURPLE) */
-@define-color mauve       #B388FF; /* PURPLE (RK_PURPLE) */
-@define-color red         #FF6699; /* RED (RK_RED) */
-@define-color maroon      #FF6699; /* RED (RK_RED) */
-@define-color peach       #FF9966; /* ORANGE (RK_ORANGE) */
-@define-color yellow      #FFD566; /* YELLOW (RK_YELLOW) */
-@define-color green       #A9DC76; /* GREEN (RK_GREEN) */
-@define-color teal        #66FFCC; /* CYAN (RK_CYAN) */
-@define-color sky         #78DCE8; /* BLUE (RK_BLUE) */
-@define-color sapphire    #78DCE8; /* BLUE (RK_BLUE) */
-@define-color blue        #78DCE8; /* BLUE (RK_BLUE) */
-@define-color lavender    #B388FF; /* PURPLE (RK_PURPLE) */
+/* Cores de Acento (Tokens) - TONS MONOKAI RETRO */
+@define-color rosewater   #FD971F; /* RK_ORANGE */
+@define-color flamingo    #FD971F; /* RK_ORANGE */
+@define-color pink        #AE81FF; /* RK_PURPLE */
+@define-color mauve       #AE81FF; /* RK_PURPLE */
+@define-color red         #F92672; /* RK_RED (Magenta) */
+@define-color maroon      #F92672; /* RK_RED (Magenta) */
+@define-color peach       #FD971F; /* RK_ORANGE */
+@define-color yellow      #E6DB74; /* RK_YELLOW */
+@define-color green       #A6E22E; /* RK_GREEN */
+@define-color teal        #4CE4B0; /* RK_CYAN (Aqua Green Final) */
+@define-color sky         #66D9EF; /* RK_BLUE */
+@define-color sapphire    #66D9EF; /* RK_BLUE */
+@define-color blue        #66D9EF; /* RK_BLUE */
+@define-color lavender    #AE81FF; /* RK_PURPLE */
 
-/* Cores de Foreground (FG) */
-@define-color text        #F8F5F2; /* FG_MAIN (RK_FG_MAIN) */
-@define-color subtext1    #B0ACB5; /* FG_FADE (RK_FG_FADE) */
-@define-color subtext0    #7C7882; /* FG_DIM (RK_FG_DIM) */
+/* Cores de Foreground (FG) - TONS ORIGINAIS */
+@define-color text        #F8F5F2; /* RK_FG_MAIN */
+@define-color subtext1    #B0ACB5; /* Cinza claro */
+@define-color subtext0    #7C7882; /* RK_FG_DIM */
 
-/* Cores de Fundo (BG) */
-/* As cores "overlay" e "surface" geralmente são tons mais claros que o "base" */
-@define-color overlay2    #39373D; /* BG_SURFACE (RK_BG_SURFACE) */
-@define-color overlay1    #2D2B30; /* BG_LIGHT (RK_BG_LIGHT) */
-@define-color overlay0    #2D2B30; /* BG_LIGHT (RK_BG_LIGHT) */
-@define-color surface2    #39373D; /* BG_SURFACE (RK_BG_SURFACE) */
-@define-color surface1    #2D2B30; /* BG_LIGHT (RK_BG_LIGHT) */
-@define-color surface0    #2D2B30; /* BG_LIGHT (RK_BG_LIGHT) */
-@define-color base        #242226; /* BG_MAIN (RK_BG_MAIN - Fundo Principal) */
-@define-color mantle      #242226; /* BG_MAIN (RK_BG_MAIN) */
-@define-color crust       #1A181C; /* BG_DEEP (RK_BG_DEEP - Fundo Mais Escuro) */
+/* Cores de Fundo (BG) - TONS ORIGINAIS */
+@define-color overlay2    #39373D; /* Tom de Superfície */
+@define-color overlay1    #2D2B30; /* RK_BG_LIGHT */
+@define-color overlay0    #2D2B30; /* RK_BG_LIGHT */
+@define-color surface2    #39373D; /* Tom de Superfície */
+@define-color surface1    #2D2B30; /* RK_BG_LIGHT */
+@define-color surface0    #2D2B30; /* RK_BG_LIGHT */
+@define-color base        #242226; /* RK_BG_MAIN (Fundo Principal) */
+@define-color mantle      #242226; /* RK_BG_MAIN */
+@define-color crust       #1A181C; /* RK_BLACK / BG_DEEP */
