@@ -6,16 +6,16 @@ Simple, beautiful dotfiles, with the **Retrokai** palette, inspired by Monokai, 
 ### Screenshots
 
 #### Desktop
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a8bda23e-5cfa-4cce-81a9-72f4977e7540" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6626a029-9ddf-479d-9a09-ecad84671bf6" />
 
 #### Superfile
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/211b9632-4202-4219-8470-2b551bca492d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/58cd083e-6fad-4bba-bdd4-64d5fbaef30a" />
 
 #### Kitty
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ce90b7cf-e70f-48c9-a1dd-f014e749a0ae" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4a8e307f-cc27-4e91-8c12-fbc6f98fb8e1" />
 
 #### Zed
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/43f7a829-f5d7-4a14-a0c4-f021afd06fae" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/58effa29-2d19-46d6-a4c4-4b8561b5c09f" />
 
 ### License
 [GPLv3 LICENSE](LICENSE)
