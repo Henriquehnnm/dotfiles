@@ -15,7 +15,7 @@ Simple, beautiful dotfiles, with the **Retrokai** palette, inspired by Monokai, 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/979e672b-b59d-43f5-a4bc-440d56adcce4" />
 
 #### Zed
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8344400a-29a2-4a20-89fa-4645baa01b17" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a571b932-2268-4f8e-9f0b-8576d252d9c9" />
 
 ### License
 [GPLv3 LICENSE](LICENSE)
