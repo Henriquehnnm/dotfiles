@@ -209,114 +209,78 @@
 
         /* --- SYNTAX HIGHLIGHTING (MONOKAI RULES) --- */
         "syntax": {
-          /* Atributos: FG_FADE ou PURPLE */
-          "attribute": {
-            "color": "#B0ACB5"
-          },
-          /* Booleano: Roxo */
-          "boolean": {
-            "color": "#AE81FF"
-          },
-          /* Comentários: FG_DIM */
-          "comment": {
-            "color": "#7C7882",
-            "font_style": "italic"
-          },
-          "comment.doc": {
-            "color": "#B0ACB5"
-          },
-          /* Constantes: Roxo */
-          "constant": {
-            "color": "#AE81FF"
-          },
-          /* Construtores/Classes: RED (Magenta) */
-          "constructor": {
+          /* Keywords, Storage Types, Operators, Tags: RED */
+          "keyword": {
             "color": "#F92672"
           },
-          "embedded": {
-            "color": "#F8F5F2"
+          "operator": {
+            "color": "#F92672"
           },
-          /* Ênfase: Roxo */
-          "emphasis": {
-            "color": "#AE81FF",
-            "font_style": "italic"
+          "tag": {
+            "color": "#F92672"
           },
-          /* Ênfase Forte: CYAN (Aqua-Green) */
-          "emphasis.strong": {
-            "color": "#4CE4B0",
-            "font_weight": 700
-          },
-          "enum": {
-            "color": "#4CE4B0"
-          },
-          /* Funções/Métodos: GREEN */
+
+          /* Functions, Methods, Attributes, Titles: GREEN */
           "function": {
             "color": "#A6E22E"
           },
-          "hint": {
-            "color": "#AE81FF"
+          "attribute": {
+            "color": "#A6E22E"
           },
-          /* Palavras-Chave (if, class, return): BLUE */
-          "keyword": {
-            "color": "#66D9EF"
-          },
-          "label": {
-            "color": "#F8F5F2"
-          },
-          "link_text": {
-            "color": "#AE81FF"
-          },
-          "link_uri": {
-            "color": "#66D9EF"
-          },
-          /* Números: Roxo */
-          "number": {
-            "color": "#AE81FF"
-          },
-          /* Operadores: FG_FADE */
-          "operator": {
-            "color": "#B0ACB5"
-          },
-          "predictive": {
-            "color": "#B0ACB5"
-          },
-          /* Pré-processador: YELLOW */
-          "preproc": {
-            "color": "#E6DB74"
-          },
-          "primary": {
-            "color": "#AE81FF"
-          },
-          /* Propriedades (Keys em JSON, etc.): FG_MAIN */
-          "property": {
-            "color": "#F8F5F2"
-          },
-          /* Pontuação: FG_FADE */
-          "punctuation": {
-            "color": "#B0ACB5"
-          },
-          "punctuation.bracket": {
-            "color": "#B0ACB5"
-          },
-          "punctuation.delimiter": {
-            "color": "#B0ACB5"
-          },
-          "punctuation.list_marker": {
-            "color": "#B0ACB5",
+          "title": {
+            "color": "#A6E22E",
             "font_weight": 700
           },
-          "ion.special": {
-            "color": "#66D9EF"
+          "preproc": {
+            "color": "#A6E22E"
           },
-          /* Strings: YELLOW */
+
+          /* Strings, Links: YELLOW */
           "string": {
-            "color": "#E6DB74"
-          },
-          "string.escape": {
             "color": "#E6DB74"
           },
           "string.regex": {
             "color": "#E6DB74"
+          },
+          "text.literal": {
+            "color": "#E6DB74"
+          },
+          "link_uri": {
+            "color": "#E6DB74"
+          },
+          "link_text": {
+            "color": "#E6DB74",
+            "font_style": "italic"
+          },
+
+          /* Numbers, Booleans, Constants, String Escapes: PURPLE */
+          "number": {
+            "color": "#AE81FF"
+          },
+          "boolean": {
+            "color": "#AE81FF"
+          },
+          "constant": {
+            "color": "#AE81FF"
+          },
+          "string.escape": {
+            "color": "#AE81FF"
+          },
+          "emphasis": {
+            "color": "#AE81FF",
+            "font_style": "italic"
+          },
+
+          /* Types, Classes, Constructors: CYAN/BLUE */
+          "type": {
+            "color": "#4CE4B0",
+            "font_style": "italic"
+          },
+          "constructor": {
+            "color": "#4CE4B0"
+          },
+          "enum": {
+            "color": "#4CE4B0"
           },
           "string.special": {
             "color": "#66D9EF"
@@ -324,33 +288,64 @@
           "string.special.symbol": {
             "color": "#66D9EF"
           },
-          /* Tags HTML: PURPLE */
-          "tag": {
-            "color": "#AE81FF"
+          "ion.special": {
+            "color": "#66D9EF"
           },
-          "text.literal": {
-            "color": "#E6DB74"
+
+          /* Special Variables, Variants: ORANGE */
+          "variable.special": {
+            "color": "#FD971F",
+            "font_style": "italic"
           },
-          /* Títulos: RED (Magenta) */
-          "title": {
-            "color": "#F92672",
+          "variant": {
+            "color": "#FD971F"
+          },
+          "emphasis.strong": {
+            "color": "#FD971F",
             "font_weight": 700
           },
-          /* Tipos (Classes, Tipos primitivos): CYAN (Aqua-Green) */
-          "type": {
-            "color": "#4CE4B0"
-          },
-          /* Variáveis: FG_MAIN */
+
+          /* Variables, Properties, Punctuation: FG_MAIN */
           "variable": {
             "color": "#F8F5F2"
           },
-          /* Variáveis Especiais (self, this, super): CYAN (Aqua-Green) */
-          "variable.special": {
-            "color": "#4CE4B0"
+          "property": {
+            "color": "#F8F5F2"
           },
-          /* Variantes (Enums, etc.): ORANGE */
-          "variant": {
-            "color": "#FD971F"
+          "punctuation": {
+            "color": "#F8F5F2"
+          },
+          "punctuation.bracket": {
+            "color": "#F8F5F2"
+          },
+          "punctuation.delimiter": {
+            "color": "#F8F5F2"
+          },
+          "punctuation.list_marker": {
+            "color": "#F8F5F2"
+          },
+          "label": {
+            "color": "#F8F5F2"
+          },
+          "embedded": {
+            "color": "#F8F5F2"
+          },
+
+          /* Comments: FG_DIM */
+          "comment": {
+            "color": "#7C7882",
+            "font_style": "italic"
+          },
+          "comment.doc": {
+            "color": "#7C7882"
+          },
+
+          /* Others */
+          "predictive": {
+            "color": "#7C7882"
+          },
+          "hint": {
+            "color": "#AE81FF"
           }
         }
       }

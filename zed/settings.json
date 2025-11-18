@@ -7,6 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "scrollbar": {
+    "axes": {
+      "horizontal": false
+    }
+  },
+  "disable_ai": true,
   "icon_theme": "Warm Charmed Icons",
   "show_wrap_guides": true,
   "current_line_highlight": "none",
