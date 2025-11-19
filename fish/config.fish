@@ -28,10 +28,10 @@ function mkcd
 end
 
 # ---[Hydro]---
-alias hydrofetch="~/.hydrofetch.sh"
+alias hydrofetch="~/.hydrofetch.fish"
 alias hydrotop="python3 ~/.hydrotop.py"
 alias hydrotodo="~/.hydrotodo"
-alias hf="~/.hydrofetch.sh"
+alias hf="~/.hydrofetch.fish"
 alias ht="python3 ~/.hydrotop.py"
 alias htd="~/.hydrotodo"
 
@@ -74,8 +74,9 @@ alias update="sudo pacman -Syu"
 alias ips="ip -c -br a"
 alias local="pwd"
 
-# ---[Lazygit]---
+# ---[Lazytools]---
 alias lzg="lazygit"
+alias lzd="lazydocker"
 
 # ---[VSCodium]---
 alias vscodium="vscodium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland"
