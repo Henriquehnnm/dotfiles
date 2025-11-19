@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 RAINS=("|" "│" "┃" "┆" "┇" "┊" "┋" "╽" "╿")
 COLORS=("\e[37m" "\e[37;1m")
 # More from 256 color mode

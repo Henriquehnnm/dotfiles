@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo "=== Cores ANSI Básicas ==="
 for color in {30..37}; do

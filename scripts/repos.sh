@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Este script clona múltiplos repositórios públicos de um usuário do GitHub
 # usando o GitHub CLI (gh) e a ferramenta de seleção interativa gum.

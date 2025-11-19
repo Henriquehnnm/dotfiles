@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Gerador inteligente de .gitignore baseado no projeto
 
 if [ $# -eq 0 ]; then

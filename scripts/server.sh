@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 DURACAO_EXECUCAO="25m"
 INTERVALO_REINICIO="25s"
