@@ -9,7 +9,7 @@ Simple, beautiful dotfiles, with the **Retrokai** palette, inspired by Monokai, 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ee7077a1-9810-4204-b7ab-5fb2c32f7834" />
 
 #### Superfile
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c453c756-d9f8-4273-9139-515339bbd2c2" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/367b6a56-9de1-4c69-a7e1-59b1be666ead" />
 
 #### Kitty
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cc2727f6-c3cc-4b4e-bde3-14b7a99f829a" />
