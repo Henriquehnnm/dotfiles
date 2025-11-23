@@ -1,6 +1,7 @@
 window {
     padding: 50px;
-    background-color: #242226;
+    /* Fundo Principal (BG) */
+    background-color: #17191e;
     font-family: "Monaspace Radon Var", sans-serif;
     font-weight: bold;
     font-size: 15px;
@@ -9,10 +10,10 @@ window {
 #input {
     margin: 20px 15px;
     padding: 10px 20px;
-    /* RK_FG_MAIN: Texto Principal (Alto Contraste) */
-    color: #f8f5f2;
-    /* RK_BG_MAIN: Fundo Padrão Principal (ideal para a caixa de input) */
-    background-color: #242226;
+    /* Primeiro Plano (FG): Texto Principal (Alto Contraste) */
+    color: #eef0f9;
+    /* Fundo Principal (BG): Fundo Padrão Principal (ideal para a caixa de input) */
+    background-color: #17191e;
     border: none;
     border-radius: 5px;
 }
@@ -30,17 +31,17 @@ window {
 }
 
 #entry:selected {
-    /* RK_CYAN: Acentuação suave e vibrante para a entrada selecionada */
-    background-color: #66d9ef;
+    /* Azul (Keywords / Tags): Acentuação suave e vibrante para a entrada selecionada */
+    background-color: #54b9ff;
     border-radius: 5px;
 }
 
 #text {
-    /* RK_FG_MAIN: Texto Principal */
-    color: #f8f5f2;
+    /* Primeiro Plano (FG): Texto Principal */
+    color: #eef0f9;
 }
 
 #text:selected {
-    /* RK_BG_DEEP: Para o texto selecionado, usamos o BG mais escuro para garantir bom contraste no fundo RK_CYAN */
-    color: #1a181c;
+    /* Fundo Principal (BG): Para o texto selecionado, usamos o BG mais escuro para garantir bom contraste no fundo Azul */
+    color: #17191e;
 }

@@ -1,35 +1,35 @@
 /* ==================================================== */
-/* PALETA RETROKAI (Mapeada para Waybar/GTK/etc.)       */
+/* PALETA HOUSTON (Mapeada para Waybar/GTK/etc.)        */
 /* ==================================================== */
 
-/* Cores de Acento (Tokens) - TONS MONOKAI RETRO */
-@define-color rosewater   #FD971F; /* RK_ORANGE */
-@define-color flamingo    #FD971F; /* RK_ORANGE */
-@define-color pink        #AE81FF; /* RK_PURPLE */
-@define-color mauve       #AE81FF; /* RK_PURPLE */
-@define-color red         #F92672; /* RK_RED (Magenta) */
-@define-color maroon      #F92672; /* RK_RED (Magenta) */
-@define-color peach       #FD971F; /* RK_ORANGE */
-@define-color yellow      #E6DB74; /* RK_YELLOW */
-@define-color green       #A6E22E; /* RK_GREEN */
-@define-color teal        #4CE4B0; /* RK_CYAN (Aqua Green Final) */
-@define-color sky         #66D9EF; /* RK_BLUE */
-@define-color sapphire    #66D9EF; /* RK_BLUE */
-@define-color blue        #66D9EF; /* RK_BLUE */
-@define-color lavender    #AE81FF; /* RK_PURPLE */
+/* Cores de Acento (Tokens) - TONS HOUSTON */
+@define-color rosewater     #dc3657; /* Vermelho (Erro) - Acento */
+@define-color flamingo      #f4587e; /* Vermelho Claro - Acento */
+@define-color pink          #acafff; /* Roxo Claro (Tipos) - Acento */
+@define-color mauve         #cc75f4; /* Magenta Brilhante - Acento */
+@define-color red           #dc3657; /* Vermelho (Erro) */
+@define-color maroon        #f4587e; /* Vermelho Claro */
+@define-color peach         #ffd493; /* Amarelo (Strings/Aviso) - Acento */
+@define-color yellow        #ffd493; /* Amarelo (Strings/Aviso) */
+@define-color green         #4bf3c8; /* Verde (Variáveis/Props) */
+@define-color teal          #00daef; /* Ciano (Funções) - Acento */
+@define-color sky           #54b9ff; /* Azul (Keywords/Tags) - Acento */
+@define-color sapphire      #54b9ff; /* Azul (Keywords/Tags) */
+@define-color blue          #54b9ff; /* Azul (Keywords/Tags) */
+@define-color lavender      #acafff; /* Roxo Claro (Tipos/Atributos) */
 
-/* Cores de Foreground (FG) - TONS ORIGINAIS */
-@define-color text        #F8F5F2; /* RK_FG_MAIN */
-@define-color subtext1    #B0ACB5; /* Cinza claro */
-@define-color subtext0    #7C7882; /* RK_FG_DIM */
+/* Cores de Foreground (FG) - TONS HOUSTON */
+@define-color text          #eef0f9; /* Primeiro Plano (FG) */
+@define-color subtext1      #858b98; /* Texto Muted / Dim */
+@define-color subtext0      #858b98; /* Texto Muted / Dim */
 
-/* Cores de Fundo (BG) - TONS ORIGINAIS */
-@define-color overlay2    #4B4950; /* Tom de Superfície */
-@define-color overlay1    #2D2B30; /* RK_BG_LIGHT */
-@define-color overlay0    #2D2B30; /* RK_BG_LIGHT */
-@define-color surface2    #4B4950; /* Tom de Superfície */
-@define-color surface1    #2D2B30; /* RK_BG_LIGHT */
-@define-color surface0    #2D2B30; /* RK_BG_LIGHT */
-@define-color base        #242226; /* RK_BG_MAIN (Fundo Principal) */
-@define-color mantle      #242226; /* RK_BG_MAIN */
-@define-color crust       #1A181C; /* RK_BLACK / BG_DEEP */
+/* Cores de Fundo (BG) - TONS HOUSTON */
+@define-color overlay2      #343841; /* Seleção / Interação (Opção para superfície) */
+@define-color overlay1      #23262d; /* Fundo Secundário / Painéis */
+@define-color overlay0      #23262d; /* Fundo Secundário / Painéis */
+@define-color surface2      #343841; /* Seleção / Interação (Opção para superfície) */
+@define-color surface1      #23262d; /* Fundo Secundário / Painéis */
+@define-color surface0      #23262d; /* Fundo Secundário / Painéis */
+@define-color base          #17191e; /* Fundo Principal (BG) */
+@define-color mantle        #17191e; /* Fundo Principal (BG) */
+@define-color crust         #545864; /* Cinza Brilhante (Opção para fundo mais profundo) */

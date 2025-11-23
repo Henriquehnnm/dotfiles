@@ -258,7 +258,6 @@
 ; gradient_color_8 = '#cc3333'
 
 # In the [color] section
-background = '#242226'
 gradient = 1
 gradient_count = 6
 gradient_color_1 = '#4CE4B0'

@@ -1,7 +1,7 @@
 # More details are at https://superfile.dev/configure/superfile-config/
 #
 # change your theme
-theme = 'retrokai'
+theme = 'houston'
 #
 # The editor files will be opened with. (Leave blank to use the EDITOR environment variable).
 editor = "zed"

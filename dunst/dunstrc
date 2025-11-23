@@ -9,14 +9,14 @@ horizontal_padding = 16
 text_icon_padding = 8
 frame_width = 2
 corner_radius = 5
-/* RK_CYAN: Cor de acento vibrante (Aqua-Green) para a borda normal/separador */
-frame_color = "#4CE4B0"
+/* AZUL: Cor de acento vibrante (Ciano) para a borda normal/separador */
+frame_color = "#00daef"
 separator_color = frame
 transparency = 8
 blur = true
 shadow = yes
-/* RK_BLACK: O fundo mais escuro para uma sombra profunda */
-shadow_color = "#1A181C"
+/* Fundo Principal (BG): O fundo mais escuro para uma sombra profunda */
+shadow_color = "#17191e"
 shadow_offset = 3x3
 icon_theme = Papirus
 enable_recursive_icon_lookup = true
@@ -30,21 +30,21 @@ sticky_history = true
 history_length = 20
 
 [urgency_low]
-/* RK_BG_MAIN: Fundo Principal do Dunst */
-background = "#242226"
-/* RK_FG_MAIN: Texto Principal */
-foreground = "#F8F5F2"
+/* Fundo Principal (BG): Fundo Principal do Dunst */
+background = "#17191e"
+/* Primeiro Plano (FG): Texto Principal */
+foreground = "#eef0f9"
 
 [urgency_normal]
-/* RK_BG_MAIN */
-background = "#242226"
-/* RK_FG_MAIN */
-foreground = "#F8F5F2"
+/* Fundo Principal (BG) */
+background = "#17191e"
+/* Primeiro Plano (FG) */
+foreground = "#eef0f9"
 
 [urgency_critical]
-/* RK_BG_MAIN */
-background = "#242226"
-/* RK_FG_MAIN */
-foreground = "#F8F5F2"
-/* RK_RED: Borda de Erro/Crítico (Magenta Monokai) */
-frame_color = "#F92672"
+/* Fundo Principal (BG) */
+background = "#17191e"
+/* Primeiro Plano (FG) */
+foreground = "#eef0f9"
+/* VERMELHO: Borda de Erro/Crítico (Vermelho Houston) */
+frame_color = "#dc3657"

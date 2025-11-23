@@ -34,7 +34,7 @@ window#waybar {
 
 #workspaces {
     margin: 5px 0 5px 1rem;
-    background-color: @surface0;
+    background-color: @base;
 }
 
 #workspaces button {
@@ -48,7 +48,7 @@ window#waybar {
 
 #workspaces button:hover {
     color: @lavender;
-    border-color: @surface0;
+    border-color: @base;
 }
 
 #workspaces button.urgent {
@@ -67,7 +67,7 @@ window#waybar {
 #custom-power {
     margin: 5px 0;
     padding: 0.5rem 1rem;
-    background-color: @surface0;
+    background-color: @base;
 }
 
 #clock {

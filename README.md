@@ -1,7 +1,11 @@
+<p align="center">
+
+</p>
+
 # Henriquehnnm's Dotfiles
 ## Simply nostalgic
 
-Simple, beautiful dotfiles, with the **Retrokai** palette, inspired by Monokai, but more modern, with a touch of *Retro* aesthetics.
+ Simple and beautiful stitch files, with the **Houston** palette.
 
 ### Screenshots
 

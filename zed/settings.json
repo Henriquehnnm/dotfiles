@@ -7,13 +7,17 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "project_panel": {
+    "git_status": false,
+    "sticky_scroll": false
+  },
   "scrollbar": {
     "axes": {
       "horizontal": false
     }
   },
   "disable_ai": true,
-  "icon_theme": "Warm Charmed Icons",
+  "icon_theme": "Base Charmed Icons",
   "show_wrap_guides": true,
   "current_line_highlight": "none",
   "buffer_font_family": "Monaspace Radon Var",
@@ -23,7 +27,7 @@
   "lsp_document_colors": "background",
   "theme": {
     "mode": "system",
-    "light": "Kanagawa Wave",
-    "dark": "Retrokai"
+    "light": "Houston",
+    "dark": "Houston"
   }
 }
