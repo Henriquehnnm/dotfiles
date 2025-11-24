@@ -17,6 +17,7 @@
         "surface.background": "#0b0c0e",
         "panel.background": "#131416",
         "title_bar.background": "#131416",
+        "title_bar.inactive_background": "#131416",
         "status_bar.background": "#131416",
         "toolbar.background": "#0b0c0e",
         "tab_bar.background": "#131416",
