@@ -1,35 +1,26 @@
-/* ==================================================== */
-/* PALETA HOUSTON (Mapeada para Waybar/GTK/etc.)        */
-/* ==================================================== */
-
-/* Cores de Acento (Tokens) - TONS HOUSTON */
-@define-color rosewater     #dc3657; /* Vermelho (Erro) - Acento */
-@define-color flamingo      #f4587e; /* Vermelho Claro - Acento */
-@define-color pink          #acafff; /* Roxo Claro (Tipos) - Acento */
-@define-color mauve         #cc75f4; /* Magenta Brilhante - Acento */
-@define-color red           #dc3657; /* Vermelho (Erro) */
-@define-color maroon        #f4587e; /* Vermelho Claro */
-@define-color peach         #ffd493; /* Amarelo (Strings/Aviso) - Acento */
-@define-color yellow        #ffd493; /* Amarelo (Strings/Aviso) */
-@define-color green         #4bf3c8; /* Verde (Variáveis/Props) */
-@define-color teal          #00daef; /* Ciano (Funções) - Acento */
-@define-color sky           #54b9ff; /* Azul (Keywords/Tags) - Acento */
-@define-color sapphire      #54b9ff; /* Azul (Keywords/Tags) */
-@define-color blue          #54b9ff; /* Azul (Keywords/Tags) */
-@define-color lavender      #acafff; /* Roxo Claro (Tipos/Atributos) */
-
-/* Cores de Foreground (FG) - TONS HOUSTON */
-@define-color text          #eef0f9; /* Primeiro Plano (FG) */
-@define-color subtext1      #858b98; /* Texto Muted / Dim */
-@define-color subtext0      #858b98; /* Texto Muted / Dim */
-
-/* Cores de Fundo (BG) - TONS HOUSTON */
-@define-color overlay2      #343841; /* Seleção / Interação (Opção para superfície) */
-@define-color overlay1      #23262d; /* Fundo Secundário / Painéis */
-@define-color overlay0      #23262d; /* Fundo Secundário / Painéis */
-@define-color surface2      #343841; /* Seleção / Interação (Opção para superfície) */
-@define-color surface1      #23262d; /* Fundo Secundário / Painéis */
-@define-color surface0      #23262d; /* Fundo Secundário / Painéis */
-@define-color base          #17191e; /* Fundo Principal (BG) */
-@define-color mantle        #17191e; /* Fundo Principal (BG) */
-@define-color crust         #545864; /* Cinza Brilhante (Opção para fundo mais profundo) */
+@define-color rosewater #ff7b8f;
+@define-color flamingo #ff7b8f;
+@define-color pink #bea5ff;
+@define-color mauve #ff7cf3;
+@define-color red #ff7b8f;
+@define-color maroon #ff7b8f;
+@define-color peach #ffcc91;
+@define-color yellow #ffcc91;
+@define-color green #d3fa83;
+@define-color teal #67f1d2;
+@define-color sky #34d8ff;
+@define-color sapphire #34d8ff;
+@define-color blue #34d8ff;
+@define-color lavender #bea5ff;
+@define-color text #e8e8ef;
+@define-color subtext1 #8f8f9b;
+@define-color subtext0 #8f8f9b;
+@define-color overlay2 #1b1c1f;
+@define-color overlay1 #131416;
+@define-color overlay0 #131416;
+@define-color surface2 #1b1c1f;
+@define-color surface1 #131416;
+@define-color surface0 #131416;
+@define-color base #0b0c0e;
+@define-color mantle #0b0c0e;
+@define-color crust #131416;

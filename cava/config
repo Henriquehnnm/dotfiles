@@ -257,15 +257,14 @@
 ; gradient_color_7 = '#cc5933'
 ; gradient_color_8 = '#cc3333'
 
-# In the [color] section
 gradient = 1
 gradient_count = 6
-gradient_color_1 = '#4CE4B0'
-gradient_color_2 = '#66D9EF'
-gradient_color_3 = '#AE81FF'
-gradient_color_4 = '#E6DB74'
-gradient_color_5 = '#FD971F'
-gradient_color_6 = '#F92672'
+gradient_color_1 = '#d3fa83'
+gradient_color_2 = '#67f1d2'
+gradient_color_3 = '#bea5ff'
+gradient_color_4 = '#ffcc91'
+gradient_color_5 = '#ffcc91'
+gradient_color_6 = '#ff7b8f'
 
 
 # Horizontal is only supported on noncurses output.

@@ -1,0 +1,57 @@
+code_syntax_highlight = "monokai"
+
+# ========= Border =========
+file_panel_border = "#8f8f9b"
+footer_border = "#8f8f9b"
+sidebar_border = "#8f8f9b"
+
+# ========= Border Active =========
+file_panel_border_active = "#34d8ff"
+footer_border_active = "#67f1d2"
+modal_border_active = "#34d8ff"
+sidebar_border_active = "#ff7b8f"
+
+# ========= Background (bg) =========
+file_panel_bg = "#0b0c0e"
+footer_bg = "#0b0c0e"
+full_screen_bg = "#0b0c0e"
+modal_bg = "#0b0c0e"
+sidebar_bg = "#0b0c0e"
+
+# ========= Foreground (fg) =========
+file_panel_fg = "#e8e8ef"
+footer_fg = "#e8e8ef"
+full_screen_fg = "#e8e8ef"
+modal_fg = "#e8e8ef"
+sidebar_fg = "#e8e8ef"
+
+# ========= Special Color =========
+cancel = "#ffcc91"
+correct = "#d3fa83"
+cursor = "#67f1d2"
+error = "#ff7b8f"
+hint = "#bea5ff"
+gradient_color = ["#34d8ff", "#bea5ff"]
+
+# ========= File Panel Special Items =========
+file_panel_item_selected_bg = "#131416"
+file_panel_item_selected_fg = "#67f1d2"
+file_panel_top_directory_icon = "#ffcc91"
+file_panel_top_path = "#ffcc91"
+
+# ========= Sidebar Special Items =========
+sidebar_divider = "#8f8f9b"
+sidebar_item_selected_bg = "#131416"
+sidebar_item_selected_fg = "#67f1d2"
+sidebar_title = "#34d8ff"
+
+# ========= Modal Special Items =========
+modal_cancel_bg = "#ff7b8f"
+modal_cancel_fg = "#e8e8ef"
+
+modal_confirm_bg = "#34d8ff"
+modal_confirm_fg = "#e8e8ef"
+
+# ========= Help Menu =========
+help_menu_hotkey = "#67f1d2"
+help_menu_title = "#bea5ff"

@@ -1,11 +1,9 @@
 <div align="center">
-<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/758bc704-59b1-49f9-bdd3-96c93a5d3732" />
-
  
 # Henriquehnnm's Dotfiles
 ## Simply nostalgic
 
-**Simple and beautiful dotfiles, with the **Houston** palette.**
+**Simple and beautiful dotfiles, with the **Xenon** palette.**
 </div>
 
 ### Screenshots

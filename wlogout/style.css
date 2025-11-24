@@ -1,27 +1,20 @@
-/* ==================================================== */
-/* PALETA RETROKAI (Mapeada para Nomenclatura Estilizada)*/
-/* ==================================================== */
+@define-color base #0b0c0e;
+@define-color surface #131416;
+@define-color overlay #1b1c1f;
+@define-color highlightLow #0b0c0e;
+@define-color highlightMed #131416;
+@define-color highlightHigh #1b1c1f;
 
-/* --- FUNDOS (BG) --- */
-@define-color base            #17191e; /* Fundo Principal (BG) */
-@define-color surface         #23262d; /* Fundo Secundário / Painéis */
-@define-color overlay         #343841; /* Seleção / Interação */
-@define-color highlightLow    #17191e; /* Fundo Principal (Mesmo que 'base') */
-@define-color highlightMed    #23262d; /* Fundo Secundário / Painéis */
-@define-color highlightHigh   #343841; /* Seleção / Interação */
+@define-color text #e8e8ef;
+@define-color muted #8f8f9b;
+@define-color subtle #8f8f9b;
 
-/* --- FOREGROUND (FG) --- */
-@define-color text            #eef0f9; /* Primeiro Plano (FG) */
-@define-color muted           #858b98; /* Texto Muted / Dim */
-@define-color subtle          #858b98; /* Texto Muted / Dim (Usando o mesmo que 'muted') */
-
-/* --- ACENTOS (Tokens) --- */
-@define-color love            #dc3657; /* Vermelho (Erro) */
-@define-color gold            #ffd493; /* Amarelo (Strings / Aviso) */
-@define-color rose            #f4587e; /* Vermelho Claro (Magenta) */
-@define-color pine            #4bf3c8; /* Verde (Variáveis / Props) */
-@define-color foam            #00daef; /* Ciano (Funções/Acento) */
-@define-color iris            #acafff; /* Roxo Claro (Tipos / Atributos) */
+@define-color love #ff7b8f;
+@define-color gold #ffcc91;
+@define-color rose #ffb2e4;
+@define-color pine #d3fa83;
+@define-color foam #67f1d2;
+@define-color iris #bea5ff;
 
 * {
     font-family: "BlexMono Nerd Font", FontAwesome, sans-serif;
@@ -31,7 +24,7 @@
 }
 
 window {
-    background-color: rgba(36, 34, 38, 0.9);
+    background-color: rgba(19, 20, 22, 0.8);
     font-size: 0px;
     color: @text;
 }

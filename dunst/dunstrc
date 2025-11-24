@@ -1,5 +1,5 @@
 [global]
-font = Monaspace Radon Var 10
+font = monaspace radon var 10
 width = 320
 height = 160
 origin = top-right
@@ -9,16 +9,14 @@ horizontal_padding = 16
 text_icon_padding = 8
 frame_width = 2
 corner_radius = 5
-/* AZUL: Cor de acento vibrante (Ciano) para a borda normal/separador */
-frame_color = "#00daef"
+frame_color = "#67f1d2"
 separator_color = frame
 transparency = 8
 blur = true
 shadow = yes
-/* Fundo Principal (BG): O fundo mais escuro para uma sombra profunda */
-shadow_color = "#17191e"
+shadow_color = "#0b0c0e"
 shadow_offset = 3x3
-icon_theme = Papirus
+icon_theme = papirus
 enable_recursive_icon_lookup = true
 show_indicators = no
 idle_threshold = 120
@@ -30,21 +28,14 @@ sticky_history = true
 history_length = 20
 
 [urgency_low]
-/* Fundo Principal (BG): Fundo Principal do Dunst */
-background = "#17191e"
-/* Primeiro Plano (FG): Texto Principal */
-foreground = "#eef0f9"
+background = "#0b0c0e"
+foreground = "#e8e8ef"
 
 [urgency_normal]
-/* Fundo Principal (BG) */
-background = "#17191e"
-/* Primeiro Plano (FG) */
-foreground = "#eef0f9"
+background = "#0b0c0e"
+foreground = "#e8e8ef"
 
 [urgency_critical]
-/* Fundo Principal (BG) */
-background = "#17191e"
-/* Primeiro Plano (FG) */
-foreground = "#eef0f9"
-/* VERMELHO: Borda de Erro/Crítico (Vermelho Houston) */
-frame_color = "#dc3657"
+background = "#0b0c0e"
+foreground = "#e8e8ef"
+frame_color = "#ff7b8f"
