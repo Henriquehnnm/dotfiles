@@ -9,16 +9,16 @@
 ### Screenshots
 
 #### Desktop
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2dd3fccb-b62c-4e8f-bc16-71bd93ca64de" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8df9aef1-9aaf-4014-8127-af6dd8505d05" />
 
 #### Superfile
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5e1a6f4f-2a7d-49a3-aca0-457156eb7be0" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6c53c535-010c-4e85-b3c0-020d3e3e161d" />
 
 #### Kitty
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b91c0da4-f980-46ba-a49a-801cefee0179" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bffae7a9-3fc0-48c2-934b-1fdbc568de1a" />
 
 #### Zed
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/482a6ae2-cb0d-44d9-a626-7608e769b048" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/af656232-682c-43dc-9cb6-5d3327ce5125" />
 
 ### License
 [GPLv3 LICENSE](LICENSE)
