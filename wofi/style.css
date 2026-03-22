@@ -1,22 +1,29 @@
+/*
+* Wofi Config - Rosé Pine Variant
+*/
+
 window {
     padding: 50px;
-    background-color: #0b0c0e;
-    font-family: "Monaspace Radon Var", sans-serif;
+    background-color: #191724; /* @base */
+    font-family: "FiraCode Nerd Font", sans-serif;
     font-weight: bold;
     font-size: 15px;
+    border: 2px solid #26233a; /* @overlay para uma borda sutil */
+    border-radius: 20px;
 }
 
 #input {
     margin: 20px 15px;
     padding: 10px 20px;
-    color: #e8e8ef;
-    background-color: #0b0c0e;
-    border: none;
-    border-radius: 5px;
+    color: #e0def4; /* @text */
+    background-color: #1f1d2e; /* @surface */
+    border: 1px solid #403d52; /* @highlightMed */
+    border-radius: 10px;
 }
 
 #input:focus {
     box-shadow: none;
+    border: 1px solid #c4a7e7; /* @iris */
 }
 
 #inner-box {
@@ -28,14 +35,14 @@ window {
 }
 
 #entry:selected {
-    background-color: #34d8ff;
-    border-radius: 5px;
+    background-color: #c4a7e7; /* @iris */
+    border-radius: 10px;
 }
 
 #text {
-    color: #e8e8ef;
+    color: #e0def4; /* @text */
 }
 
 #text:selected {
-    color: #0b0c0e;
+    color: #191724; /* @base - para dar contraste no item selecionado */
 }

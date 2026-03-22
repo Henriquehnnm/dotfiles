@@ -9,8 +9,8 @@
 #
 
 show=drun
-width=550
-height=250
+width=650
+height=350
 prompt=Search...
 normal_window=true
 location=center

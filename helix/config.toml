@@ -1,0 +1,8 @@
+theme = "rose_pine"
+
+[editor]
+cursorline = false
+cursorcolumn = false
+gutters = []
+color-modes = true
+mouse = false

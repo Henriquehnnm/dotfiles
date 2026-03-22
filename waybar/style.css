@@ -14,7 +14,7 @@ Waybar Config File by Henrique
 @import url("./theme.css");
 
 * {
-    font-family: "Monaspace Radon Var";
+    font-family: "FiraCode Nerd Font";
     font-weight: bold;
     font-size: 15px;
     min-height: 0;
@@ -29,7 +29,7 @@ window#waybar {
 #workspaces button,
 #workspaces button.active,
 #workspaces button:hover {
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #workspaces {
@@ -43,16 +43,16 @@ window#waybar {
 }
 
 #workspaces button.active {
-    color: @blue;
+    color: @foam;
 }
 
 #workspaces button:hover {
-    color: @lavender;
+    color: @rose; /* Antigo Lavender */
     border-color: @base;
 }
 
 #workspaces button.urgent {
-    color: @red;
+    color: @love; /* Antigo Red */
 }
 
 #clock,
@@ -71,47 +71,47 @@ window#waybar {
 }
 
 #clock {
-    color: @mauve;
-    border-radius: 5px;
+    color: @iris; /* Antigo Mauve */
+    border-radius: 10px;
 }
 
 #battery,
 #battery.charging {
-    color: @green;
+    color: @foam; /* Antigo Green */
 }
 
 #battery.warning:not(.charging) {
-    color: @red;
+    color: @love; /* Antigo Red */
 }
 
 #pulseaudio {
     margin-left: 1rem;
-    color: @maroon;
-    border-radius: 5px 0px 0px 5px;
+    color: @rose; /* Antigo Maroon */
+    border-radius: 10px 0px 0px 10px;
 }
 
 #backlight {
-    color: @yellow;
+    color: @gold; /* Antigo Yellow */
 }
 
 #custom-wifi {
-    color: @blue;
+    color: @pine; /* Antigo Blue */
 }
 
 #cpu {
-    color: @green;
+    color: @foam; /* Antigo Green */
 }
 
 #memory {
-    color: @lavender;
+    color: @rose; /* Antigo Lavender */
 }
 
 #custom-pomodoro {
-    color: @maroon;
+    color: @love; /* Antigo Maroon */
 }
 
 #custom-power {
     margin-right: 1rem;
-    color: @maroon;
-    border-radius: 0px 5px 5px 0px;
+    color: @love; /* Antigo Maroon */
+    border-radius: 0px 10px 10px 0px;
 }

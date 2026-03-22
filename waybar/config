@@ -86,7 +86,13 @@
             "",
             "",
             ""
-        ]
+        ],
+        "tooltip": true,
+        "tooltip-format": "{capacity}% - {time} remaining",
+        "tooltip-format-charging": "Charging: {capacity}% - Full in {time}",
+        "tooltip-format-plugged": "Plugged in: {capacity}% - Full",
+        
+        "format-time": "{H}h {M}min"
     },
 
     "custom/wifi": {

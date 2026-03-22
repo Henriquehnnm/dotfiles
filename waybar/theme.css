@@ -1,26 +1,23 @@
-@define-color rosewater #ff7b8f;
-@define-color flamingo #ff7b8f;
-@define-color pink #bea5ff;
-@define-color mauve #ff7cf3;
-@define-color red #ff7b8f;
-@define-color maroon #ff7b8f;
-@define-color peach #ffcc91;
-@define-color yellow #ffcc91;
-@define-color green #d3fa83;
-@define-color teal #67f1d2;
-@define-color sky #34d8ff;
-@define-color sapphire #34d8ff;
-@define-color blue #34d8ff;
-@define-color lavender #bea5ff;
-@define-color text #e8e8ef;
-@define-color subtext1 #8f8f9b;
-@define-color subtext0 #8f8f9b;
-@define-color overlay2 #1b1c1f;
-@define-color overlay1 #131416;
-@define-color overlay0 #131416;
-@define-color surface2 #1b1c1f;
-@define-color surface1 #131416;
-@define-color surface0 #131416;
-@define-color base #0b0c0e;
-@define-color mantle #0b0c0e;
-@define-color crust #131416;
+/*
+* Variant: Rosé Pine
+* Maintainer: DankChoir
+*/
+
+@define-color base            #191724;
+@define-color surface         #1f1d2e;
+@define-color overlay         #26233a;
+
+@define-color muted           #6e6a86;
+@define-color subtle          #908caa;
+@define-color text            #e0def4;
+
+@define-color love            #eb6f92;
+@define-color gold            #f6c177;
+@define-color rose            #ebbcba;
+@define-color pine            #31748f;
+@define-color foam            #9ccfd8;
+@define-color iris            #c4a7e7;
+
+@define-color highlightLow    #21202e;
+@define-color highlightMed    #403d52;
+@define-color highlightHigh   #524f67;

@@ -8,13 +8,13 @@ padding = 15
 horizontal_padding = 16
 text_icon_padding = 8
 frame_width = 2
-corner_radius = 5
-frame_color = "#67f1d2"
+corner_radius = 10
+frame_color = "#31748f"
 separator_color = frame
 transparency = 8
 blur = true
 shadow = yes
-shadow_color = "#0b0c0e"
+shadow_color = "#191724"
 shadow_offset = 3x3
 icon_theme = papirus
 enable_recursive_icon_lookup = true
@@ -28,14 +28,14 @@ sticky_history = true
 history_length = 20
 
 [urgency_low]
-background = "#0b0c0e"
-foreground = "#e8e8ef"
+background = "#191724"
+foreground = "#e0def4"
 
 [urgency_normal]
-background = "#0b0c0e"
-foreground = "#e8e8ef"
+background = "#191724"
+foreground = "#e0def4"
 
 [urgency_critical]
-background = "#0b0c0e"
-foreground = "#e8e8ef"
-frame_color = "#ff7b8f"
+background = "#191724"
+foreground = "#e0def4"
+frame_color = "#eb6f92"
