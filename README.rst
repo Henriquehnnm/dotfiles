@@ -24,7 +24,7 @@ Previews
 
 
 .. image:: preview/fetch.png
-	:alt: HydroFetcg Preview Image
+	:alt: HydroFetch Preview Image
 
 
 .. image:: preview/helix.png
