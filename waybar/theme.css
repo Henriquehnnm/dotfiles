@@ -1,23 +1,38 @@
 /*
-* Variant: Rosé Pine
-* Maintainer: DankChoir
+* Variant: Tokyo Night Moon
+* Adapted from: Tokyo Night (folke)
 */
 
-@define-color base            #191724;
-@define-color surface         #1f1d2e;
-@define-color overlay         #26233a;
+@define-color base #222436;
+/* Fundo principal */
+@define-color surface #1e2030;
+/* Sidebars e painéis */
+@define-color overlay #2d3f76;
+/* Elementos flutuantes / Seleção */
 
-@define-color muted           #6e6a86;
-@define-color subtle          #908caa;
-@define-color text            #e0def4;
+@define-color muted #636da6;
+/* Comentários e texto desativado */
+@define-color subtle #828bb8;
+/* Texto secundário */
+@define-color text #c8d3f5;
+/* Texto principal */
 
-@define-color love            #eb6f92;
-@define-color gold            #f6c177;
-@define-color rose            #ebbcba;
-@define-color pine            #31748f;
-@define-color foam            #9ccfd8;
-@define-color iris            #c4a7e7;
+@define-color love #ff757f;
+/* Vermelho (Erro/Urgente) */
+@define-color gold #ffc777;
+/* Amarelo (Aviso) */
+@define-color rose #ff966c;
+/* Laranja (Constantes) */
+@define-color pine #4fd6be;
+/* Teal (Sucesso/Hints) */
+@define-color foam #82aaff;
+/* Azul claro (Funções) */
+@define-color iris #c099ff;
+/* Roxo (Keywords) */
 
-@define-color highlightLow    #21202e;
-@define-color highlightMed    #403d52;
-@define-color highlightHigh   #524f67;
+@define-color highlightLow #1b1d2b;
+/* Bordas e detalhes sutis */
+@define-color highlightMed #2f334d;
+/* Destaque de linha/hover */
+@define-color highlightHigh #444a73;
+/* Destaque ativo forte */

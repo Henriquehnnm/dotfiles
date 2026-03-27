@@ -1,5 +1,5 @@
 [global]
-font = monaspace radon var 10
+font = FiraCode Nerd Font
 width = 320
 height = 160
 origin = top-right
@@ -9,12 +9,14 @@ horizontal_padding = 16
 text_icon_padding = 8
 frame_width = 2
 corner_radius = 10
-frame_color = "#31748f"
+# Usando o azul Moon (#82aaff) para a borda geral
+frame_color = "#82aaff"
 separator_color = frame
 transparency = 8
 blur = true
 shadow = yes
-shadow_color = "#191724"
+# Sombra ajustada para o fundo Moon
+shadow_color = "#1b1d2b"
 shadow_offset = 3x3
 icon_theme = papirus
 enable_recursive_icon_lookup = true
@@ -28,14 +30,17 @@ sticky_history = true
 history_length = 20
 
 [urgency_low]
-background = "#191724"
-foreground = "#e0def4"
+background = "#1e2030"
+foreground = "#828bb8"
+frame_color = "#636da6"
 
 [urgency_normal]
-background = "#191724"
-foreground = "#e0def4"
+background = "#222436"
+foreground = "#c8d3f5"
+frame_color = "#82aaff"
 
 [urgency_critical]
-background = "#191724"
-foreground = "#e0def4"
-frame_color = "#eb6f92"
+background = "#222436"
+foreground = "#ff757f"
+# Vermelho vibrante Moon para alertas críticos
+frame_color = "#ff757f"

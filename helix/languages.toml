@@ -1,52 +1,43 @@
-# Astro
-[[language]]
-name = "astro"
-language-servers = ["astro-ls", "tailwindcss-ls"]
+[language-server.emmet-ls]
+command = "emmet-ls"
+args = ["--stdio"]
 
-# TypeScript/React com Tailwind + Emmet
+[[language]]
+name = "html"
+language-servers = ["vscode-html-language-server", "emmet-ls"]
+auto-format = true
+
+[[language]]
+name = "css"
+language-servers = ["vscode-css-language-server", "emmet-ls"]
+
+# Para React/JSX/TSX
 [[language]]
 name = "tsx"
-language-servers = ["typescript-language-server", "tailwindcss-ls", "emmet-ls"]
+language-servers = ["typescript-language-server", "emmet-ls"]
 
 [[language]]
 name = "jsx"
-language-servers = ["typescript-language-server", "tailwindcss-ls", "emmet-ls"]
+language-servers = ["typescript-language-server", "emmet-ls"]
 
-# Python com Pyright
 [[language]]
 name = "python"
-language-servers = ["ruff"]
-formatter = { command = "black", args = ["-"] }
+language-servers = [ "pyright", "ruff" ]
+auto-format = true
 
-# Markdown
-[[language]]
-name = "markdown"
-language-servers = ["marksman"]
+[language.formatter]
+command = "ruff"
+args = ["format", "-"]
 
-# Fish
-[[language]]
-name = "fish"
-language-servers = ["fish-lsp"]
-formatter = { command = "fish_indent" }
+[language-server.pyright.config.python.analysis]
+typeCheckingMode = "basic"
+autoSearchPaths = true
+useLibraryCodeForTypes = true
 
-# Bash
 [[language]]
-name = "bash"
-language-servers = ["bash-language-server"]
-formatter = { command = "shfmt", args = ["-i", "2"] }
+name = "sql"
+language-servers = [ "sql-language-server" ]
 
-# TOML
-[[language]]
-name = "toml"
-language-servers = ["taplo"]
-
-# YAML
-[[language]]
-name = "yaml"
-language-servers = ["yaml-language-server"]
-
-# JSON
-[[language]]
-name = "json"
-language-servers = ["vscode-json-language-server"]
-formatter = { command = "prettier", args = ["--parser", "json"] }
+[language-server.sql-language-server]
+command = "sql-language-server"
+args = ["up", "--method", "stdio"]

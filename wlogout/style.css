@@ -1,45 +1,68 @@
+/*
+* Power Menu Config - Tokyo Night Moon Variant
+*/
+
 * {
-    background-image: none;
-    box-shadow: none;
-    font-family: "FiraCode Nerd Font", sans-serif;
+  background-image: none;
+  box-shadow: none;
+  font-family: "FiraCode Nerd Font", sans-serif;
 }
 
 window {
-    background-color: rgba(25, 23, 36, 0.90);
+  /* Cor base #222436 convertida para RGBA com 90% de opacidade */
+  background-color: rgba(34, 36, 54, 0.90);
 }
 
 button {
-    border-radius: 20px;
-    margin: 10px;
-    
-    border-color: #1f1d2e;
-    border-style: solid;
-    border-width: 2px; /* Aumentei um pouco para a cor aparecer melhor */
-    
-    color: #e0def4; /* Text */
-    background-color: #1f1d2e; /* Surface */
-    
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 25%;
+  border-radius: 20px;
+  margin: 10px;
+
+  /* Border: @highlightLow (#1b1d2b) */
+  border-color: #1b1d2b;
+  border-style: solid;
+  border-width: 2px;
+
+  /* Text: @text (#c8d3f5) | Surface: @surface (#1e2030) */
+  color: #c8d3f5;
+  background-color: #1e2030;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
 }
 
-button:focus, button:active, button:hover {
-    border-color: #9ccfd8;
-    
-    background-color: #26233a;
-    outline-style: none;
+button:focus,
+button:active,
+button:hover {
+  /* Destaque em azul brilhante (#82aaff) para o hover */
+  border-color: #82aaff;
+
+  /* Background de hover: @overlay (#2d3f76) */
+  background-color: #1b1d2b;
+  outline-style: none;
 }
 
+/* Ícones - Mantenha os caminhos originais */
+#lock {
+  background-image: url("icons/lock.png");
+}
 
-#lock { background-image: url("icons/lock.png"); }
+#logout {
+  background-image: url("icons/logout.png");
+}
 
-#logout { background-image: url("icons/logout.png"); }
+#suspend {
+  background-image: url("icons/sleep.png");
+}
 
-#suspend { background-image: url("icons/sleep.png"); }
+#hibernate {
+  background-image: url("icons/hibernate.png");
+}
 
-#hibernate { background-image: url("icons/hibernate.png"); }
+#shutdown {
+  background-image: url("icons/power.png");
+}
 
-#shutdown { background-image: url("icons/power.png"); }
-
-#reboot { background-image: url("icons/restart.png"); }
+#reboot {
+  background-image: url("icons/restart.png");
+}

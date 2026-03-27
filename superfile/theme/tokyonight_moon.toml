@@ -1,0 +1,63 @@
+# Tokyo Night Moon
+# Theme adapted for Tokyo Night Moon palette
+# Original colors by folke (Neovim)
+
+# Code syntax highlight theme
+code_syntax_highlight = "tokyonight-moon"
+
+# ========= Border =========
+file_panel_border = "#222436"
+sidebar_border = "#222436"
+footer_border = "#222436"
+
+# ========= Border Active =========
+file_panel_border_active = "#82aaff"
+sidebar_border_active = "#82aaff"
+footer_border_active = "#ff966c"
+modal_border_active = "#58cdff"
+
+# ========= Background (bg) =========
+full_screen_bg = "#222436"
+file_panel_bg = "#222436"
+sidebar_bg = "#222436"
+footer_bg = "#222436"
+modal_bg = "#222436"
+
+# ========= Foreground (fg) =========
+full_screen_fg = "#c8d3f5"
+file_panel_fg = "#c8d3f5"
+sidebar_fg = "#828bb8"
+footer_fg = "#828bb8"
+modal_fg = "#c8d3f5"
+
+# ========= Special Color =========
+cursor = "#c8d3f5"
+correct = "#4fd6be"
+error = "#ff757f"
+hint = "#0db9d7"
+cancel = "#636da6"
+# Gradient color: Blue to Magenta/Red
+gradient_color = ["#82aaff", "#ff757f"]
+
+# ========= File Panel Special Items =========
+file_panel_top_directory_icon = "#82aaff"
+file_panel_top_path = "#c099ff"
+file_panel_item_selected_fg = "#82aaff"
+file_panel_item_selected_bg = "#2f334d"
+
+# ========= Sidebar Special Items =========
+sidebar_title = "#c099ff"
+sidebar_item_selected_fg = "#ff966c"
+sidebar_item_selected_bg = "#222436"
+sidebar_divider = "#222436"
+
+# ========= Modal Special Items =========
+modal_cancel_fg = "#c8d3f5"
+modal_cancel_bg = "#444a73"
+
+modal_confirm_fg = "#1e2030"
+modal_confirm_bg = "#ff757f"
+
+# ========= Help Menu =========
+help_menu_hotkey = "#ffc777"
+help_menu_title = "#82aaff"

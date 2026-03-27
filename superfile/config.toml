@@ -30,7 +30,7 @@ cd_on_quit = false
 #-- File Preview
 # Should we open a file preview by default whenever selection-hovering over a
 # file?
-default_open_file_preview = true
+default_open_file_preview = false
 
 #-- Image Preview
 # Should we open an image preview by default whenever selection-hovering over an
@@ -94,11 +94,11 @@ file_panel_name_percent = 50
 
 #-- Theme
 # Put your theme's name here!
-theme = "rose-pine"
+theme = "tokyonight_moon"
 
 #-- Code Previewer
 # Whether to use the builtin syntax highlighting with chroma or use bat. Values: "" for builtin chroma, "bat" for bat
-code_previewer = ""
+code_previewer = "bat"
 
 #-- Nerd Fonts Support
 # Whether to enable support for Nerd Fonts symbols.

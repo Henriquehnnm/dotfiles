@@ -1,48 +1,57 @@
 /*
-* Wofi Config - Rosé Pine Variant
+* Wofi Config - Tokyo Night Moon Variant
 */
 
 window {
-    padding: 50px;
-    background-color: #191724; /* @base */
-    font-family: "FiraCode Nerd Font", sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    border: 2px solid #26233a; /* @overlay para uma borda sutil */
-    border-radius: 20px;
+  padding: 50px;
+  background-color: #222436;
+  /* @base - Azul profundo */
+  font-family: "FiraCode Nerd Font", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  border: 2px solid #2d3f76;
+  /* @overlay - Borda sutil em azul escuro */
+  border-radius: 20px;
 }
 
 #input {
-    margin: 20px 15px;
-    padding: 10px 20px;
-    color: #e0def4; /* @text */
-    background-color: #1f1d2e; /* @surface */
-    border: 1px solid #403d52; /* @highlightMed */
-    border-radius: 10px;
+  margin: 20px 15px;
+  padding: 10px 20px;
+  color: #c8d3f5;
+  /* @text - Texto principal claro */
+  background-color: #2f334d;
+  /* @surface - Fundo do input levemente mais escuro */
+  border: 1px solid #2f334d;
+  /* @highlightMed - Bordas internas */
+  border-radius: 10px;
 }
 
 #input:focus {
-    box-shadow: none;
-    border: 1px solid #c4a7e7; /* @iris */
+  box-shadow: none;
+  border: 1px solid #82aaff;
+  /* @foam/blue - Destaque de foco em azul brilhante */
 }
 
 #inner-box {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 #img {
-    margin: 10px;
+  margin: 10px;
 }
 
 #entry:selected {
-    background-color: #c4a7e7; /* @iris */
-    border-radius: 10px;
+  background-color: #82aaff;
+  /* @foam/blue - Cor de seleção azul */
+  border-radius: 10px;
 }
 
 #text {
-    color: #e0def4; /* @text */
+  color: #c8d3f5;
+  /* @text */
 }
 
 #text:selected {
-    color: #191724; /* @base - para dar contraste no item selecionado */
+  color: #1e2030;
+  /* @base - Contraste escuro sobre o fundo azul da seleção */
 }
