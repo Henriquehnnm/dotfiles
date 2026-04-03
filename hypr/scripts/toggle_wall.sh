@@ -1,18 +1,25 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 WALLPAPER=$(zenity --file-selection --title="Selecionar Wallpaper" --file-filter='Imagens (png, jpg, jpeg) | *.png *.jpg *.jpeg')
 
 [ -z "$WALLPAPER" ] && exit
 
-CONFIG_FILE="$HOME/.config/hypr/hyprpaper.conf"
+HYPRPAPER_CONF="$HOME/.config/hypr/hyprpaper.conf"
+HYPRLOCK_CONF="$HOME/.config/hypr/hyprlock.conf"
 
-sed -i "s|preload = .*|preload = $WALLPAPER|g" "$CONFIG_FILE"
-sed -i "s|path = .*|    path = $WALLPAPER|g" "$CONFIG_FILE"
+# --- ATUALIZAÇÃO HYPRPAPER ---
+if [ -f "$HYPRPAPER_CONF" ]; then
+    sed -i "s|preload = .*|preload = $WALLPAPER|g" "$HYPRPAPER_CONF"
+    sed -i "s|path = .*|    path = $WALLPAPER|g" "$HYPRPAPER_CONF"
+    
+    hyprctl hyprpaper preload "$WALLPAPER"
+    hyprctl hyprpaper wallpaper ",$WALLPAPER"
+    hyprctl hyprpaper unload all
+fi
 
-hyprctl hyprpaper preload "$WALLPAPER"
+# --- ATUALIZAÇÃO HYPRLOCK ---
+if [ -f "$HYPRLOCK_CONF" ]; then
+    sed -i "s|path = .*|    path = $WALLPAPER|g" "$HYPRLOCK_CONF"
+fi
 
-hyprctl hyprpaper wallpaper ",$WALLPAPER"
-
-hyprctl hyprpaper unload all
-
-notify-send "Wallpaper atualizado" "$WALLPAPER"
+notify-send "Wallpaper aplicado" "Wallpaper atualizado no Hyprpaper e Hyprlock." --icon="$WALLPAPER"
