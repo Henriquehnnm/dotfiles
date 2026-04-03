@@ -176,10 +176,7 @@ function todo
         --color always \
         "(//|/\*|#|--|\*)\s*(TODO|FIXME|FIX|BUG|UGLY|HACK|NOTE|IDEA|REVIEW|DEBUG|OPTIMIZE|ERROR|WARN|TEMP)\b" $argv \
         | sed -E "
-        # 1. Adiciona espaço após o número da linha (ex: '15:' vira '15:  ')
-        s/^([0-9]+:)/\1  /g;
-        
-        # 2. Colore as tags
+        # 1. Colore as tags (Mantendo o espaçamento padrão do ripgrep)
         s/(TODO|NOTE|IDEA)/$blue\1$reset/gI;
         s/(ERROR|BUG|FIXME)/$red\1$reset/gI;
         s/(WARN|OPTIMIZE)/$yellow\1$reset/gI;
@@ -221,3 +218,5 @@ function pynit -d "Initialize a Python project with Poetry and local venv"
         echo (set_color red)"[ERROR] Failed to create .venv. Check your Python installation."(set_color normal)
     end
 end
+
+alias argrun 'cargo run --'

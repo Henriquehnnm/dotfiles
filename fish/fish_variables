@@ -1,4 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export --path GOPATH:/home/henrique/go
+SETUVAR --export --path PATH:/home/henrique/\x2elocal/share/pnpm\x1e/home/henrique/\x2enpm\x2dglobal/bin\x1e/home/henrique/\x2ecache/\x2ebun/bin\x1e/home/henrique/\x2elocal/bin/\x1e/home/henrique/\x2elocal/bin\x1e/home/henrique/\x2ebun/bin\x1e/home/henrique/\x2enpm_global/bin\x1e/home/henrique/\x2ecargo/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl\x1e/home/henrique/go/bin
 SETUVAR __fish_initialized:4300
-SETUVAR --export fish_user_paths:/home/henrique/\x2enpm\x2dglobal/bin\x1e/home/henrique/\x2ecache/\x2ebun/bin\x1e/home/henrique/\x2elocal/bin/\x1e/home/henrique/\x2elocal/bin\x1e/home/henrique/\x2ebun/bin\x1e/home/henrique/\x2enpm_global/bin
+SETUVAR --export fish_user_paths:/home/henrique/\x2enpm\x2dglobal/bin\x1e/home/henrique/go/bin\x1e/home/henrique/\x2ecache/\x2ebun/bin\x1e/home/henrique/\x2elocal/bin/\x1e/home/henrique/\x2elocal/bin\x1e/home/henrique/\x2ebun/bin\x1e/home/henrique/\x2enpm_global/bin

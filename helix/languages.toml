@@ -41,3 +41,17 @@ language-servers = [ "sql-language-server" ]
 [language-server.sql-language-server]
 command = "sql-language-server"
 args = ["up", "--method", "stdio"]
+
+[[language]]
+name = "typescript"
+formatter = { command = "biome", args = ["format", "--stdin-file-path", "file.ts"] }
+auto-format = true
+
+[[language]]
+name = "rust"
+
+[[language]]
+name = "go"
+language-servers = ["gopls"]
+auto-format = true
+

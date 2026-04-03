@@ -1,0 +1,63 @@
+# Gruvbox Dark
+# Theme adapted for Gruvbox Dark palette (Retro Groove)
+# Original colors by morhetz
+
+# Code syntax highlight theme
+code_syntax_highlight = "gruvbox-dark"
+
+# ========= Border =========
+file_panel_border = "#282828"
+sidebar_border = "#282828"
+footer_border = "#282828"
+
+# ========= Border Active =========
+file_panel_border_active = "#83a598" # Blue/Aqua
+sidebar_border_active = "#83a598"
+footer_border_active = "#fe8019" # Orange
+modal_border_active = "#8ec07c" # Aqua Bright
+
+# ========= Background (bg) =========
+full_screen_bg = "#282828"
+file_panel_bg = "#282828"
+sidebar_bg = "#282828"
+footer_bg = "#282828"
+modal_bg = "#282828"
+
+# ========= Foreground (fg) =========
+full_screen_fg = "#ebdbb2" # Light 1
+file_panel_fg = "#ebdbb2"
+sidebar_fg = "#a89984"      # Gray (Light 4)
+footer_fg = "#a89984"
+modal_fg = "#ebdbb2"
+
+# ========= Special Color =========
+cursor = "#ebdbb2"
+correct = "#b8bb26" # Green
+error = "#fb4934"   # Red
+hint = "#8ec07c"    # Aqua
+cancel = "#928374"  # Gray
+# Gradient color: Blue/Aqua to Orange/Red
+gradient_color = ["#83a598", "#fe8019"]
+
+# ========= File Panel Special Items =========
+file_panel_top_directory_icon = "#83a598"
+file_panel_top_path = "#d3869b"         # Purple
+file_panel_item_selected_fg = "#fabd2f" # Yellow
+file_panel_item_selected_bg = "#3c3836" # Dark 1
+
+# ========= Sidebar Special Items =========
+sidebar_title = "#d3869b"
+sidebar_item_selected_fg = "#fe8019"
+sidebar_item_selected_bg = "#282828"
+sidebar_divider = "#3c3836"
+
+# ========= Modal Special Items =========
+modal_cancel_fg = "#ebdbb2"
+modal_cancel_bg = "#504945" # Dark 2
+
+modal_confirm_fg = "#282828"
+modal_confirm_bg = "#fb4934" # Red
+
+# ========= Help Menu =========
+help_menu_hotkey = "#fabd2f" # Yellow
+help_menu_title = "#83a598"

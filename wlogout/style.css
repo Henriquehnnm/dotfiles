@@ -1,6 +1,6 @@
 /*
-* Power Menu Config - Tokyo Night Moon Variant
-*/
+ * Power Menu Config - Gruvbox Dark Variant
+ */
 
 * {
   background-image: none;
@@ -9,22 +9,22 @@
 }
 
 window {
-  /* Cor base #222436 convertida para RGBA com 90% de opacidade */
-  background-color: rgba(34, 36, 54, 0.90);
+  /* Cor Base (#282828) convertida para RGBA com 90% de opacidade */
+  background-color: rgba(40, 40, 40, 0.90);
 }
 
 button {
   border-radius: 20px;
   margin: 10px;
 
-  /* Border: @highlightLow (#1b1d2b) */
-  border-color: #1b1d2b;
+  /* Border: Dark 0 Hard (#1d2021) */
+  border-color: #1d2021;
   border-style: solid;
   border-width: 2px;
 
-  /* Text: @text (#c8d3f5) | Surface: @surface (#1e2030) */
-  color: #c8d3f5;
-  background-color: #1e2030;
+  /* Text: Light 1 (#ebdbb2) | Surface: Dark 1 (#3c3836) */
+  color: #ebdbb2;
+  background-color: #3c3836;
 
   background-repeat: no-repeat;
   background-position: center;
@@ -34,15 +34,15 @@ button {
 button:focus,
 button:active,
 button:hover {
-  /* Destaque em azul brilhante (#82aaff) para o hover */
-  border-color: #82aaff;
+  /* Border de destaque: Aqua (#8ec07c) */
+  border-color: #8ec07c;
 
-  /* Background de hover: @overlay (#2d3f76) */
-  background-color: #1b1d2b;
+  /* Background de hover: Dark 2 (#504945) */
+  background-color: #504945;
   outline-style: none;
 }
 
-/* Ícones - Mantenha os caminhos originais */
+/* Ícones - Mantendo os caminhos originais */
 #lock {
   background-image: url("icons/lock.png");
 }

@@ -1,35 +1,35 @@
 /*
-* Wofi Config - Tokyo Night Moon Variant
-*/
+ * Wofi Config - Gruvbox Dark Variant
+ */
 
 window {
   padding: 50px;
-  background-color: #222436;
-  /* @base - Azul profundo */
+  background-color: #282828;
+  /* Dark 0 Medium - Fundo principal */
   font-family: "FiraCode Nerd Font", sans-serif;
   font-weight: bold;
   font-size: 15px;
-  border: 2px solid #2d3f76;
-  /* @overlay - Borda sutil em azul escuro */
+  border: 2px solid #3c3836;
+  /* Dark 1 - Borda sutil */
   border-radius: 20px;
 }
 
 #input {
   margin: 20px 15px;
   padding: 10px 20px;
-  color: #c8d3f5;
-  /* @text - Texto principal claro */
-  background-color: #2f334d;
-  /* @surface - Fundo do input levemente mais escuro */
-  border: 1px solid #2f334d;
-  /* @highlightMed - Bordas internas */
+  color: #ebdbb2;
+  /* Light 1 - Texto principal */
+  background-color: #3c3836;
+  /* Dark 1 - Fundo do input */
+  border: 1px solid #504945;
+  /* Dark 2 - Bordas internas */
   border-radius: 10px;
 }
 
 #input:focus {
   box-shadow: none;
-  border: 1px solid #82aaff;
-  /* @foam/blue - Destaque de foco em azul brilhante */
+  border: 1px solid #8ec07c;
+  /* Aqua Bright - Destaque ao digitar */
 }
 
 #inner-box {
@@ -41,17 +41,16 @@ window {
 }
 
 #entry:selected {
-  background-color: #82aaff;
-  /* @foam/blue - Cor de seleção azul */
+  background-color: #8ec07c;
   border-radius: 10px;
 }
 
 #text {
-  color: #c8d3f5;
-  /* @text */
+  color: #ebdbb2;
+  /* Light 1 */
 }
 
 #text:selected {
-  color: #1e2030;
-  /* @base - Contraste escuro sobre o fundo azul da seleção */
+  color: #282828;
+  /* Dark 0 Medium - Contraste escuro sobre o amarelo */
 }

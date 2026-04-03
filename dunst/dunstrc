@@ -9,14 +9,14 @@ horizontal_padding = 16
 text_icon_padding = 8
 frame_width = 2
 corner_radius = 10
-# Usando o azul Moon (#82aaff) para a borda geral
-frame_color = "#82aaff"
+# Usando o Aqua/Blue para a borda geral (substituindo o Lavender)
+frame_color = "#83a598"
 separator_color = frame
 transparency = 8
 blur = true
 shadow = yes
-# Sombra ajustada para o fundo Moon
-shadow_color = "#1b1d2b"
+# Sombra ajustada para o fundo Dark 0 (Hard)
+shadow_color = "#1d2021"
 shadow_offset = 3x3
 icon_theme = papirus
 enable_recursive_icon_lookup = true
@@ -30,17 +30,19 @@ sticky_history = true
 history_length = 20
 
 [urgency_low]
-background = "#1e2030"
-foreground = "#828bb8"
-frame_color = "#636da6"
+# Background: Dark 2 | Foreground: Gray (Dark 4) | Frame: Dark 3
+background = "#504945"
+foreground = "#a89984"
+frame_color = "#665c54"
 
 [urgency_normal]
-background = "#222436"
-foreground = "#c8d3f5"
-frame_color = "#82aaff"
+# Background: Dark 0 (Medium) | Foreground: Light 1 | Frame: Aqua
+background = "#282828"
+foreground = "#ebdbb2"
+frame_color = "#83a598"
 
 [urgency_critical]
-background = "#222436"
-foreground = "#ff757f"
-# Vermelho vibrante Moon para alertas críticos
-frame_color = "#ff757f"
+# Background: Dark 0 (Hard) | Foreground: Bright Red | Frame: Bright Red
+background = "#1d2021"
+foreground = "#fb4934"
+frame_color = "#fb4934"

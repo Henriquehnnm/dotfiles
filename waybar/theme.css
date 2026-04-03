@@ -1,38 +1,38 @@
 /*
-* Variant: Tokyo Night Moon
-* Adapted from: Tokyo Night (folke)
-*/
+ * Variant: Gruvbox Dark (Medium)
+ * Adapted from: Official Gruvbox Palette
+ */
 
-@define-color base #222436;
-/* Fundo principal */
-@define-color surface #1e2030;
-/* Sidebars e painéis */
-@define-color overlay #2d3f76;
-/* Elementos flutuantes / Seleção */
+@define-color base #282828;
+/* Fundo principal (Dark 0 Medium) */
+@define-color surface #1d2021;
+/* Sidebars e painéis (Dark 0 Hard) */
+@define-color overlay #3c3836;
+/* Elementos flutuantes / Seleção (Dark 1) */
 
-@define-color muted #636da6;
-/* Comentários e texto desativado */
-@define-color subtle #828bb8;
-/* Texto secundário */
-@define-color text #c8d3f5;
-/* Texto principal */
+@define-color muted #928374;
+/* Comentários e texto desativado (Gray) */
+@define-color subtle #a89984;
+/* Texto secundário (Light 4) */
+@define-color text #ebdbb2;
+/* Texto principal (Light 1) */
 
-@define-color love #ff757f;
-/* Vermelho (Erro/Urgente) */
-@define-color gold #ffc777;
-/* Amarelo (Aviso) */
-@define-color rose #ff966c;
-/* Laranja (Constantes) */
-@define-color pine #4fd6be;
-/* Teal (Sucesso/Hints) */
-@define-color foam #82aaff;
-/* Azul claro (Funções) */
-@define-color iris #c099ff;
-/* Roxo (Keywords) */
+@define-color love #fb4934;
+/* Vermelho (Bright Red) */
+@define-color gold #fabd2f;
+/* Amarelo (Bright Yellow) */
+@define-color rose #fe8019;
+/* Laranja (Bright Orange) */
+@define-color pine #8ec07c;
+/* Aqua (Bright Aqua) */
+@define-color foam #83a598;
+/* Azul (Bright Blue) */
+@define-color iris #d3869b;
+/* Roxo (Bright Purple) */
 
-@define-color highlightLow #1b1d2b;
-/* Bordas e detalhes sutis */
-@define-color highlightMed #2f334d;
-/* Destaque de linha/hover */
-@define-color highlightHigh #444a73;
-/* Destaque ativo forte */
+@define-color highlightLow #32302f;
+/* Bordas e detalhes sutis (Dark 0 Soft) */
+@define-color highlightMed #504945;
+/* Destaque de linha/hover (Dark 2) */
+@define-color highlightHigh #665c54;
+/* Destaque ativo forte (Dark 3) */
