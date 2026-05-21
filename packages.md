@@ -1,5 +1,6 @@
 # **Use this in a setup installed through ArchInstall, in the Desktop profile, with niri selected in the setup.**
 
+firefox-developer-edition
 pavucontrol
 swww
 power-profiles-daemon
@@ -26,3 +27,7 @@ hydrofetch
 xdg-desktop-portal-gtk
 polkit-gnome
 github-cli
+ttf-ibmplex-mono-nerd
+
+// Manual Installs
+rose pine gtk theme
