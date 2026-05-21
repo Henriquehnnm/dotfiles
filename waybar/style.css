@@ -14,7 +14,7 @@ Waybar Config File by Henrique
 @import url("./theme.css");
 
 * {
-    font-family: "FiraCode Nerd Font";
+    font-family: "BlexMono Nerd Font Propo";
     font-weight: bold;
     font-size: 15px;
     min-height: 0;

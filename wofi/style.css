@@ -1,35 +1,28 @@
 /*
- * Wofi Config - Gruvbox Dark Variant
+ * Wofi Config - Rosé Pine Variant
  */
 
 window {
   padding: 50px;
-  background-color: #282828;
-  /* Dark 0 Medium - Fundo principal */
+  background-color: #191724;
   font-family: "FiraCode Nerd Font", sans-serif;
   font-weight: bold;
   font-size: 15px;
-  border: 2px solid #3c3836;
-  /* Dark 1 - Borda sutil */
-  border-radius: 20px;
+  border: 2px solid #26233a;
 }
 
 #input {
   margin: 20px 15px;
   padding: 10px 20px;
-  color: #ebdbb2;
-  /* Light 1 - Texto principal */
-  background-color: #3c3836;
-  /* Dark 1 - Fundo do input */
-  border: 1px solid #504945;
-  /* Dark 2 - Bordas internas */
+  color: #e0def4;
+  background-color: #26233a;
+  border: 1px solid #403d52;
   border-radius: 10px;
 }
 
 #input:focus {
   box-shadow: none;
-  border: 1px solid #8ec07c;
-  /* Aqua Bright - Destaque ao digitar */
+  border: 1px solid #c4a7e7;
 }
 
 #inner-box {
@@ -41,16 +34,14 @@ window {
 }
 
 #entry:selected {
-  background-color: #8ec07c;
+  background-color: #9ccfd8;
   border-radius: 10px;
 }
 
 #text {
-  color: #ebdbb2;
-  /* Light 1 */
+  color: #e0def4;
 }
 
 #text:selected {
-  color: #282828;
-  /* Dark 0 Medium - Contraste escuro sobre o amarelo */
+  color: #191724;
 }

@@ -1,0 +1,130 @@
+//
+// ██╗    ██╗ █████╗ ██╗   ██╗██████╗  █████╗ ██████╗
+// ██║    ██║██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+// ██║ █╗ ██║███████║ ╚████╔╝ ██████╔╝███████║██████╔╝
+// ██║███╗██║██╔══██║  ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+// ╚███╔███╔╝██║  ██║   ██║   ██████╔╝██║  ██║██║  ██║
+//  ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+//
+// Waybar Config File by Henrique
+{
+    "layer": "top",
+    "position": "top",
+    "modules-left": [
+        "niri/workspaces"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "custom/wifi",
+        "backlight",
+        "cpu",
+        "memory",
+        "custom/pomodoro",
+        "battery",
+        "custom/lock",
+        "custom/power"
+    ],
+    "niri/workspaces": {
+        "format": "{icon}",
+        "all-outputs": false,
+        "on-scroll-up": "niri msg action focus-workspace-previous",
+        "on-scroll-down": "niri msg action focus-workspace-next",
+    },
+    "clock": {
+        "timezone": "America/Sao_Paulo",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "format-alt": " {:%d.%m.%Y}",
+        "format": " {:%H:%M}"
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{icon}{volume}%",
+        "format-muted": "",
+        "format-icons": {
+            "default": [
+                " ",
+                " ",
+                " "
+            ]
+        },
+        "on-click": "pavucontrol"
+    },
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "{icon} {percent}%",
+        "on-scroll-up": "brightnessctl s '+10%'",
+        "on-scroll-down": "brightnessctl s '10%-'",
+        "on-click": "((( $(brightnessctl g) == 100 )) && brightnessctl s '0') || (brightnessctl s '+10%')",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}",
+        "format-charging": "󰂄",
+        "format-plugged": "",
+        "format-alt": "{icon}",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "tooltip": true,
+        "tooltip-format": "{capacity}% - {time} remaining",
+        "tooltip-format-charging": "Charging: {capacity}% - Full in {time}",
+        "tooltip-format-plugged": "Plugged in: {capacity}% - Full",
+        
+        "format-time": "{H}h {M}min"
+    },
+
+    "custom/wifi": {
+        "format": " ",
+        "tooltip": false,
+        "on-click": "kitty -e nmtui"
+    },
+
+    "cpu": {
+    "format": " {usage}%",
+    "tooltip": false
+    },
+
+    "memory": {
+    "format": " {}%"
+    },
+
+    "custom/lock": {
+        "tooltip": false,
+        "on-click": "hyprlock &",
+        "format": ""
+    },
+
+    "custom/power": {
+        "tooltip": false,
+        "on-click": "wlogout &",
+        "format": ""
+    },
+    "custom/pomodoro": {
+        "format": " {}",
+        "interval": 1,
+        "exec": "python3 ~/.config/waybar/scripts/pomodoro.py",
+        "on-click": "python3 ~/.config/waybar/scripts/pomodoro.py start",
+        "on-click-right": "python3 ~/.config/waybar/scripts/pomodoro.py stop"
+    }
+}

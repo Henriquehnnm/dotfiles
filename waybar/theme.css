@@ -1,38 +1,23 @@
 /*
- * Variant: Gruvbox Dark (Medium)
- * Adapted from: Official Gruvbox Palette
- */
+* Variant: Rosé Pine
+* Maintainer: DankChoir
+*/
 
-@define-color base #282828;
-/* Fundo principal (Dark 0 Medium) */
-@define-color surface #1d2021;
-/* Sidebars e painéis (Dark 0 Hard) */
-@define-color overlay #3c3836;
-/* Elementos flutuantes / Seleção (Dark 1) */
+@define-color base            #191724;
+@define-color surface         #1f1d2e;
+@define-color overlay         #26233a;
 
-@define-color muted #928374;
-/* Comentários e texto desativado (Gray) */
-@define-color subtle #a89984;
-/* Texto secundário (Light 4) */
-@define-color text #ebdbb2;
-/* Texto principal (Light 1) */
+@define-color muted           #6e6a86;
+@define-color subtle          #908caa;
+@define-color text            #e0def4;
 
-@define-color love #fb4934;
-/* Vermelho (Bright Red) */
-@define-color gold #fabd2f;
-/* Amarelo (Bright Yellow) */
-@define-color rose #fe8019;
-/* Laranja (Bright Orange) */
-@define-color pine #8ec07c;
-/* Aqua (Bright Aqua) */
-@define-color foam #83a598;
-/* Azul (Bright Blue) */
-@define-color iris #d3869b;
-/* Roxo (Bright Purple) */
+@define-color love            #eb6f92;
+@define-color gold            #f6c177;
+@define-color rose            #ebbcba;
+@define-color pine            #31748f;
+@define-color foam            #9ccfd8;
+@define-color iris            #c4a7e7;
 
-@define-color highlightLow #32302f;
-/* Bordas e detalhes sutis (Dark 0 Soft) */
-@define-color highlightMed #504945;
-/* Destaque de linha/hover (Dark 2) */
-@define-color highlightHigh #665c54;
-/* Destaque ativo forte (Dark 3) */
+@define-color highlightLow    #21202e;
+@define-color highlightMed    #403d52;
+@define-color highlightHigh   #524f67;
